@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>kush</Civ>
+	<SelectionGroupName>units/kush_merc_infantry_3</SelectionGroupName>
+    <GenericName>Blemmye Swordsman</GenericName>
+    <SpecificName>Blemmye Swordsman</SpecificName>
+    <History>?</History>
+    <Icon>units/kush_merc_infantry_3.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kushites/blemmye_swordsman.xml</Actor>
+  </VisualActor>
+</Entity>

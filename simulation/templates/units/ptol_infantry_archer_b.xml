@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/ptol_military_colony
+      structures/ptol_lighthouse
+      structures/ptol_library
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>ptol</Civ>
+    <SelectionGroupName>units/ptol_infantry_archer_b</SelectionGroupName>
+    <GenericName>Egyptian Archer</GenericName>
+    <Icon>units/egyptian_champion_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/ptol_infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/egyptian/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

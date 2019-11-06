@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+    <Civ>kush</Civ>
+    <GenericName>Noble Archer</GenericName>
+    <SpecificName>Hry pdty</SpecificName>
+    <Icon>units/kush_champion_archer.png</Icon>
+    <SelectionGroupName>units/kush_champion_infantry_a</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/kush_champion_infantry_e</Entity>
+    <RequiredXp>2000</RequiredXp>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/kushites/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

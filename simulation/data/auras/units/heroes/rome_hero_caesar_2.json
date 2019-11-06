@@ -1,0 +1,10 @@
+﻿{
+	"type": "global",
+	"affects": ["Plebeian"],
+	"affectedPlayers": ["Player"],
+	"modifications": [
+	  { "value": "Health/Max", "multiply": 1.05}
+	],
+	"auraName": "Plebeian Tribune",
+	"auraDescription": "All Citizens and Merchants +5% health while Caesar lives."
+}

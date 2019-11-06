@@ -1,0 +1,10 @@
+{
+	"genericName": "Reinforced Palisades",
+        "cost": {"wood": 250},
+	"description": "Celtic structures were mostly made of wood with rubble foundations.",
+	"requirements": {"any": [{"civ": "brit"}, {"civ": "gaul"}]},
+	"icon": "wooden_buildings.png",
+	"tooltip": "Palisades have +20% health.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.8}],
+	"affects": ["Structure"]
+}

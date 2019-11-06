@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource">
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="18.0" depth="17.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>500</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Orchard</GenericName>
+    <Tooltip>Harvest fruit for food.</Tooltip>
+    <VisibleClasses datatype="tokens">Town Orchard</VisibleClasses>
+    <Icon>gaia/flora_tree_apple.png</Icon>
+  </Identity>
+  <Loot>
+    <food>25</food>
+    <wood>25</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="16.0" depth="15.0"/>
+  </Obstruction>
+  <Minimap>
+    <Color r="119" g="82" b="46"/>
+  </Minimap>
+  <ProductionQueue disable=""/>
+  <RallyPoint disable=""/>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Amount>Infinity</Amount>
+    <Type>food.fruit</Type>
+    <MaxGatherers>5</MaxGatherers>
+    <DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_field.xml</select>
+      <constructed>interface/complete/building/complete_field.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>20</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>20</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/plot_orchard.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

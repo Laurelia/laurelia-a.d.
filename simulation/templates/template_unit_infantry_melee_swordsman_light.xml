@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+ <Armour>
+
+   <Hack op="add">-4</Hack>
+
+   <Pierce op="add">-4</Pierce>
+
+ </Armour>
+ <Attack>
+    <Melee>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Identity>
+    <GenericName>Light Swordsman</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.4</WalkSpeed>
+  
+  </UnitMotion>
+</Entity>

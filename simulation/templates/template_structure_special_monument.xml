@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="template_structure_special">
+
+  <Auras datatype="tokens">
+    structures/loyalty_regen
+	structures/pop_bonus_monument
+  </Auras>
+  <Cost>
+
+    <BuildTime>80</BuildTime>
+
+    <Resources>
+
+      <food>0</food>
+
+      <wood>0</wood>
+
+      <stone>100</stone>
+
+      <metal>100</metal>
+    </Resources>
+
+  </Cost>
+
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>18.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+
+  <Health>
+
+    <Max>1000</Max>
+
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+
+  </Health>
+
+  <Identity>
+    
+    <Classes datatype="tokens">Monument -ConquestCritical</Classes>
+
+    <Icon>structures/statue.png</Icon>
+
+    <Tooltip>Buildings in the territory of the monument do not decay.</Tooltip>
+
+  </Identity>
+
+  <Loot>
+
+    <wood>0</wood>
+
+    <stone>25</stone>
+
+    <metal>25</metal>
+
+  </Loot>
+  <Obstruction>
+    <Static width="9.0" depth="9.0"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+
+  <RallyPoint disable=""/>
+
+  <Sound>
+
+    <SoundGroups>
+
+      <select>interface/select/building/sel_iber_monument.xml</select>
+
+      <constructed>interface/complete/building/complete_iber_monument.xml</constructed>
+
+    </SoundGroups>
+
+  </Sound>
+
+  <TerritoryInfluence>
+
+    <Root>true</Root>
+
+  </TerritoryInfluence>
+
+  <VisualActor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+
+  </VisualActor>
+
+</Entity>

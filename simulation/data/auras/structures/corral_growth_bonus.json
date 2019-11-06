@@ -1,0 +1,10 @@
+{
+    "type": "range",
+    "radius": 20,
+    "affects": ["Domestic"],
+    "modifications": [
+		{"value": "Health/Max", "multiply": 1.2}],
+    "auraName": "Pastoring",
+    "auraDescription": "Domestic animals fatten faster.",
+    "overlayIcon": "art/textures/ui/session/auras/heal.png"
+}

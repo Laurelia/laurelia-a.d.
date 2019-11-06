@@ -1,0 +1,19 @@
+﻿{
+
+	"type": "global",
+
+	"affects": ["Structure"],
+
+	"modifications": [
+
+		{"value": "Health/Max", "multiply": 1.2}
+
+	],
+
+	"auraName": "Persian Architecture",
+
+	"auraDescription": "All Buildings +20% health as long as the Tacara stands.",
+
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png"
+
+}

@@ -1,0 +1,19 @@
+{
+	"type": "range",
+	"radius": 30,
+	"affects": ["House"],
+	"modifications": [
+		{ "value": "Cost/PopulationBonus", "add": -1 },
+		{ "value": "ResourceTrickle/Rates/coin", "add": -1 }
+	
+	],
+	"auraName": "Military Camp",
+	"auraDescription": "Nearby houses support -1 less population and pay -1 less taxes.",
+	"overlayIcon": "art/textures/ui/session/auras/pop_penalty.png",
+    "rangeOverlay" : {
+        "lineTexture": "overlay/dash.png",
+        "lineTextureMask": "overlay/dash_mask.png",
+        "lineThickness": 0.1
+    },
+	"stackable": "true"
+}

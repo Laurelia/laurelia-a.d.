@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"affects": ["Soldier Infantry"],
+	"radius": 40,
+	"modifications": [
+		{ "value": "Builder/Rate", "multiply": 1.05 },
+		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.05 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.20 }	
+	],
+	"auraName": "Roads and infrastructure",
+	"auraDescription": "Make  Infantry work/build 5% faster and 20% faster Walkspeed"
+}

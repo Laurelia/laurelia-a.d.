@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"affects": ["Female Citizen"],
+	"radius": 24,
+	"modifications": [
+		
+		{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.10 }
+		
+	],
+	"auraName": "Farmland",
+	"auraDescription": "Female Citizen gain food from fields 10% faster"
+}

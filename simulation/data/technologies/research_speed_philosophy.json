@@ -1,0 +1,45 @@
+{
+
+	"genericName": "Philosophy",
+
+	"specificName": {
+
+		"hele": "Philosophia",
+
+		"mace": "Philosophia",
+
+		"spart": "Philosophia",
+
+		"athen": "Philosophia",
+
+		"sele": "Philosophia",
+
+		"ptol": "Philosophia"
+
+	},
+
+	"description": "From the Greek 'philo', Love, and 'sophia', wisdom, Philosophy is literally defined as the love of wisdom. More broadly understood, it is the study of the most basic and the most profound matters of human existence.",
+
+	"cost": {"metal": 600},
+
+	"requirements": {"tech": "phase_city"},
+
+	"requirementsTooltip": "Unlocked in City Phase.",
+
+	"icon": "enlightenment.png",
+
+	"researchTime": 45,
+
+	"tooltip": "All Technologies -15% research time.",
+
+	"modifications": [
+
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.85 }
+
+	],
+
+	"affects": ["Structure"],
+
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+
+}

@@ -1,0 +1,5 @@
+﻿{
+	"genericName": "Nation Phase",
+	"description": "Dummy technology for use in templates requirements, replaced by phase_nation_generic or phase_nation_{civ}.",
+	"icon": "phase_imperial.png"
+}

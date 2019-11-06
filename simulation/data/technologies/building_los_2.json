@@ -1,0 +1,14 @@
+﻿{
+	"genericName": "Town Patrol",
+	"description": ".",
+	"cost": {"food": 300, "coin": 100},
+	"researchTime": 40,
+	"supersedes": "building_los_1",
+	"requirements": {"all": [{"tech": "phase_city"}, {"tech": "building_los_1"}]},
+	"requirementsTooltip": "Requires City Phase.",
+	"icon": "sentries.png",
+	"modifications": [{"value": "Vision/Range", "Add": 3}],
+	"affects": ["Structure"],
+	"tooltip": "Structures get +3 line of sight.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,13 @@
+﻿{
+	"genericName": "Town Watch",
+	"description": ".",
+	"cost": {"food": 75},
+	"researchTime": 40,
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Requires Town Phase.",
+	"icon": "games.png",
+	"modifications": [{"value": "Vision/Range", "Add": 3}],
+	"affects": ["Structure"],
+	"tooltip": "Structures get +3 line of sight.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

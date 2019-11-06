@@ -1,0 +1,7 @@
+{
+    "name": "laurelia",
+    "version": "0.0.1",
+    "label": "laurelia-a.d.",
+    "description": ".",
+    "dependencies": ["0ad=0.0.23"]
+}

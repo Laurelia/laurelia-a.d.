@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/sele_civil_centre">
+  <Capturable>
+    <CapturePoints op="mul">1.5</CapturePoints>
+  </Capturable>
+  <GarrisonHolder>
+    <Max op="mul">2</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Fortified Civic Center</GenericName>
+    <VisibleClasses datatype="tokens">
+	  Defensive
+	</VisibleClasses>
+    <Classes datatype="tokens">
+	  CivilCentre
+	</Classes>
+    <History></History>
+  </Identity>
+
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/seleucids/civil_center_metropolitan.xml</Actor>
+  </VisualActor>
+</Entity>

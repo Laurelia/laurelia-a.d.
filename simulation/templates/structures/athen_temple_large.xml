@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="other/hellenic_epic_temple">
+
+  <Identity>
+
+    <Civ>athen</Civ>
+
+    <SpecificName>Neṓs Parthenos</SpecificName>
+
+    <History>.</History>
+
+  </Identity>
+</Entity>

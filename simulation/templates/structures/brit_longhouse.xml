@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="other/celt_longhouse">
+
+  <Identity>
+
+    <Civ>brit</Civ>
+
+    <History>.</History>
+
+  </Identity>
+</Entity>

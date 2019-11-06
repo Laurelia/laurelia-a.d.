@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_theatron">
+  <Auras disable=""/>
+  <Cost>
+    <PopulationBonus>5</PopulationBonus>
+    <Resources>
+      <stone>100</stone>
+      <wood>300</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>brit</Civ>
+    <GenericName>Assembly of Nobles</GenericName>
+    <SpecificName>Remogantion</SpecificName>
+    <Icon>structures/carnyx.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>20</stone>
+    <wood>60</wood>
+    <metal>0</metal>
+  </Loot>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_infantry_carnyx
+    </Entities>
+  </ProductionQueue>
+  <Footprint replace="">
+    <Circle radius="17"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="30" depth="30"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/gauls/theatron.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

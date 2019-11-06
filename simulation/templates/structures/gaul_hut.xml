@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="other/celt_hut">
+
+  <Identity>
+
+    <Civ>gaul</Civ>
+
+    <History>.</History>
+
+  </Identity>
+</Entity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Cost>
+    <PopulationBonus>2</PopulationBonus>
+    <Resources>
+      <food>0</food>
+      <wood>20</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="14" depth="14"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>kush</Civ>
+    <GenericName>Nuba Hut</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="11.0" depth="11.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/kushites/nuba_hut_c.xml</Actor>
+  </VisualActor>
+</Entity>

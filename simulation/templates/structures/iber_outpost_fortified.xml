@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="structures/iber_outpost">
+
+  <Capturable>
+
+    <CapturePoints>1000</CapturePoints>
+
+  </Capturable>
+
+  <GarrisonHolder>
+
+    <Max>6</Max>
+
+  </GarrisonHolder>
+
+  <Health>
+
+    <Max op="mul">2</Max>
+
+  </Health>
+
+  <Identity>
+
+    <GenericName>Fortified Outpost</GenericName>
+
+    <Icon>structures/watchtower.png</Icon>
+
+  </Identity>
+
+
+
+
+  <Obstruction>
+    <Static width="16.0" depth="16.0"/>
+  </Obstruction>
+  <Upgrade disable=""/>
+
+  <VisualActor>
+
+    <Actor>structures/carthaginians/embassy_iberian.xml</Actor>
+
+  </VisualActor>
+
+</Entity>

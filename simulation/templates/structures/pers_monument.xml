@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_monument">
+  <Auras datatype="tokens">
+    structures/kush_pyramids_economic
+    structures/eternal_fire
+  </Auras>
+  <BuildRestrictions>
+    <Category>Monument</Category>
+    <Distance>
+      <FromClass>Monument</FromClass>
+      <MinDistance>150</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable disable=""/>
+  <Cost>
+    <Population>0</Population>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>pers</Civ>
+    <GenericName>Tower of Silence</GenericName>
+    <SpecificName>Atroshan</SpecificName>
+    <Tooltip>.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>25</stone>
+    <metal>25</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_iber_monument.xml</select>
+      <constructed>interface/complete/building/complete_iber_monument.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/persians/babylonian_tower.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+  </VisualActor>
+</Entity>

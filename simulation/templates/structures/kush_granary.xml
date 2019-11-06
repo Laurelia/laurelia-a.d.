@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+    structures/rotary_mill
+  </Auras>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="4.5"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>200</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <GarrisonHolder disable=""/>
+  <Identity>
+    <Civ>kush</Civ>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <GenericName>Nuba Granary</GenericName>
+    <Icon>structures/farmstead.png</Icon>
+  </Identity>
+  <Loot>
+    <food>0</food>
+    <wood>40</wood>
+    <stone>20</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="6.5" depth="6.5"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <RallyPoint disable=""/>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_ffactri.xml</select>
+      <constructed>interface/complete/building/complete_ffactri.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/kushites/nuba_granary.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

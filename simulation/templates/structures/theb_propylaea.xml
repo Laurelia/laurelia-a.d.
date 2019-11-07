@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="other/hellenic_propylaea">
+
+  <Identity>
+
+    <Civ>theb</Civ>
+
+  </Identity>
+</Entity>

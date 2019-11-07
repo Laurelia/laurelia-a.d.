@@ -1,0 +1,216 @@
+﻿{
+	"Code":"syra",
+	"Culture":"hele",
+	"Name":"Syracusans",
+	"Emblem":"session/portraits/emblems/emblem_poleis.png",
+	"History":".",
+	"Music":[
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"Highland_Mist.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Syracusans",
+			"Description":"",
+			"Technologies":
+			[
+				{
+					"Name":"Dionysus Celebration",
+					"History":"About 550 BC arose the celebrations held above all for the God Dionysus, divinity of feasts, fertility and wine",
+					"Description":"-15% training time and -5% cost for soldiers."
+				},
+
+				{
+					"Name":"Iphicratean Reforms",
+					"History":"",
+					"Description":"Athenian triremes and Themistocles can train naval infantry."
+				},
+				{
+					"Name":"Arsenal of Philon",
+					"History":"In 347/346 BC Euboulos proposed the construction of a new arsenal that was designed by the architect Philo and was completed at the time of Lycurgus. The discovery and partial excavation of the Arsenal of Philo took place during 1988-1989. In 1888, a marble inscription was discovered with the detailed description of the construction and use of the building, written by Philo. The Arsenal was built between the Hippodameian Agora and the ship sheds, NE of the deepest recess of the gulf of Zea with its axis running from SW to NE. The building was 18m wide and 130m long with entrances on both its narrow sides and two colonnades of piers that divided its inner space into three aisles. The central aisle extended in the whole length and height of the building, while the side aisles were separated in 34 compartments each, with lofts with wooden shelves that served as storage space.",
+					"Description":"-25% cost and build time for warships."
+				},
+				{
+					"Name":"Rituals to Zeus",
+					"History":"The Olympic Games of Antiquity were a religious and athletic festival of Ancient Greece. The procession stops in front of the Great Altar of Zeus, where the sacrifice of 100 oxen offered by the people of Elide takes place.",
+					"Description":"+10% health for soldiers."
+				}
+				],
+			"Heroes":
+			[
+				{
+					"Name":"Dionysus the Elder",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				},
+				{
+					"Name":"Gelon I",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				},
+				{
+					"Name":"Archimedes",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Hellenic Architecture",
+			"History":"The Greeks used stone construction from early Mycenaean times.",
+			"Description":"Hellenic buildings has +10% health and capture points, but also take longer to build."
+		},
+
+		{
+			"Name":"Eureka",
+			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
+			"Description":"Metal mining gathering rates increased by +10% for each passing age."
+		},
+                {
+
+			"Name":"Hellenization",
+
+			"History":"The Greeks were highly successful in Hellenising various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
+
+			"Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+
+		}
+
+
+		
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"",
+			"History":"Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
+			"Description":"-25% build time for allied ships."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Theatron",
+			"Class":"",
+			"Emblem":"",
+			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
+		},
+		{
+			"Name":"Gymnasion",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Gymnasion was a vsyra place in Hellenic cities, where physical exercises were performed and social contacts established.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Train champion units and research technologies pertaining to champion units."
+		},
+		{
+			"Name":"Library",
+			"Class":"",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"All Special Technologies are researched here. Building one reduces the cost of all other remaining technologies by 10%. Build limit: 1."
+		},
+		{
+			"Name":"Mercenary Barracks",
+			"Class":"",
+			"Emblem":"",
+			"History":"",
+			"Requirements":"",
+			"Phase":"",
+			"Special":"Train Mercenaries."
+		},
+		{
+			"Name":"Royal Stoa",
+			"Class":"",
+			"Emblem":"",
+			"History":"",
+                "Requirements":"",
+			"Phase":"",
+			"Special":""
+		}
+
+
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/syra_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/syra_civil_centre"
+		},
+		{
+			"Template": "units/syra_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/syra_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/syra_infantry_slinger_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/syra_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx"
+	],
+	"AINames":
+	[
+		"Dionysus I of Syracuse",
+		"Phalanthus",
+		"Archytas",
+		"Aristophilides",
+		"Agathacles",
+		"Anaxilas",
+		"Cleisthenes",
+		"Thucydides",
+		"Alcibiades",
+		"Miltiades",
+		"Cleon",
+		"Cleophon",
+		"Thrasybulus",
+		"Iphicrates",
+		"Demosthenes"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/syra_infantry_slinger_b",
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

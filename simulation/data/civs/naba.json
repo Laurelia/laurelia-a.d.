@@ -1,0 +1,205 @@
+{
+	"Code":"naba",
+	"Culture":"naba",
+	"Name":"Nabataens",
+	"Emblem":"session/portraits/emblems/nabataens.png",
+	"History":".",
+	"Music":[
+			{"File":"Ammon-Ra.ogg", "Type":"peace"},
+			{"File":"Sands_of_Time.ogg", "Type":"peace"},
+			{"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
+			{"File":"Valley_of_the_Nile.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Nabataens",
+			"Description":".",
+			"Technologies":
+			[
+				{
+					"Name":"Stonecut Architecture",
+					"History":".",
+					"Description":"Buildings have double health and capture points, but now cost stone instead of wood."
+				},
+
+				{
+					"Name":"Myrrh",
+					"History":".",
+					"Description":"."
+				},
+
+				{		
+					"Name":".",
+					"History":".",
+					"Description":"."
+				}
+
+							],
+			"Heroes":
+			[
+				{
+					"Name":"Ptolemaios A' Soter",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":" Was a companion and historian of Alexander the Great who succeeded to his empire. Ptolemy became ruler of Egypt and founded the Ptolemaic dynasty which ruled it for the next three centuries, turning Egypt into a Hellenistic kingdom and Alexandria into a center of Greek culture."
+				},
+				{
+					"Name":"Ptolemaios D' Philopater",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Macedonian king of Egypt, under whose feeble rule, heavily influenced by favourites, much of Ptolemaic Syria was lost and native uprisings began to disturb the internal stability of Egypt."
+				},
+				{
+					"Name":"Kleopatra H' Philopater",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Was the last active ruler of the Ptolemaic Kingdom of Egypt, nominally survived as pharaoh by her son Caesarion. She was also a diplomat, naval commander, linguist, and medical author. As a member of the Ptolemaic dynasty, she was a descendant of its founder Ptolemy I Soter, a Macedonian Greek general and companion of Alexander the Great. After the death of Cleopatra, Egypt became a province of the Roman Empire, marking the end of the Hellenistic period that had lasted since the reign of Alexander. Her native language was Koine Greek and she was the first Ptolemaic ruler to learn the Egyptian language."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Trademasters",
+			"History":".",
+			"Description":"Can build markets in the village phase and start with a trader."
+		},
+
+		{
+			"Name":"Incense Trade",
+			"History":".",
+			"Description":"."
+		},
+
+		{
+			"Name":"Camel Herding",
+			"History":".",
+			"Description":"."
+		}
+
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Breadbasket of the Mediterranean",
+			"History":"Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
+			"Description":"Allies automatically gain a slow trickle of food income."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Library",
+			"Class":"",
+			"Emblem":"",
+			"History":"Alexander the Great founded libraries all over his new empire. These became a center of learning for an entirely new synthesized culture: the Hellenistic culture.",
+			"Requirements":".",
+			"Phase":"City",
+			"Special":"Maximum of 1 built. All Special Technologies and some regular city-phase technologies are researched here. Building one reduces the cost of all other remaining technologies by 10%."
+		},
+		{
+			"Name":"Caravansary",
+			"Class":"",
+			"Emblem":"",
+			"History":".",
+			"Requirements":"",
+			"Phase":"Town",
+			"Special":"Increase caravan speed and train merchent guards."
+		},
+		{
+			"Name":"Spice Garden",
+			"Class":"",
+			"Emblem":"",
+			"History":".",
+			"Requirements":".",
+			"Phase":"City",
+			"Special":"."
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/naba_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/naba_civil_centre"
+		},
+		
+		{
+			"Template": "units/naba_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/naba_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/naba_infantry_javelinist_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/naba_support_healer_b"
+		},
+
+		{
+			"Template": "units/naba_cavalry_archer_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx",
+		"special/formations/syntagma"
+	],
+	"AINames":
+	[
+		"Ptolemy Soter",
+		"Ptolemy Philadelphus",
+		"Ptolemy Epigone",
+		"Ptolemy Eurgetes",
+		"Ptolemy Philopater",
+		"Ptolemy Epiphanes",
+		"Ptolemy Philometor",
+		"Ptolemy Eupator",
+		"Ptolemy Alexander",
+		"Ptolemy Neos Dionysos",
+		"Ptolemy Neos Philopater",
+		"Berenice Philopater",
+		"Cleopatra Tryphaena",
+		"Berenice Epiphaneia",
+		"Cleopatra Philopater",
+		"Cleopatra Selene",
+		"Cleopatra II Philometora Soteira",
+		"Arsinoe IV",
+		"Arsinoe II"
+	],
+	"SkirmishReplacements":
+	{
+
+		"skirmish/units/default_infantry_melee_b": "units/naba_infantry_spearman_b",
+		"skirmish/units/default_cavalry": "units/naba_cavalry_archer_b",
+		"skirmish/units/special_starting_unit": "units/naba_support_healer_b",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
+
+desert caravans
+stonecutters
+incense traders

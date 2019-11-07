@@ -1,0 +1,15 @@
+﻿{
+	"genericName": "Viticulture",
+	"description": ".",
+	"cost": { "food": 100, "wood": 200, "stone": 0, "metal": 0 },
+	"icon": "olives.png",	"requirements": { "tech": "phase_village" },
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "plow.png",
+	"researchTime": 40,
+	"tooltip": "+15% grape farming rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/coin.fruit", "multiply": 1.15 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

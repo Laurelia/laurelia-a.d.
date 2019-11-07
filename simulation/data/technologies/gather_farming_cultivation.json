@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "olives.png",
 	"researchTime": 40,
-	"tooltip": "Gatherers +20 food capacity. Unlocks Crop Rotation and Land Reform for some civilizations.",
+	"tooltip": "Gatherers +20 food capacity.",
 	"modifications": [
 		{"value": "ResourceGatherer/Capacities/food", "add": 20}
 	],

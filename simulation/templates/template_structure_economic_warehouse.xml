@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint>
+    <Square width="26.0" depth="26.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Warehouse</SpecificName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <ResourceTrickle>
+    <Rates>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <coin>1.0</coin>
+      </Rates>
+    <Interval>4000</Interval>
+  </ResourceTrickle>
+  <Obstruction>
+    <Static width="24.0" depth="24.0"/>
+  </Obstruction>
+  <TerritoryInfluence>
+    <Radius>30</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>props/structures/persians/alt_building_01.xml</Actor>
+  </VisualActor>
+</Entity>

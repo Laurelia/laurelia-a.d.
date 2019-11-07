@@ -1,9 +1,10 @@
 {
 	"genericName": "Bow Saw",
+	"supersedes": "gather_lumbering_ironaxes",
 	"description": "Giving your workers bow saws helps them lumber trees faster. The bow saw was used both in ancient China and the Hellenistic period, and developed from earlier saws.",
-	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200, "glory": 0},
-	"requirements": { "all": [{"tech":"pair_gather_01"}, {"tech":"phase_town"}]},
-	"requirementsTooltip": "Unlocked in Town Phase. Requires Iron Ax Heads or Iron Pickaxes.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200, "coin": 0},
+	"requirements": {"tech":"phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "wood_saw_bow.png",
 	"researchTime": 40,
 	"tooltip": "Gatherers +20% lumbering rate for trees.",

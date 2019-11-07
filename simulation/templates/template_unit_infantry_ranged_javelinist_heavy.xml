@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged">
   <Armour>
     <Hack>2</Hack>
-    <Pierce>2</Pierce>
+    <Pierce>3</Pierce>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>14.0</Pierce>
+      <Pierce>16.0</Pierce>
       <Crush>0</Crush>
       <MaxRange>24.0</MaxRange>
       <MinRange>0.0</MinRange>
@@ -24,8 +24,8 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
-    <GenericName>Heavy Skirmisher</GenericName>
+    <VisibleClasses datatype="tokens">Thureos Javelin</VisibleClasses>
+    <GenericName>Thureos Skirmisher</GenericName>
   </Identity>
   <UnitMotion>
     <WalkSpeed op="mul">1.2</WalkSpeed>

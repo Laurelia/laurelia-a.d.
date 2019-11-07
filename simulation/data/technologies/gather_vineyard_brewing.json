@@ -1,0 +1,12 @@
+{
+	"genericName": "Brewing",
+	"description": ".",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 25, "coin": 25},
+	"requirements": {"tech": "phase_village"},
+	"icon": "cauldron.png",
+	"researchTime": 40,
+	"tooltip": "Gather Coin from vineyards +15% faster.",
+	"modifications": [{"value": "ResourceGatherer/Rates/coin.fruit", "multiply": 1.15}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

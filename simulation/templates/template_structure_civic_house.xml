@@ -16,7 +16,7 @@
   <Cost>
     <Population>0</Population>
     <PopulationBonus>2</PopulationBonus>
-    <BuildTime>100</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
       <wood>75</wood>
       <coin>25</coin>

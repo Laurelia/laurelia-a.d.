@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_house">
   <Cost>
     <PopulationBonus>10</PopulationBonus>
-    <BuildTime>200</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
       <food>0</food>
       <wood>100</wood>

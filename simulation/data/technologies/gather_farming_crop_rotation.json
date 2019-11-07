@@ -1,0 +1,18 @@
+{
+	"genericName": "Crop Rotation",
+	"specificName": {
+		"rome": "Latifundia"
+	},
+	"supersedes": "gather_farming_cultivation",
+	"description": "Crop Rotation.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "crop_rotation.png",
+	"researchTime": 60,
+	"tooltip": "+15% farming rate.",
+	"modifications": [
+		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15, "affects": "Gatherer"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

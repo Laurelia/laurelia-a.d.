@@ -1,0 +1,14 @@
+{
+	"genericName": "Coinage",
+	"description": "Coin is gathered/generated faster.",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 250, "coin": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "coinage.png",
+	"researchTime": 40,
+	"tooltip": "Coin is gathered from mines and vineyard 15% faster. Taxes are increased by +1.",
+	"modifications": [{"value": "ResourceGatherer/Rates/coin.fruit", "multiply": 1.15, "affects": "Worker"},
+			  {"value": "ResourceGatherer/Rates/coin.ore", "multiply": 1.15, "affects": "Worker"},
+			  { "value": "ResourceTrickle/Rates/coin", "add": 1, "affects": "Taxpayer"}],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

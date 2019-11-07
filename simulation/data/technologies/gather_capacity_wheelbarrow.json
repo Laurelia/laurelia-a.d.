@@ -1,9 +1,9 @@
 {	
 	"genericName": "Wheelbarrow",
 	"description": "Increases shuttling capacity for all resources.",
-	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0, "glory": 0},
-	"requirements": { "all": [{"tech":"pair_gather_01"}, {"tech":"phase_town"}]},
-	"requirementsTooltip": "Unlocked in Town Phase. Requires Iron Ax Heads or Iron Pickaxes.",
+	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0, "coin": 0},
+	"requirements": {"tech":"phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase..",
 	"icon": "wheelbarrow_empty.png",
 	"researchTime": 40,
 	"tooltip": "Gatherers +5 carry capacity for all resources.",

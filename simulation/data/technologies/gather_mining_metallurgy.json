@@ -1,0 +1,14 @@
+{
+	"genericName": "Metallurgy",
+	"description": ".",
+	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 300, "coin": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "metals_casting.png",
+	"researchTime": 40,
+	"tooltip": "Workers gather metal and coin from mines +15% faster.",
+	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.15},
+	"modifications": [{"value": "ResourceGatherer/Rates/coin.ore", "multiply": 1.15}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

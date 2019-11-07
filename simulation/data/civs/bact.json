@@ -2,8 +2,8 @@
 	"Code":"bact",
 	"Culture":"bact",
 	"Name":"Bactrians",
-	"Emblem":"session/portraits/emblems/emblem_seleucids.png",
-	"History":"The Macedonian-Greek dynasty that ruled most of Alexander's former empire.",
+	"Emblem":"session/portraits/emblems/bactrians.png",
+	"History":"The Greeks who ruled over the former persian satrapy of bactria.",
 	"Music":[
 			{"File":"Rise_of_Macedon.ogg", "Type":"peace"},
 			{"File":"In_the_Shadow_of_Olympus.ogg", "Type":"peace"},
@@ -13,7 +13,7 @@
 	[
 		{
 			"Name":"Bactrians",
-			"Description":"The Macedonian-Greek dynasty that ruled the Eastern part of Alexander's former empire.",
+			"Description":".",
 			"Technologies":
 			[
 				{
@@ -29,9 +29,9 @@
 					"Description": "+10% health for skirmishers."
 				},
 				{
-					"Name": "Parade of Daphne",
-					"History": "The grand procession mounted by Antiochos IV Epiphanes at Daphne in 166 or 165,near Antioch, was part of a festival of Apollo.",
-					"Description": "Significantly increase training speed of champions at the fortress by training them in large batches or battalions."
+					"Name": "Greco-buddhism",
+					"History": ".",
+					"Description": "."
 				}
 
 			],
@@ -64,15 +64,9 @@
 	"CivBonuses":
 	[
 				{
-					"Name":"Throne War",
+					"Name":"Diadochi",
 					"History":"Alexander the Great had conquered the Achaemenid Empire in a short time and died young, leaving no heir to an extensive empire of half Hellenic culture. In view of this, his generals (the Diocese) ended up fighting in the attempt to obtain supremacy over the empire left.",
 					"Description":"-50% cost for heroes."
-
-				},
-{
-					"Name":"Expanding The Empire",
-					"History":"The classical historian Apian in his Roman History, when dealing with the Syrian Wars, claims that Seleucus was always in search of the neighboring nations and being strong in arms and persuasive in counsels, acquired Mesopotamia, Armenia, Cappadocia, Persia, Parthia, Bactria, Arabia , Tapuria, Sogdiana, Aracosia, Hircania and other neighboring nations that had been subjugated by Alexander to the distant Indus river, so that the limits of his empire were the most extensive in Asia, after that of Alexander.",
-					"Description":"Can build military colony in phase village and -30% cost for fortress."
 
 				}
 
@@ -93,10 +87,10 @@
 			"Name":"Military Colony",
 			"Class":"",
 			"Emblem":"",
-			"History":"The Seleucid kings invited Greeks, Macedonians, Galatians (Gauls), Cretans, and Thracians alike to settle in within the vast territories of the empire. They settled in military colonies called cleruchies (klēroukhia). Under this arrangement, the settlers were given a plot of land, or a kleros, and in return were required to serve in the great king's army when called to duty. This created a upper-middle class of military settlers who owed their livelihoods and fortunes to the Syrian kings and helped grow the available manpower for the imperial Seleucid army. A side effect of this system was that it drained the Greek homeland of military-aged men, a contributing factor to Greece's eventual conquest by Rome.",
+			"History":".",
 			"Requirements":".",
 			"Phase":"Town",
-			"Special":"This is the Seleucid expansion building, similar to Civic Centers for other factions. It is weaker and carries a smaller territory influence, but is cheaper and built faster."
+			"Special":"."
 		},
 		
 		{

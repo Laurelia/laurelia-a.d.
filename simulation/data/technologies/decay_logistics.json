@@ -1,0 +1,13 @@
+{
+	"genericName": "Logistics",
+	"description": ".",
+	"cost": {"food": 0, "wood": 250, "stone": 250, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "handcart_empty.png",
+	"researchTime": 40,
+	"tooltip": "Outposts, Army Camps, and Siege Walls -50% decay rate when in neutral or enemy territory.",
+	"modifications": [{"value": "TerritoryDecay/DecayRate", "multiply": 0.5}],
+	"affects": ["ArmyCamp", "SiegeWall", "Outpost"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

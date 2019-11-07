@@ -1,6 +1,5 @@
 {
-	"pair": "pair_farming_02",
-	"genericName": "Iron Plows",
+	"genericName": "Heavy Plow",
 	"description": "A horse drawn instrument to turn the sod.",
 	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},

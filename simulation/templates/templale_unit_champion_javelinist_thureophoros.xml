@@ -6,9 +6,8 @@
 
     <Resources>
 
-      <food>0</food>
 
-      <metal op="mul">1.5</metal>
+      <metal op="add">25</metal>
 
     </Resources>
 

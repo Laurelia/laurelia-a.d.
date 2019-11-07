@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry">
+  <Armour>
+    <Hack op="add">2</Hack>
+    <Pierce op="add">4</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>12.0</Hack>
+        <Pierce>10.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>4.5</MaxRange>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>1.5</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <Splash>
+        <Shape>Circle</Shape>
+        <Range>5</Range>
+        <FriendlyFire>false</FriendlyFire>
+        <Hack>9.0</Hack>
+        <Pierce>6.0</Pierce>
+        <Crush>0.0</Crush>
+      </Splash>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime op="mul">2.0</BuildTime>
+    <Resources>
+      <wood>100</wood>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>400</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
+    <GenericName>Cataphract</GenericName>
+    <Tooltip>Counters: 1.5x vs. Cavalry.</Tooltip>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
+  </UnitMotion>
+</Entity>

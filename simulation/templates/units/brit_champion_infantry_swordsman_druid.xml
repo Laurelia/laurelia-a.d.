@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Heal>
+    <Range>30</Range>
+    <HP>2</HP>
+    <Rate>1000</Rate>
+    <UnhealableClasses datatype="tokens"/>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
+    <RangeOverlay>
+      <LineTexture>heal_overlay_range.png</LineTexture>
+      <LineTextureMask>heal_overlay_range_mask.png</LineTextureMask>
+      <LineThickness>0.35</LineThickness>
+    </RangeOverlay>
+  </Heal>
+  <Identity>
+    <Civ>brit</Civ>
+    <GenericName>Druidic Warrior</GenericName>
+    <SpecificName>Gaeroa Druides</SpecificName>
+    <SelectionGroupName>units/brit_champion_infantry_druid</SelectionGroupName>
+    <Icon>units/celt_hero_cunobelin.png</Icon>
+    <VisibleClasses datatype="tokens">Healer</VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/britons/hero_infantry_swordsman_cunobelin.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -4,14 +4,12 @@
 
   <Auras datatype="tokens">
 
-    structures/temple_heal
-
     structures/greek_architecture
 
   </Auras>
   <BuildRestrictions>
 
-    <Category>Special</Category>
+    <Category>Propylaea</Category>
 
   </BuildRestrictions>
 
@@ -19,7 +17,7 @@
 
     <PopulationBonus>10</PopulationBonus>
 
-    <BuildTime>200</BuildTime>
+    <BuildTime>300</BuildTime>
 
     <Resources>
 
@@ -51,7 +49,7 @@
 
   <Identity>
 
-    <GenericName>Portico</GenericName>
+    <GenericName>Monumental Gateway</GenericName>
 
     <SpecificName>Propylaea</SpecificName>
 

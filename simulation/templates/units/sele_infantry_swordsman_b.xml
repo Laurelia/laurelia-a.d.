@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/sele_military_colony
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sele</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/sele_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Romanized Thureos Swordsman</GenericName>
+    <SpecificName>Machairaphóros Rhomaïkós</SpecificName>
+    <Icon>units/sele_infantry_spearman_2.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/sele_infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_swordsman_2_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -11,6 +11,7 @@
   </Health>
   <Identity>
     <GenericName>Apartment Building</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <wood>60</wood>

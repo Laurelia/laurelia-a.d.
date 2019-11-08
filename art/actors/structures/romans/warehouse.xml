@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Warehouse">
+      <mesh>structural/rome_warehouse.dae</mesh>
+      <textures>
+				<texture file="structural/rome_struct_3.png" name="baseTex"/>
+				<texture file="structural/rome_struct_3_norm.png" name="normTex"/>
+        <texture file="structural/ao/rome_warehouse.png" name="aoTex"/>
+			</textures>
+      <props>
+        <prop actor="props/structures/romans/warehouse_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/romans/warehouse_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/structures/romans/storehouse_props.xml" attachpoint="root"/>
+        <prop actor="props/structures/romans/storehouse_roof.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+<material>player_trans_ao_parallax.xml</material>
+</actor>

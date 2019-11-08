@@ -1,0 +1,17 @@
+{
+	"genericName": "Composite Bow",
+	"description": ".",
+	"cost": {"food": 200, "wood": 350, "stone": 0, "metal": 0, "coin": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "archery_tradition.png",
+	"researchTime": 60,
+	"tooltip": "Archers +20% range and +25% accuracy.",
+	"modifications": [
+		{"value": "Attack/Ranged/Spread", "multiply": 0.75},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.2},
+		{"value": "Vision/Range", "multiply": 1.1}
+	],
+	"affects": ["Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -43,12 +43,15 @@ ResourceGatherer.prototype.Schema =
 			"<optional><element name='metal.ore' a:help='Ore gather rate (overrides \"metal\")'><ref name='positiveDecimal'/></element></optional>" +
 			"<optional><element name='metal.iron' a:help='Iron ore gather rate (overrides \"metal\")'><ref name='positiveDecimal'/></element></optional>" +
 			"<optional><element name='metal.copper' a:help='Copper ore gather rate (overrides \"metal\")'><ref name='positiveDecimal'/></element></optional>" +
-			"<optional><element name='metal.silver' a:help='Silver ore gather rate (overrides \"metal\")'><ref name='positiveDecimal'/></element></optional>" +
-			"<optional><element name='metal.gold' a:help='Gold ore gather rate (overrides \"metal\")'><ref name='positiveDecimal'/></element></optional>" +
+			"<optional><element name='coin.ore' a:help='Ore gather rate (overrides \"coin\")'><ref name='positiveDecimal'/></element></optional>" +
+			"<optional><element name='coin.silver' a:help='Silver ore gather rate (overrides \"coin\")'><ref name='positiveDecimal'/></element></optional>" +
+			"<optional><element name='coin.gold' a:help='Gold ore gather rate (overrides \"coin\")'><ref name='positiveDecimal'/></element></optional>" +
+			"<optional><element name='coin.fruit' a:help='Fruit gather rate (overrides \"coin\")'><ref name='positiveDecimal'/></element></optional>" +
 			"<optional><element name='treasure.food' a:help='Food treasure gather rate (overrides \"treasure\")'><ref name='positiveDecimal'/></element></optional>" +
 			"<optional><element name='treasure.wood' a:help='Wood treasure gather rate (overrides \"treasure\")'><ref name='positiveDecimal'/></element></optional>" +
 			"<optional><element name='treasure.stone' a:help='Stone treasure gather rate (overrides \"treasure\")'><ref name='positiveDecimal'/></element></optional>" +
 			"<optional><element name='treasure.metal' a:help='Metal treasure gather rate (overrides \"treasure\")'><ref name='positiveDecimal'/></element></optional>" +
+			"<optional><element name='treasure.coin' a:help='Coin treasure gather rate (overrides \"treasure\")'><ref name='positiveDecimal'/></element></optional>" +
 		"</interleave>" +
 	"</element>" +
 	"<element name='Capacities' a:help='Per-resource-type maximum carrying capacity'>" +
@@ -57,6 +60,7 @@ ResourceGatherer.prototype.Schema =
 			"<element name='wood' a:help='Wood capacity'><ref name='positiveDecimal'/></element>" +
 			"<element name='stone' a:help='Stone capacity'><ref name='positiveDecimal'/></element>" +
 			"<element name='metal' a:help='Metal capacity'><ref name='positiveDecimal'/></element>" +
+			"<element name='coin' a:help='Coin capacity'><ref name='positiveDecimal'/></element>" +
 		"</interleave>" +
 	"</element>";
 

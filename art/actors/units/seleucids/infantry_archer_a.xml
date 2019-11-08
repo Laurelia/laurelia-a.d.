@@ -35,6 +35,14 @@
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
     <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/gather_copper.xml"/>
+    <variant file="biped/gather_silver.xml"/>
+    <variant file="biped/gather_iron.xml"/>
+    <variant file="biped/gather_gold.xml"/>
+    <variant file="biped/carry_gold.xml"/>
+    <variant file="biped/carry_silver.xml"/>
+    <variant file="biped/carry_iron.xml"/>
+    <variant file="biped/carry_copper.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

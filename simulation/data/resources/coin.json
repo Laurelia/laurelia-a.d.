@@ -1,10 +1,13 @@
 {
 	"code": "coin",
 	"name": "Coin",
-	"description": "Tax gathered from citizens.",
+	"description": "Gather from taxes, mines, or vineyards.",
 	"order": 5,
 	"subtypes": {
-		"silver": "Silver"
+		"ore": "Ore",
+		"silver": "Silver",
+		"gold": "Gold",
+		"fruit": "Grapes"
 	},
 	"truePrice": 100,
 	"aiAnalysisInfluenceGroup": "ignore"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_geo">
+  <Identity>
+    <GenericName>Gold Deposit</GenericName>
+    <SpecificName>Native Gold</SpecificName>
+    <Tooltip>A gold mineral deposit, providing access to rare precious metals.</Tooltip>
+    <Icon>gaia/geology_metal_gold.png</Icon>
+  </Identity>
+  <Minimap>
+    <Type>metal</Type>
+    <Color r="230" g="210" b="110"/>
+  </Minimap>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Amount>1000</Amount>
+    <Type>coin.gold</Type>
+	<MaxGatherers>8</MaxGatherers>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_metal.xml</select>
+    </SoundGroups>
+  </Sound>
+</Entity>

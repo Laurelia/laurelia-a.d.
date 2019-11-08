@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_geo">
+  <Identity>
+    <GenericName>Copper Deposit</GenericName>
+    <SpecificName>Malachite</SpecificName>
+    <Tooltip>A copper mineral deposit, providing access to a common form of metal.</Tooltip>
+    <Icon>gaia/geology_metal_copper.png</Icon>
+  </Identity>
+  <Minimap>
+    <Type>metal</Type>
+    <Color r="230" g="140" b="60"/>
+  </Minimap>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Amount>1000</Amount>
+    <Type>metal.copper</Type>
+	<MaxGatherers>12</MaxGatherers>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_metal.xml</select>
+    </SoundGroups>
+  </Sound>
+</Entity>

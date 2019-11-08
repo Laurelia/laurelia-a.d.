@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_geo_mineral_silver">
+  <VisualActor>
+    <Actor>geology/metalmine_silver_mediterranean.xml</Actor>
+  </VisualActor>
+</Entity>

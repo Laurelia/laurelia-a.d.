@@ -19,8 +19,6 @@ ResourceSupply.prototype.Schema =
 			"<value>stone.rock</value>" +
 			"<value>stone.ruins</value>" +
 			"<value>metal.ore</value>" +
-			"<value>metal.gold</value>" +
-			"<value>metal.silver</value>" +
 			"<value>metal.copper</value>" +
 			"<value>metal.iron</value>" +
 			"<value>food.fish</value>" +
@@ -28,10 +26,15 @@ ResourceSupply.prototype.Schema =
 			"<value>food.grain</value>" +
 			"<value>food.meat</value>" +
 			"<value>food.milk</value>" +
+			"<value>coin.fruit</value>" +
+			"<value>coin.gold</value>" +
+			"<value>coin.silver</value>" +
+			"<value>coin.ore</value>" +
 			"<value>treasure.wood</value>" +
 			"<value>treasure.stone</value>" +
 			"<value>treasure.metal</value>" +
 			"<value>treasure.food</value>" +
+			"<value>treasure.coin</value>" +
 		"</choice>" +
 	"</element>" +
 	"<element name='MaxGatherers' a:help='Amount of gatherers who can gather resources from this entity at the same time'>" +

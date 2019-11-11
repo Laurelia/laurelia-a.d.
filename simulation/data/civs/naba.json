@@ -197,5 +197,5 @@
 		"skirmish/units/special_starting_unit": "units/naba_support_healer_b",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
-	"SelectableInGameSetup": true
+	"SelectableInGameSetup": false
 }

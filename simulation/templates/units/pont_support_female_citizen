@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>pont</Civ>
+    <Lang>persian</Lang>
+    <SpecificName>Banu Ponta</SpecificName>
+    <GenericName>Pontic Woman</GenericName>
+    <Icon>units/pers_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/pont_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

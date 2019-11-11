@@ -32,7 +32,7 @@
 
 						{
 			"Name": "Advanced Cavalry",
-			"History": "."
+			"History": ".",
 			"Description": "Promote your citizen cavalry to advanced rank."
 
 						},
@@ -76,12 +76,12 @@
 	[
                 {
 			"Name": "",
-			"History": "."
+			"History": ".",
 			"Description": "."
 			},
 			{
 			"Name": "Sacred Groves",
-			"History": "."
+			"History": ".",
 			"Description": "."
 			}
 						
@@ -90,7 +90,7 @@
 	[
 		{
 			"Name": "Druidic Wisdom",
-			"History": "."
+			"History": ".",
 			"Description": "-20% research time for technologies of allies."
 		}
 	],
@@ -100,7 +100,7 @@
 			"Name": "Tribal Assembly",
 			"Class": "",
 			"Emblem": "",
-			"History": "."
+			"History": ".",
 			"Requirements": "",
 			"Phase": "",
 			"Special": ""
@@ -114,7 +114,7 @@
 			"Requirements": "",
 			"Phase": "",
 			"Special": ""
-		},
+		}
 
 	],
 	"WallSets":

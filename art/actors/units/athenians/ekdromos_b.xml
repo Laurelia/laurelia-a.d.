@@ -13,14 +13,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Texture-Chiton-01">
-      <textures><texture file="skeletal/hele_su1_01.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="Texture-Chiton-02">
-      <textures><texture file="skeletal/hele_su1_02.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="Texture-Chiton-03">
-      <textures><texture file="skeletal/hele_su1_03.dds" name="baseTex"/></textures>
+    <variant>
+      <textures>
+        <texture file="skeletal/hele_tunic.dds" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>

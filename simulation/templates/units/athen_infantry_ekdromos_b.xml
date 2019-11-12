@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_hoplite">
+ <Armour>
+   <Hack op="add">-3</Hack>
+   <Pierce op="add">-3</Pierce>
+ </Armour>
+ <Attack>
+    <Melee>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+      <Resources>
+      <food>50</food>
+      <wood>50</wood>
+      <metal>30</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Athenian Skirmish Hoplite</GenericName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Civ>athen</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_infantry_ekdromos_b</SelectionGroupName>
+    <SpecificName>Ekdromos Athēnaîos</SpecificName>
+    <Icon>units/hele_infantry_ekdromos.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/athen_infantry_ekdromos_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/ekdromos_b.xml</Actor>
+  </VisualActor
+  <Loot>
+    <food>5</food>
+    <wood>0</wood>
+    <metal>3</metal>
+    <stone>0</stone>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.3</WalkSpeed>
+  
+  </UnitMotion>
+</Entity>

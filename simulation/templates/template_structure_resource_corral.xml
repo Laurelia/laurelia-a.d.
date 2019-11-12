@@ -2,6 +2,8 @@
 <Entity parent="template_structure_resource">
   <Auras datatype="tokens">
     structures/train_bonus_corral
+    structures/corral_garrison
+	  structures/slaughterhouse
   </Auras>
   <Cost>
     <BuildTime>50</BuildTime>
@@ -13,13 +15,21 @@
     <Square width="18.0" depth="17.0"/>
     <Height>5.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>5</Max>
+    <EjectHealth>0.5</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Domestic</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>4</LoadingRange>
+  </GarrisonHolder>
   <Health>
     <Max>500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Corral</GenericName>
-    <Tooltip>Raise herd animals for food. Task domestic animals here to gain a trickle of food or other bonus (Not yet implemented).</Tooltip>
+    <Tooltip>Raise herd animals for food. Garrison domestic animals here to gain a trickle of food or some other bonus.</Tooltip>
     <VisibleClasses datatype="tokens">Village Corral</VisibleClasses>
     <Icon>structures/corral.png</Icon>
   </Identity>
@@ -32,12 +42,15 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      gaia/fauna_sheep_trainable
+	    gaia/fauna_pig
+	    gaia/fauna_chicken
     </Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding
       speed_cavalry_01
       speed_cavalry_02
+	    training_animals_husbandry
+	    gather_draft_animals
     </Technologies>
   </ProductionQueue>
   <Sound>

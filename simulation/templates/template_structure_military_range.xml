@@ -69,8 +69,7 @@
     <Technologies datatype="tokens">
 	    training_levy_infantry_ranged
 	    special_archery_tradition
-      attack_infantry_ranged_01
-      attack_infantry_ranged_02
+      ranged_infantry_irregulars
     </Technologies>
   </ProductionQueue>
   <Sound>

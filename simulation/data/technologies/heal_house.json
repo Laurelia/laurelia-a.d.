@@ -1,0 +1,15 @@
+{
+	"genericName": "Hospitality",
+	"description": "Units slowly heal when garrisoned in houses.",
+	"cost": {"food": 200, "wood": 300, "stone": 0, "metal": 0, "coin": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "bandage.png",
+	"researchTime": 40,
+	"tooltip": "Houses will slowly heal garrisoned units.",
+	"modifications": [
+		{"value": "GarrisonHolder/BuffHeal", "add": 1}
+	],
+	"affects": ["House"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -77,7 +77,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      pair_walls_01
+      tower_range
+      tower_watch
     </Technologies>
   </ProductionQueue>
   <Repairable>

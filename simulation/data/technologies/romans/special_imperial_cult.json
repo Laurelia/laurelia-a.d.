@@ -1,0 +1,15 @@
+{
+	"genericName": "Imperial Cult",
+	"description": ".",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "rome"}]},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "pharaoh_mask.png",
+	"researchTime": 40,
+	"tooltip": "Roman Emperors +20% health.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.2}
+	],
+	"affects": ["Emperor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

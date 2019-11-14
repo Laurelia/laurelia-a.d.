@@ -38,6 +38,14 @@
   <Obstruction>
     <Static width="8.0" depth="8.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      trade_gain_01
+      trade_gain_02
+      trickle_coin_market
+    </Technologies>
+  </ProductionQueue>
   <ResourceTrickle>
     <Rates> 
       <food>0.0</food>

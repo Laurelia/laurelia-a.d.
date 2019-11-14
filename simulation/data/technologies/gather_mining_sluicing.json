@@ -1,10 +1,10 @@
 {
-	"pair": "pair_gather_02",	
 	"genericName": "Sluicing",
 	"description": "Sluicing uses water to wash away debris and separate precious metal from the soil.",
 	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
+	"supersedes": "gather_mining_wedgemallet",
 	"icon": "sluicing.png",
 	"researchTime": 40,
 	"tooltip": "Gatherers +20% metal gathering rate.",

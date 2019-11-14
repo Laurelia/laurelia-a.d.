@@ -1,0 +1,14 @@
+{
+	"genericName": "Fletching",
+	"description": "Fletching increases the accuracy and sail time for projectiles, such as arrows.",
+	"cost": {"food": 0, "wood": 50, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "fletching.png",
+	"researchTime": 60,
+	"tooltip": "Archers +25% range and accuracy.",
+		{"value": "Attack/Ranged/Spread", "multiply": 0.75},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.25}],
+	"affects": ["Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

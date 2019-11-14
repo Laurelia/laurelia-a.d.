@@ -1,0 +1,17 @@
+{
+	"genericName": "Marksmanship",
+	"description": ".",
+	"cost": {"food": 100, "wood": 100, "stone": 100, "metal": 100, "coin": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "arrow.png",
+	"researchTime": 40,
+	"tooltip": "Ranged units +50% accuracy and +20% range, but +5% training time.",
+	"affects": ["Ranged Unit"],
+	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.50 },
+ 	  		  {"value": "Cost/BuildTime", "multiply": 0.5},
+			  {"value": "Attack/Ranged/MaxRange", "multiply": 1.20}
+ ],
+
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

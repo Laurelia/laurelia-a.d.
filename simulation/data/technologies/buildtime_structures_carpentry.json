@@ -1,5 +1,4 @@
 {
-	"pair": "pair_structures_02",	
 	"genericName": "Carpentry",
 	"description": ".",
 	"cost": {"wood": 200, "metal": 100},

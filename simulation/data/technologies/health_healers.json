@@ -1,0 +1,13 @@
+{
+	"genericName": "Sanctity",
+	"description": ".",
+	"cost": {"food": 0, "coin": 120, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "bandage.png",
+	"researchTime": 40,
+	"tooltip": "Healers +15 health.",
+	"modifications": [{"value": "Health/Max", "add": 15}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

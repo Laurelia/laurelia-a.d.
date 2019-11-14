@@ -44,11 +44,12 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       gather_lumbering_ironaxes
-      gather_lumbering_strongeraxes
-      gather_lumbering_sharpaxes
-      gather_mining_servants
-      gather_mining_serfs
-      gather_mining_slaves
+      gather_lumbering_bowsaw
+      gather_lumbering_twomansaw
+      gather_mining_chisels
+      gather_mining_metallurgy
+      gather_mining_sluicing
+      gather_mining_openpit
       gather_mining_wedgemallet
       gather_mining_shaftmining
       gather_mining_silvermining

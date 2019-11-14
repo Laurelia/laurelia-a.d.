@@ -37,7 +37,8 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_champion_infantry
-      units/{civ}_champion_ranged
+      units/{civ}_champion_thorakites
+      units/{civ}_champion_thureophoros
     </Entities>
   </ProductionQueue>
   <Sound>

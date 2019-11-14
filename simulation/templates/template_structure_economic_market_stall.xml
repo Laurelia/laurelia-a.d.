@@ -67,6 +67,6 @@
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
-    <Actor>structures/generic/market_stall.xml</Actor>
+    <Actor>structures/ptolemies/stall_big.xml</Actor>
   </VisualActor>
 </Entity>

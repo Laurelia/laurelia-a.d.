@@ -1,0 +1,16 @@
+{
+	"genericName": "Artillery Instructors",
+	"description": "Siege weapons are more accurate and fire faster, but take longer to train",
+	"cost": { "food": 500, "wood": 0, "stone": 250, "metal": 500 , "coin": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "arrow.png",
+	"researchTime": 40,
+	"tooltip": "Ranged Siege engines are +50% more accurate, attack +10% faster, and take +10% longer to build.",
+	"affects": ["Ranged Siege"],
+	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.50 },
+ 	  		  {"value": "Cost/BuildTime", "multiply": 1.1},
+			  {"value": "Attack/Ranged/RepeatTime", "multiply": 0.9}
+ ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

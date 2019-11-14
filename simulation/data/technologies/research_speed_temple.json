@@ -1,0 +1,15 @@
+{
+	"genericName": "Sacred Texts",
+	"description": "",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "coin": 250},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "scroll.png",
+	"researchTime": 90,
+	"tooltip": "Temple techs research +10% faster.",
+	"modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.9 }
+	],
+	"affects": ["Temple"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

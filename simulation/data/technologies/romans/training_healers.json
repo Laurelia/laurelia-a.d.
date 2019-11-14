@@ -1,0 +1,16 @@
+{
+	"genericName": "College of Pontiffs",
+  "specificName": "Collegium Pontificum",
+	"description": ".",
+	"cost": {"food": 200, "wood": 0, "coin": 200, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "rome"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "conclave.png",
+	"researchTime": 40,
+	"tooltip": "Healers -50% train time.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.5}	
+	],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

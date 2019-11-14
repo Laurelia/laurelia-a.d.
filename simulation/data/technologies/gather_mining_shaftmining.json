@@ -1,10 +1,10 @@
-{
-	"pair": "pair_gather_03",	
+{	
 	"genericName": "Shaft Mining",
 	"description": "Burrow into mother Earth to mine metal ore.",
 	"cost": {"food": 0, "wood": 500, "stone": 300, "metal": 0},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "gather_mining_sluicing",
 	"icon": "mining_shaft.png",
 	"researchTime": 40,
 	"tooltip": "Gatherers +25% metal gathering rate, +10% stone gathering rate.",

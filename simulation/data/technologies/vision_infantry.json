@@ -1,0 +1,12 @@
+{
+	"genericName": "Tracking",
+	"description": "Infantry gain longer vision for scouting.",
+	"cost": {"food": 50, "coin": 50, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"icon": "lookouts.png",
+	"researchTime": 40,
+	"tooltip": "Infantry +2 Line of Sight.",
+	"modifications": [{"value": "Vision/Range", "add": 2}],
+	"affects": ["Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -60,6 +60,7 @@
       pop_house_01
       pop_house_02
       unlock_females_house
+      heal_house
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

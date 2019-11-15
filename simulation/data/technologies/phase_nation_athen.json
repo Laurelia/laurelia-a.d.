@@ -1,0 +1,25 @@
+{
+	"genericName": "Republic Phase",
+	"specificName": {
+		"athen": "Basileía",
+		"rome": "Republicum",
+		"theb": "Basileía",
+		"epir": "Basileía",
+		"sele": "Basileía Seleúkeia",
+		"ptol": "Ptolemaïke Basileía"
+	},
+	"supersedes": "phase_city_athen",
+	"replaces": ["phase_nation"],
+	"icon": "phase_nation.png",
+	"description": "Moves your civilization from a city to a Republic, unlocking powerful technologies and abilities not available in earlier phases of expansion.",
+	"cost": { "food": 0, "wood": 0, "stone": 750, "metal": 750, "coin": 750 },
+	"requirements": { "entity": { "class": "City", "number": 4 } },
+	"requirementsTooltip": "Requires 4 new city phase structures.",
+	"researchTime": 80,
+	"tooltip": "Advance to the Kingdom Phase, which unlocks powerful technologies and abilities. Territory radius for Civic Centers increased by a final +25%.",
+	"modifications": [
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivCentre"},
+		{"value": "Vision/Range", "multiply": 1.25, "affects": "CivCentre"}
+	],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

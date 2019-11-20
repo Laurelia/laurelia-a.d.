@@ -1,0 +1,11 @@
+{
+	"genericName": "Nobility",
+	"description": ".",
+	"cost": {"food": 175, "wood": 0, "stone":0, "coin": 120},
+	"icon": "town_well.png",
+	"researchTime": 70,
+	"tooltip": "+15% Health for cavalry units.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.15}],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

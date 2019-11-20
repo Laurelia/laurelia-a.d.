@@ -1,5 +1,5 @@
 {
-	"genericName": "Sanctity",
+	"genericName": "Mysticism",
 	"description": ".",
 	"cost": {"food": 0, "coin": 120, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},

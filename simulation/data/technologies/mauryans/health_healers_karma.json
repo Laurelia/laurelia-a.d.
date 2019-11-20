@@ -1,0 +1,14 @@
+{
+	"genericName": "Favorable Karma",
+	"description": ".",
+	"cost": {"food": 300, "coin": 300, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "health_healers",
+	"icon": "bandage.png",
+	"researchTime": 40,
+	"tooltip": "Healers +60% health.",
+	"modifications": [{"value": "Health/Max", "mul": 1.6}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

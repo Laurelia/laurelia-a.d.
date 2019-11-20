@@ -1,0 +1,11 @@
+{
+	"genericName": "Sacred Elephants",
+	"description": "Elephants had a prominent role in Indian religion.",
+	"cost": {"food": 0, "wood": 250, "stone": 100, "metal": 500, "coin": 500},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "maur"}]},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "breeding_herd.png",
+	"researchTime": 40,
+	"tooltip": "Unlock the Sacred Elephant.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

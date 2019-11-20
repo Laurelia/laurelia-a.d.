@@ -1,12 +1,13 @@
 {
 	"genericName": "Hellenic Architecture",
-	"autoResearch": true,
 	"description": "The Greeks used stone construction from early Mycenaean times.",
-	"requirements": {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]},
+	"cost": {"food": 0, "wood": 250, "stone": 250, "coin": 250},
+	"requirements": {"tech": "phase_city"},
 	"icon": "ionic_column.png",
-	"tooltip": "+10% more health and capture points, but also take longer to build.",
+	"tooltip": "All non-wooden structures +10% more health and capture points, but also take longer to build.",
 	"modifications": [{"value": "Health/Max", "multiply": 1.1},
 				  {"value": "Capturable/CapturePoints", "multiply": 1.1},
 				  {"value": "Cost/BuildTime", "multiply": 1.1}],
-	"affects": ["Structure"]
+	"affects": ["Structure !Wood"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

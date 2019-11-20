@@ -1,0 +1,14 @@
+{
+	"genericName": "Macedonian Pike Drills",
+	"specificName": "Sarissatismos",
+	"description": "Pike training decreases the experience required for the promotion of pike-wielding infantry units.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300, "coin": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "armor_plates_spear.png",
+	"researchTime": 50,
+	"tooltip": "Pike infantry -50% experience required to gain higher rank.",
+	"modifications": [{"value": "Promotion/RequiredXp", "multiply": 0.5}],
+	"affects": ["Infantry Pike"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

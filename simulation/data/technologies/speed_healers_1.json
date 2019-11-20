@@ -1,5 +1,5 @@
 {
-	"genericName": "Ecstatic Rituals",
+	"genericName": "Temple Processions",
 	"description": ".",
 	"cost": {"food": 100, "wood": 100},
 	"requirements": { "tech": "phase_town" },

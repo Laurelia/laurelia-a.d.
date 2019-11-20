@@ -2,7 +2,7 @@
 	"genericName": "Reinforced Carriage",
 	"description": "Reinforcement was needed for chariot carts in order to keep them from shaking apart.",
 	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
-	"requirements": {"all": [{"tech": "phase_nation"},{"civ": "maur"}]},
+	"requirements": {"all": [{"tech": "phase_nation"}]},
 	"requirementsTooltip": "Unlocked in The Kingdom Phase.",
 	"icon": "chariot_scythes.png",
 	"researchTime": 40,

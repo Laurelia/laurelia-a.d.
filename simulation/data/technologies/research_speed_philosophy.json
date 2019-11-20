@@ -30,7 +30,7 @@
 
 	"researchTime": 45,
 
-	"tooltip": "All Technologies -15% research time.",
+	"tooltip": "Technologies at all buildings, except the Blacksmith, -15% research time.",
 
 	"modifications": [
 
@@ -38,7 +38,7 @@
 
 	],
 
-	"affects": ["Structure"],
+	"affects": ["Structure !Blacksmith"],
 
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 

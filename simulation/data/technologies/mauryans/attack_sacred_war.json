@@ -1,0 +1,14 @@
+{
+	"genericName": "Sacred War",
+	"description": "Wage war in the name of Shiva the destroyer, or Kali the liberator.",
+	"cost": {"food": 500, "coin": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "hindu_kali.png",
+	"researchTime": 50,
+	"tooltip": "All soldiers +10% capture attack.",
+	"modifications": [
+		{"value": "Attack/Capture/Capture", "multiply": 1.1, "affects":"Soldier"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

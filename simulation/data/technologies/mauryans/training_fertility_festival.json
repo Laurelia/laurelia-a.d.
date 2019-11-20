@@ -1,0 +1,17 @@
+{
+	"genericName": "Tantric Fertility Festival",
+	"description": "A festival attended by women-only, to celebrate female fertility.",
+	"cost": {"food": 300, "coin": 200},
+	"requirements": {"all": [
+		{"tech": "phase_city"}
+	]},
+	"icon": "hindu_kali.png",
+	"researchTime": 60,
+	"tooltip": "Train citizens +25% faster.",
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.75}
+	],
+	"affects": ["Citizen"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

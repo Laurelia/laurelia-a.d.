@@ -1,0 +1,15 @@
+{
+	"genericName": "Temple Processions",
+	"description": ".",
+	"cost": {"food": 100, "wood": 100},
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "caligae.png",
+	"researchTime": 40,
+	"tooltip": "Healers +10% walk speed.",
+	"modifications": [
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.1}	
+	],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,6 +1,6 @@
 {
 	"genericName": "Daric",
-	"description": "Daric, Achaemenid gold coin, which was introduced by Darius I, towards the end of the 6th century. This currency became the first reliable and accepted international currency in the ancient world, although regional currencies continued to be used.",
+	"description": "The Daric was an Achaemenid gold coin, which was introduced by Darius I towards the end of the 6th century. This currency became the first reliable and accepted international currency in the ancient world, although regional currencies continued to be used.",
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 250 },
 	"requirements": { "all": [{ "tech": "phase_city" }, { "civ": "pers" }] },
 	"requirementsTooltip": "Unlocked in City Phase.",

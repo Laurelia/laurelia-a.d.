@@ -1,0 +1,13 @@
+{
+	"genericName": "Athenian Sacred Ships",
+	"description": "Units garrisoned in triremes heal over time.",
+	"cost": {"food": 500, "wood": 250, "stone": 0, "metal": 0, "coin": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "bandage.png",
+	"researchTime": 40,
+	"tooltip": "Units gain health over time while garrisoned in athenian triremes.",
+	"modifications": [{"value": "GarrisonHolder/BuffHeal", "add": 1}],
+	"affects": ["Trireme"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

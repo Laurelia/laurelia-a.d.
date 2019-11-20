@@ -1,0 +1,14 @@
+{
+	"genericName": "Four Noble Truths",
+	"description": "Increase health regeneration for your units.",
+	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 0, "coin": 500},
+	"supersedes": "health_regen_units",
+	"requirements": {"all": [{ "class": "Buddhist", "number": 1 }]},
+	"requirementsTooltip": "Unlocked by choosing Ashoka the great as your hero, or capturing the Maurya Catafalque.",
+	"icon": "asclepius_rod.png",
+	"researchTime": 40,
+	"tooltip": "Idle units regenerate faster.",
+	"modifications": [{"value": "Health/IdleRegenRate", "add": 0.5}],
+	"affects": ["Unit Organic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

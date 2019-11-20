@@ -1,0 +1,15 @@
+{
+	"genericName": "Trophimoi",
+	"description": "The Trophimoi were children of non-Spartiates - Perioikoi or foreigners - who underwent Spartan education. The trophimoi are temporarily adopted by a Spartan oikos. The trophimoi sons of Perioikoi represent, like the neodamodes and the nothoi (natural sons of slaves and citizens), an intermediate class at Sparta. They could rise to the status of citizens. According to Plutarch, Agis IV intended by this mean to strengthen the citizenry, that had become too small in number for Sparta's wartime necessities.",
+	"requirements": {"all": [{"tech": "phase_nation"}, {"any": [{"civ": "spart"}]}]},
+	"requirementsTooltip": "Unlocked in Kingdom Phase.",
+	"icon": "political_face.png",
+	"researchTime": 40,
+	"tooltip": "Spartan Hoplites cost -1 population.",
+	"cost": {"food": 200, "wood": 200, "stone": 200, "metal": 200},
+	"modifications": [
+				  {"value": "Cost/Population", "add": -1}],
+	"affects": ["Spartiate"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+
+	}

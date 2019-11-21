@@ -51,6 +51,26 @@
       structures/{civ}_shrine
       structures/{civ}_tenement
       structures/{civ}_colosseum
+      structures/{civ}/mace_house
+      structures/{civ}/mace_storehouse
+      structures/{civ}/mace_farmstead
+      structures/{civ}/mace_field
+      structures/{civ}/mace_corral
+      structures/{civ}/mace_outpost
+      structures/{civ}/mace_sentry_tower
+      structures/{civ}/mace_dock
+      structures/{civ}/mace_barracks
+      structures/{civ}/mace_blacksmith
+      structures/{civ}/mace_temple
+      structures/{civ}/mace_market
+      structures/{civ}/mace_civil_centre
+      structures/{civ}/mace_wonder
+      structures/{civ}/epir_theatron
+      structures/{civ}/epir_royal_stoa
+      structures/{civ}/epir_library
+      structures/{civ}/epir_gymnasion
+      structures/{civ}/epir_propylaea
+      structures/{civ}/epir_vineyard
     </Entities>
   </Builder>
   <Cost>

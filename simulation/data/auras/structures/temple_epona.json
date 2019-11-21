@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Cavalry Horse"],
+	"modifications": [{"value": "Health/Max", "multiply": 1.15}],
+	"auraName": "Blessing of Epona",
+	"auraDescription": "Horses and cavalry +10% health as long as a temple, shrine, or monument dedicated to epona stands.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
+	"stackable": false
+}

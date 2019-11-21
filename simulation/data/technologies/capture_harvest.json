@@ -1,5 +1,11 @@
 {
-	"genericName": "Harvest Fair",
+	"genericName": "Harvest Festival",
+	"specificName": {
+		"gaul": "Lughnasadh",
+		"brit": "Lughnasadh",
+		"celt": "Lughnasadh",
+		"belg": "Lughnasadh"
+	},
 	"description": "Cultural events utilizing religion were intertwined with the Autumn harvest season and were important to ancient societies.",
 	"cost": {"food": 1000, "coin": 500},
 	"requirements": {"tech": "phase_imperial"},

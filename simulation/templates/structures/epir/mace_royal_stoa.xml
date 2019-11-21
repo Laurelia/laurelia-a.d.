@@ -3,4 +3,17 @@
   <Identity>
     <Civ>epir</Civ>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/ital_infantry_pikeman_b
+      units/{civ}/mace_infantry_javelinist_b
+      units/{civ}/athen_infantry_slinger_b
+      units/{civ}/athen_cavalry_swordsman_b
+      units/{civ}/ital_infantry_pikeman_b
+      units/{civ}/cart_infantry_swordsman_ital_b
+      units/{civ}/cart_infantry_spearman_ital_b
+      units/{civ}/cart_cavalry_spearman_ital_b
+      units/{civ}/ptol_cavalry_javelinist_merc_b
+    </Entities>
+  </ProductionQueue>
 </Entity>

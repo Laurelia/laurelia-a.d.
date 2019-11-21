@@ -1,0 +1,15 @@
+{
+	"genericName": "Bear Cult",
+	"description": "Bear worship was present in multiple northern european societies",
+	"cost": {"food": 500, "coin": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+  "supersedes": "attack_military_cult",
+	"icon": "enlightenment.png",
+	"researchTime": 50,
+	"tooltip": "Berserkers +10% capture attack.",
+	"modifications": [
+		{"value": "Attack/Capture/Capture", "multiply": 1.1, "affects":"Berserker"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

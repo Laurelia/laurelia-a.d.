@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Cost>
+    <Resources>
+      <food op="add">-25</food>
+      <metal op="add">25</metal>
+      <coin op="add">50</coin>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>epir</Civ>
+	<Lang>greek</Lang>
+    <Classes datatype="tokens">Italian</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <SelectionGroupName>units/ital/ital_infantry_pikeman_b</SelectionGroupName>
+	<GenericName>Tarentine White Shield Pikeman</GenericName>
+    <SpecificName>Leukaspides Taras</SpecificName>
+    <History>.</History>
+    <Icon>units/epir_infantry_pikeman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/epir/ital_infantry_pikeman_a</Entity>
+  </Promotion>
+  <ResourceTrickle>
+	<Rates>
+      <coin>-2</coin>
+    </Rates>
+    <Interval>10000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>units/epirotes/infantry_pikeman_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,29 @@
+{
+
+	"genericName": "Oral History",
+
+	"description": "The Celts had no written language, thus no written histories; however, they did maintain oral histories recalling deeds of great bravery through stories, poems, and songs",
+
+	"cost": {"metal": 600},
+
+	"requirements": {"tech": "phase_city"},
+
+	"requirementsTooltip": "Unlocked in City Phase.",
+
+	"icon": "flutes.png",
+
+	"researchTime": 45,
+
+	"tooltip": "Technologies at all buildings, except the Blacksmith, -15% research time.",
+
+	"modifications": [
+
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.85 }
+
+	],
+
+	"affects": ["Structure !Blacksmith"],
+
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+
+}

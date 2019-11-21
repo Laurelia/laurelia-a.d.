@@ -1,0 +1,26 @@
+{
+
+	"genericName": "Hygeine",
+
+	"description": "Like their celtic neighbors, the germans placed great importance on hygeine. Contrary to their reputation as savage barbarians, the germans would actually bathe more often than their contempories in the greek and roman world.",
+
+	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0},
+
+	"requirements": {"all": [{"tech": "phase_city"}]},
+
+	"requirementsTooltip": "Unlocked in City Phase.",
+
+	"supersedes": "health_units_02",
+
+	"icon": "soap.png",
+
+	"researchTime": 40,
+
+	"tooltip": "All Human units +5% Health.",
+
+	"modifications": [{"value": "Health/Max", "multiply": 1.05}],
+
+	"affects": ["Human"],
+
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

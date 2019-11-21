@@ -1,0 +1,16 @@
+{
+	"genericName": "Vitrified Forts",
+	"description": ".",
+	"cost": {"food": 0, "stone": 500, "metal": 500, "coin": 0},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "celtic_tower.png",
+	"researchTime": 40,
+	"tooltip": "Fortresses +50% health, but +20% build time.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.5},
+		{"value": "Cost/BuildTime", "multiply": 1.2}
+	],
+	"affects": ["Fortress"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

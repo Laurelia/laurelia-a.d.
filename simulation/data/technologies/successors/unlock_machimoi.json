@@ -1,0 +1,11 @@
+{
+	"genericName": "Raphian Reforms",
+	"description": ".",
+	"cost": {"food": 0, "wood": 250, "stone": 100, "metal": 500, "coin": 500},
+	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "ptol"}]},
+	"requirementsTooltip": "Unlocked in the Empire Phase.",
+	"icon": "helmet_corinthian_crest.png",
+	"researchTime": 40,
+	"tooltip": "Unlock the Native Egyptian Pikeman.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

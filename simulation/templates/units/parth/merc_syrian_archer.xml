@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Cost>
+    <Resources>
+      <food op="add">-25</food>
+      <metal op="add">75</metal>
+      <coin op="add">50</coin>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Syrian Mailed Archer</GenericName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <Icon>units/imp_merc_archer.png</Icon>
+  </Identity>
+  <Loot>
+    <metal>7</metal>
+  </Loot>
+  <VisualActor>
+    <Actor>units/romans_imperial/infantry_archer.xml</Actor>
+  </VisualActor>
+</Entity>

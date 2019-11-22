@@ -1,0 +1,14 @@
+{
+	"genericName": "Just War",
+  "specificName": "Bellum Iustum",
+	"cost": {"food": 750, "coin": 750},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in the Town Phase.",
+	"icon": "fist_spear.png",
+	"researchTime": 50,
+	"tooltip": "All soldiers +5% capture attack.",
+	"modifications": [
+		{"value": "Attack/Capture/Capture", "multiply": 1.05, "affects":"Soldier"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

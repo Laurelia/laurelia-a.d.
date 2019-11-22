@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/rome/social_barracks
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/rome_temple_vesta
+      structures/rome_temple_mars
+      structures/rome_arch
+      structures/rome_shrine
+      structures/rome_royal_stoa
+      structures/rome_statue
+      structures/rome_theatron
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food op="add">-25</food>
+      <metal op="add">25</metal>
+      <coin op="add">50</coin>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>rome</Civ>
+    <Classes datatype="tokens">Mercenary</Classes>
+    <GenericName>Allied Italic Spearman</GenericName>
+    <Icon>units/samnite_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/rome_infantry_spearman_soc_b</SelectionGroupName>
+    <SpecificName>Pedites Socius</SpecificName>
+    <VisibleClasses datatype="tokens">Socius</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>units/rome/rome_infantry_spearman_soc_a</Entity>
+  </Promotion>
+  <ResourceTrickle>
+	<Rates>
+      <coin>-2</coin>
+    </Rates>
+    <Interval>10000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_spearman_2_b.xml</Actor>
+  </VisualActor>
+</Entity>

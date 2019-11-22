@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/maur_elephant_stables
+      structures/maur_pillar_ashoka
+    </Entities>
+  </Builder>
+  <Cost>
+    <Resources>
+      <food op="add">-25</food>
+      <metal op="add">25</metal>
+      <coin op="add">50</coin>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>maur</Civ>
+    <SelectionGroupName>units/maur_infantry_spearman_merc_b</SelectionGroupName>
+    <GenericName>Indohellenic Thureos Spearman</GenericName>
+    <SpecificName>Thureophóros Indohellenikós</SpecificName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <Icon>units/ptol_infantry_spearman_2.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/maur_infantry_spearman_merc_a</Entity>
+  </Promotion>
+  <ResourceTrickle>
+	<Rates>
+      <coin>-2</coin>
+    </Rates>
+    <Interval>10000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>units/ptolemies/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

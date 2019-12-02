@@ -1,6 +1,7 @@
 {
 	"genericName": "Ecstatic Rituals",
 	"cost": {"food": 250, "coin": 500, "wood": 100, "metal": 0},
+	"supersedes": "health_healers_1",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in the City Phase.",
 	"icon": "games.png",

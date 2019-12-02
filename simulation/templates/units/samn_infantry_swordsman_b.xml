@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Entity parent="template_unit_infantry_melee_swordsman">
+
+  <Builder>
+
+    <Entities datatype="tokens">
+
+      structures/samn_temple_vesta
+      
+    </Entities>
+
+  </Builder>
+
+  <Identity>
+
+    <Civ>samn</Civ>
+
+    <GenericName>Samnite Swordbearer</GenericName>
+
+    <SpecificName>Ensiferius</SpecificName>
+    
+<Icon>units/cart_infantry_swordsman_2.png</Icon>
+    
+    <RequiredTechnology>phase_town</RequiredTechnology>
+
+    <SelectionGroupName>units/samn_infantry_swordsman_b</SelectionGroupName>
+
+  </Identity>
+
+  <Promotion>
+
+    <Entity>units/samn_infantry_swordsman_a</Entity>
+
+  </Promotion>
+
+  <VisualActor>
+
+<Actor>units/carthaginians/infantry_swordsman_2_b.xml</Actor>
+  
+  </VisualActor>
+
+</Entity>

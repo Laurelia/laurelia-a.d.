@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>samn</Civ>
+    <Lang>oscan</Lang>
+    <SpecificName>Samnita</SpecificName>
+    <GenericName>Samnite Woman</GenericName>
+    <Icon>units/rome_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/samn_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/romans/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

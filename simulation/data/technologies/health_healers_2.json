@@ -1,0 +1,14 @@
+{
+	"genericName": "Ecstatic Rituals",
+	"cost": {"food": 250, "coin": 500, "wood": 100, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "games.png",
+	"researchTime": 40,
+	"tooltip": "Healers +10% health and +5% speed.",
+	"modifications": [{"value": "Health/Max", "mul": 1.1},
+  		{"value": "UnitMotion/WalkSpeed", "multiply": 1.05}	
+  ],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

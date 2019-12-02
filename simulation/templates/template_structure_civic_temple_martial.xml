@@ -44,8 +44,13 @@
       units/{civ}_support_healer_martial_b
     </Entities>
     <Technologies datatype="tokens">
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
       attack_military_cult
       heal_temple
+      -heal_temple_2
       health_healers
       health_temple
       speed_healers_1

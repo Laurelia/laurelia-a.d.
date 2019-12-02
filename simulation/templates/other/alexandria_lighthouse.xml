@@ -22,7 +22,7 @@
     <Civ>gaia</Civ>
     <GenericName>Lighthouse of Alexandria</GenericName>
     <SpecificName>Pháros Alexandros</SpecificName>
-    <VisibleClasses datatype="tokens">City ConquestCritical Lighthouse</VisibleClasses>
+    <VisibleClasses datatype="tokens">City ConquestCritical Lighthouse Alexandria</VisibleClasses>
     <Tooltip>Build along the shore to reveal the shorelines over the entire map. Very large vision range: 180 meters.</Tooltip>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>

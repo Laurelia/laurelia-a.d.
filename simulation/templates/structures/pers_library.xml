@@ -2,7 +2,7 @@
 <Entity parent="template_structure_special_library">
   <Identity>
     <Civ>pers</Civ>
-    <SpecificName>Danisngah</SpecificName>
+    <SpecificName>Frahangestan</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>special/old/persian_special_building.xml</Actor>

@@ -11,6 +11,11 @@
 	"requirements": { "tech": "phase_village" },
 	"icon": "wives_festival.png",
 	"researchTime": 60,
-	"tooltip": "Unlock the ability to train women from houses.",
+	"tooltip": "Citizens -10% train time, +10% health.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.9},
+		{"value": "Health/Max", "multiply": 1.1}
+	],
+	"affects": ["Citizen"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

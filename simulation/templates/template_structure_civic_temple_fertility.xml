@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Cost>
+    <PopulationBonus>10</PopulationBonus>
+  </Cost>
+  <Identity>
+    <GenericName>Fertility Temple</GenericName>
+    <Tooltip>Train Healers and Citizens. Garrison units to heal them at a quick rate (3 HP per second). Research civic and religious improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">City Martial</VisibleClasses>
+    <Icon>structures/temple.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <stone>50</stone>
+    <metal>50</metal>
+  </Loot>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_healer_martial_b
+    </Entities>
+    <Technologies datatype="tokens">
+      heal_range
+      heal_range_2
+      heal_rate
+      heal_rate_2
+      training_fertility_festival
+      trickle_coin_fertilty_temple
+      heal_temple
+      heal_temple_2
+      health_temple
+      speed_healers_1
+      research_speed_temple
+    </Technologies>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>50</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

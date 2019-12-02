@@ -20,20 +20,20 @@
     <VisibleClasses datatype="tokens">Town Divination</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Loot>
-    <stone>50</stone>
-    <metal>50</metal>
-  </Loot>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      -units/{civ}_support_healer_b
       units/{civ}_support_healer_oracle_b
     </Entities>
-    <Technologies datatype="tokens">
+    <Technologies datatype="tokens">>
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
       temple_vision_1
       temple_vision_2
       heal_temple
+      -heal_temple_2
       health_healers
       health_temple
       speed_healers_1

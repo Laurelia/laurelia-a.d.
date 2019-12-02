@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Auras datatype="tokens">
+    structures/epic_temple_heal
+  </Auras>
+  <GarrisonHolder>
+    <BuffHeal>8</BuffHeal>
+  </GarrisonHolder>
+  <Identity>
+    <VisibleClasses datatype="tokens">Temple</VisibleClasses>
+    <Tooltip>Bring glory to your civilization and add large tracts of land to your empire. Garrison units to heal them at an extremely quick rate.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+   <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_support_healer_e
+    </Entities>
+    <Technologies datatype="tokens">
+      pop_wonder
+      heal_range
+      heal_range_2
+      heal_rate
+      heal_rate_2
+      heal_temple
+      heal_temple_2
+      health_healers
+      speed_healers_1
+      research_speed_temple
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/hellenes/temple_epic.xml</Actor>
+  </VisualActor>
+</Entity>

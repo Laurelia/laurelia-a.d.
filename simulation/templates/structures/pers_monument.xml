@@ -2,7 +2,6 @@
 <Entity parent="template_structure_special_monument">
   <Auras datatype="tokens">
     structures/kush_pyramids_economic
-    structures/eternal_fire
   </Auras>
   <BuildRestrictions>
     <Category>Monument</Category>
@@ -28,7 +27,7 @@
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Tower of Silence</GenericName>
-    <SpecificName>Atroshan</SpecificName>
+    <SpecificName>Dakhma</SpecificName>
     <Tooltip>.</Tooltip>
   </Identity>
   <Loot>
@@ -47,7 +46,7 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/persians/babylonian_tower.xml</Actor>
+    <Actor>structures/persians/ballista_tower.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

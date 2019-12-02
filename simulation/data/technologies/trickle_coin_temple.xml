@@ -1,0 +1,14 @@
+{
+	"genericName": "Temple Prostitutes",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "coin": 200},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "population.png",
+	"researchTime": 40,
+	"tooltip": "Fertility Temples generate coin.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "add": 1}
+	],
+	"affects": ["Fertility"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

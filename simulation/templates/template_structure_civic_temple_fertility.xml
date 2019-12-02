@@ -6,7 +6,7 @@
   <Identity>
     <GenericName>Fertility Temple</GenericName>
     <Tooltip>Train Healers and Citizens. Garrison units to heal them at a quick rate (3 HP per second). Research civic and religious improvements.</Tooltip>
-    <VisibleClasses datatype="tokens">City Martial</VisibleClasses>
+    <VisibleClasses datatype="tokens">City Fertility</VisibleClasses>
     <Icon>structures/temple.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

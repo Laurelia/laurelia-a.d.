@@ -57,7 +57,11 @@
       heal_rate
       heal_rate_2
       heal_temple
-      health_regen_units
+      heal_temple_2
+      health_healers
+      health_temple
+      speed_healers_1
+      research_speed_temple
     </Technologies>
   </ProductionQueue>
   <Sound>

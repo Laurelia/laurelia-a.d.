@@ -14,7 +14,6 @@
     structures/wonder_pop_1
     structures/wonder_pop_2
 	structures/pop_bonus_wonder
-    structures/epic_temple_heal
   </Auras>
   <BuildRestrictions>
     <Category>Wonder</Category>
@@ -69,9 +68,6 @@
   </Obstruction>
   <ProductionQueue>
    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_support_healer_e
-    </Entities>
     <Technologies datatype="tokens">
       pop_wonder
     </Technologies>

@@ -1,0 +1,13 @@
+{
+	"genericName": "Agricultural Settlements",
+	"description": "Upgrade your Nuba Encampments into Nuba Villages, which can expand your territory, train citizens, and work as a resource dropsite",
+	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 250, "coin": 100},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "grain.png",
+	"researchTime": 40,
+	"tooltip": "Turn all of your Nuba Encampments into Nuba Villages, which are similar to military colonies.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["NubaCamp"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

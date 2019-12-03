@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Armour>
+    <Hack op="mul">0.5</Pierce>
+    <Pierce op="mul">0.5</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack op="mul">2</Hack>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Infantry</Classes>
+          <Multiplier>1.3</Multiplier>
+        </Bonus1>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>samn</Civ>
+    <GenericName>Samnite Axebearer</GenericName>
+    <SpecificName>Securigere</SpecificName>
+    <Tooltip>Two-handed Axeman: Attack is doubled, armor is halved. Linebreaker: Counters 1.3x vs. Infantry Units.</Tooltip>
+    <VisibleClasses datatype="tokens">Axe</VisibleClasses>
+    <Icon>units/rome_champion_infantry.png</Icon>
+    </Identity>
+  <VisualActor>
+    <Actor>units/samnites/infantry_axeman_c.xml</Actor>
+  </VisualActor>
+</Entity>

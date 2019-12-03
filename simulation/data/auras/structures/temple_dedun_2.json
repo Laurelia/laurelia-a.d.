@@ -1,0 +1,8 @@
+{
+	"type": "global",
+  "affects": ["Market"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/coin", "add": 1 }
+	],
+  "stackable": true
+}

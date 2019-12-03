@@ -1,0 +1,15 @@
+{
+	"genericName": "Trading Hubs",
+	"supersedes": "trickle_coin_market_02",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "coin": 400},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Nation Phase.",
+	"icon": "coins.png",
+	"researchTime": 40,
+	"tooltip": "Markets and Market Vendors +25% Coin generation rate.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "multiply": 1.25}
+	],
+	"affects": ["Market Vendor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

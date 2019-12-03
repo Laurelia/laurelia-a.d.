@@ -1,0 +1,13 @@
+{
+	"genericName": "Funerary Cult",
+	"description": "Units garrisoned in pyramids are slowly healed.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0, "coin": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "pharoah_mask.png",
+	"researchTime": 40,
+	"tooltip": "Pyramids will slowly heal garrisoned units.",
+	"modifications": [{"value": "GarrisonHolder/BuffHeal", "add": 1}],
+	"affects": ["Pyramid"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,12 @@
+{
+	"type": "global",
+  "affects": ["Citizen"],
+	"modifications": [
+	  {"value": "Builer/Rate", "multiply": 1.05 },
+	  {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.05}
+	],
+	"auraName": "Cult of Dedun",
+	"auraDescription": "Citizens +5% gather rate and markets generate +1 coin for every temple of Dedun standing.",
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png",
+  "stackable": true
+}

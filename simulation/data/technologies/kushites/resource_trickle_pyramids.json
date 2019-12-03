@@ -1,0 +1,14 @@
+{
+	"genericName": "Grave Goods",
+	"cost": {"food": 0, "wood": 0, "stone": 200, "coin": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "amphorae.png",
+	"researchTime": 40,
+	"tooltip": "Pyramids will slowly generate coin.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "add": 1}
+	],
+	"affects": ["Pyramid"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

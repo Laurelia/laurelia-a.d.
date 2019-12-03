@@ -1,0 +1,14 @@
+{
+	"genericName": "Metalworking",
+	"cost": {"food": 0, "metal": 250, "stone": 0, "coin": 250},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "metalworker.png",
+	"researchTime": 40,
+	"tooltip": "Blacksmiths passively generate metal.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/metal", "add": 1}
+	],
+	"affects": ["Blacksmith"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

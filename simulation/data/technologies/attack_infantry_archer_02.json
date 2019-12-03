@@ -4,6 +4,7 @@
 	"cost": {"food": 200, "wood": 350, "stone": 0, "metal": 0, "coin": 0},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
+	"supersedes": "attack_infantry_archer_01",
 	"icon": "archery_tradition.png",
 	"researchTime": 60,
 	"tooltip": "Archers +20% range, +20% pierce attack, and +25% accuracy.",

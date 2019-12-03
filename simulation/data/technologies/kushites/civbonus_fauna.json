@@ -1,7 +1,7 @@
 {
 	"genericName": "Nubian Cattlemen",
 	"autoResearch": false,
-	"description": "At the time when Napata was capital one of the main ecomic activities of the kushites was raising livestock. The Kushites raised goats, cattle, horses, and donkeys (used to transport products).",
+	"description": "At the time when Napata was capital of the Kingdom of Kush, one of the main ecomic activities of the kushites was raising livestock. The Kushites raised goats, cattle, horses, and donkeys (used to transport products).",
 	"requirements": { "all": [{ "civ": "kush" }] },
 	"tooltip": "-20% train time for domestic animals.",
 	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.80}],

@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.05}
+	],
+	"auraName": "Amesemi's Protection",
+	"auraDescription": "All Units +5% health for every shrine or temple to Amesemi.",
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
+	"stackable": true
+}

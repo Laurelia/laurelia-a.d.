@@ -1,0 +1,14 @@
+{
+	"genericName": "Barbed Arrows",
+	"cost": {"food": 200, "wood": 250, "stone": 0, "metal": 100, "coin": 0},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Nation Phase.",
+	"supersedes": "attack_infantry_archer_02",
+	"icon": "archery_tradition.png",
+	"researchTime": 60,
+	"tooltip": "Archers +25% pierce attack.",
+	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.2}
+	],
+	"affects": ["Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

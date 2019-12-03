@@ -8,7 +8,7 @@
 				  { "value": "Attack/Ranged/Pierce", "multiply": 1.05 },
 				  { "value": "Attack/Ranged/Hack", "multiply": 1.05 },
 				  { "value": "Attack/Ranged/Crush", "multiply": 1.05 }],
-	"auraName": "Cult of Apedemak",
+	"auraName": "Menhit's Wrath",
 	"auraDescription": "+5% attack for soldiers.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 

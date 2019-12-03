@@ -16,7 +16,7 @@
 	"requirements": { "entity": { "class": "City", "number": 4 } },
 	"requirementsTooltip": "Requires 4 new city phase structures.",
 	"researchTime": 80,
-	"tooltip": "Advance to the Kingdom Phase, which unlocks powerful technologies and abilities. Territory radius for Civic Centers increased by a final +25%.",
+	"tooltip": "Advance to the Republic Phase, which unlocks powerful technologies and abilities. Territory radius for Civic Centers increased by a final +25%.",
 	"modifications": [
 		{"value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivCentre"},
 		{"value": "Vision/Range", "multiply": 1.25, "affects": "CivCentre"}

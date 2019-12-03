@@ -1,0 +1,12 @@
+{
+	"genericName": "Nubian Cattlemen",
+  "cost": { "food": 500, "wood": 0, "stone": 0, "metal": 0, "coin": 250 },
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "oxen.png",
+	"researchTime": 40,
+	"tooltip": "Faster batch training speed for the Corral.",
+	"modifications": [{ "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }],
+	"affects": ["Corral"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

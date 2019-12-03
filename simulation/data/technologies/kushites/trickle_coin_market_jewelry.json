@@ -1,0 +1,15 @@
+{
+	"genericName": "Jewelry Making",
+	"supersedes": "trickle_coin_market",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "coin": 200},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "coins.png",
+	"researchTime": 40,
+	"tooltip": "Markets and Market Vendors +50% Coin generation rate.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "multiply": 1.5}
+	],
+	"affects": ["Market Vendor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

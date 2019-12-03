@@ -10,7 +10,7 @@
 				  { "value": "Attack/Ranged/Hack", "multiply": 1.05 },
 				  { "value": "Attack/Ranged/Crush", "multiply": 1.05 }],
 	"auraName": "Cult of Apedemak",
-	"auraDescription": "+5% attack for soldiers.",
+	"auraDescription": "+5% attack for soldiers for every temple of Apedemak standing.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
   "stackable": true
 }

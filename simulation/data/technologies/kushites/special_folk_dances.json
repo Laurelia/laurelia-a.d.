@@ -1,0 +1,16 @@
+{
+	"genericName": "Nubian Folk Dances",
+	"cost": {"food": 100, "wood": 100},
+	"requirements": { "tech": "phase_village" },
+	"requirementsTooltip": "Unlocked in the Village Phase.",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "Nubian infantry units +10% health and speed.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
+		{"value": "UnitMotion/Run/Speed", "multiply": 1.1}
+	],
+	"affects": ["Nubian Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

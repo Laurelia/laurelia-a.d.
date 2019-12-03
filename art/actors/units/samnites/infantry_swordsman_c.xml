@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_swordsman_shield_ready.xml">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/xiphos.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/cart_tarentine.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/heads/samnite_elite.xml"  attachpoint="helmet"/>
+        <prop actor="props/units/capes/hoplite.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Armor-1">
+      <textures>
+        <texture file="skeletal/mace_su1_hypaspist_2.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armor-4">
+      <textures>
+        <texture file="skeletal/mace_hero_craterus.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armor-5">
+      <textures>
+        <texture file="skeletal/mace_hypaspist_1.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armor-6">
+      <textures>
+        <texture file="skeletal/mace_hypaspist_2.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armor-7">
+      <textures>
+        <texture file="skeletal/mace_su1_hypaspist_1.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armor-8">
+      <textures>
+        <texture file="skeletal/hele_xenophon.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Antiochus">
+      <textures>
+        <texture file="skeletal/sele_hero_antiochus.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

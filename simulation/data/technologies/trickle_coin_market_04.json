@@ -1,0 +1,15 @@
+{
+	"genericName": "Luxury Goods",
+	"supersedes": "trickle_coin_market_03",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "coin": 750},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in the Empire Phase.",
+	"icon": "coins.png",
+	"researchTime": 40,
+	"tooltip": "Markets and Market Vendors +25% Coin generation rate.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "multiply": 1.25}
+	],
+	"affects": ["Market Vendor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

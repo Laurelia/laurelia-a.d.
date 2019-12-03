@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Organic"],
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.95}
+	],
+	"auraName": "Cult of Sabomakal",
+	"auraDescription": "Organic units -5% training time for every temple of Sabomakal standing.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png",
+  "stackable": true
+}	

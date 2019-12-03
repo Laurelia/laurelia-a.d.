@@ -1,0 +1,12 @@
+{
+	"genericName": "Elephant Trade",
+	"supersedes": "kushites/trickle_coin_market_jewelry",
+	"cost": {"food": 400, "metal": 100, "stone": 0, "coin": 500},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "breeding_herd.png",
+	"researchTime": 40,
+	"tooltip": "Markets and Market Vendors +2 Coin Generation for every domestic elephant you own.",
+	"affects": ["Market Vendor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

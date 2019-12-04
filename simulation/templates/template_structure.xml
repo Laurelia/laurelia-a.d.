@@ -21,10 +21,10 @@
             <Classes>Organic</Classes>
             <Multiplier>0</Multiplier>
           </BonusOrganicRanged>
-          <BonusShipRanged>
-            <Classes>Ship</Classes>
+          <BonusMechanicalRanged>
+            <Classes>Mechanical</Classes>
             <Multiplier>0</Multiplier>
-          </BonusShipRanged>
+          </BonusMechanicalRanged>
           <BonusInfantryRanged>
             <Classes>Infantry</Classes>
             <Multiplier>0</Multiplier>
@@ -100,7 +100,7 @@
   </Health>
   <Identity>
     <GenericName>Structure</GenericName>
-    <Classes datatype="tokens">Structure ConquestCritical</Classes>
+    <Classes datatype="tokens">Structure ConquestCritical Bow</Classes>
     <Undeletable>false</Undeletable>
   </Identity>
   <Loot>

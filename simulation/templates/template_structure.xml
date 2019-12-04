@@ -10,6 +10,48 @@
       <Crush>1</Crush>
     </Foundation>
   </Armour>
+  <Attack>
+    <Ranged>
+      <Bonuses>
+          <BonusStructureRanged>
+            <Classes>Structure</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusStructureRanged>
+          <BonusOrganicRanged>
+            <Classes>Organic</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusOrganicRanged>
+          <BonusShipRanged>
+            <Classes>Ship</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusShipRanged>
+          <BonusInfantryRanged>
+            <Classes>Infantry</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusInfantryRanged>
+          <BonusChampionRanged>
+            <Classes>Champion</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusChampionRanged>
+          <BonusSupportRanged>
+            <Classes>Support</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusSupportRanged>
+	  <BonusHeroRanged>
+            <Classes>Hero</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusHeroRanged>
+          <BonusElephantRanged>
+            <Classes>Elephant</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusElephantRanged>
+          <BonusHealerRanged>
+            <Classes>Healer</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusHealerRanged>
+      </Bonuses>
+    </Ranged>
+  </Attack>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>

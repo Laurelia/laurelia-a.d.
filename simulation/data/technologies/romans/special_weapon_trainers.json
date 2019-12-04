@@ -1,0 +1,22 @@
+{
+	"genericName": "Weapon Instructors",
+	"specificName": {
+		"rome": "Hastiliarii"
+	},
+	"description": "Hire professional weapon instructors to train your troops.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300, "coin": 300},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Republic Phase.",
+	"icon": "sword.png",
+	"researchTime": 50,
+	"tooltip": "Legionnaries +10% attack.",
+	"modifications": [
+		{"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "Attack/Ranged/Hack", "multiply": 1.1},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.1}],
+	"affects": ["Legionary"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

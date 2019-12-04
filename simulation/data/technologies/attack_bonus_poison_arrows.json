@@ -1,0 +1,12 @@
+{
+	"genericName": "Poisoned Arrows",
+	"cost": {"food": 300, "wood": 400},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "poison_arrows.png",
+	"researchTime": 60,
+	"tooltip": "Archers and Structures deal +15% damage to Organic Units.",
+	"modifications": [{"value": "Attack/Ranged/Bonuses/BonusOrganicRanged/Multiplier", "multiply": 1.15}],
+	"affects": ["Bow"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

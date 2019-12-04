@@ -1,0 +1,14 @@
+{
+	"genericName": "Flaming Arrows",
+	"description": "Fire was a constant danger in a crowded town or city, even during peace time. In a siege, archers would typically loose flaming arrows over the enemy walls in a bid to set the enemy's buildings on fire.",
+	"cost": {"wood": 600},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "fire_arrows.png",
+	"researchTime": 60,
+	"tooltip": "Archers +2x attack vs buildings, ships, and siege weapons.",
+	"modifications": [{"value": "Attack/Ranged/Bonuses/BonusStructureRanged/Multiplier", "add": 2},
+                    {"value": "Attack/Ranged/Bonuses/BonusMechanicalRanged/Multiplier", "add": 2}],
+	"affects": ["Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

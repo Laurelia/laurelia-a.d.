@@ -33,6 +33,10 @@
             <Classes>Champion</Classes>
             <Multiplier>0</Multiplier>
           <BonusChampionRanged>
+          <BonusShipRanged>
+            <Classes>Ship</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusShipRanged>
           <BonusSupportRanged>
             <Classes>Support</Classes>
             <Multiplier>0</Multiplier>

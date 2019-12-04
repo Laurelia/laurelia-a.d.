@@ -10,27 +10,27 @@
       <Bonuses>
           <BonusStructureMelee>
             <Classes>Structure</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusStructureMelee>
           <BonusInfantryMelee>
             <Classes>Infantry</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusInfantryMelee>
           <BonusSupportMelee>
             <Classes>Support</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           <BonusSupportMelee>
           <BonusChampionMelee>
             <Classes>Champion</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           <BonusChampionMelee>
 	  <BonusHeroMelee>
             <Classes>Hero</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusHeroMelee>
           <BonusHealerMelee>
             <Classes>Healer</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusHealerMelee>
       </Bonuses>
     </Melee>
@@ -38,43 +38,43 @@
       <Bonuses>
           <BonusStructureRanged>
             <Classes>Structure</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusStructureRanged>
           <BonusMechanicalRanged>
             <Classes>Mechanical</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusMechanicalRanged>
           <BonusOrganicRanged>
             <Classes>Organic</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusOrganicRanged>
           <BonusShipRanged>
             <Classes>Ship</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusShipRanged>
           <BonusInfantryRanged>
             <Classes>Infantry</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           <BonusInfantryRanged>
           <BonusChampionRanged>
             <Classes>Champion</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           <BonusChampionRanged>
           <BonusSupportRanged>
             <Classes>Support</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           <BonusSupportRanged>
 	  <BonusHeroRanged>
             <Classes>Hero</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusHeroRanged>
           <BonusElephantRanged>
             <Classes>Elephant</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           <BonusElephantRanged>
           <BonusHealerRanged>
             <Classes>Healer</Classes>
-            <Multiplier>0</Multiplier>
+            <Multiplier>1</Multiplier>
           </BonusHealerRanged>
       </Bonuses>
     </Ranged>

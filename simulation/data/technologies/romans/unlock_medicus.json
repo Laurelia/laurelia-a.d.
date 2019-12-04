@@ -1,0 +1,22 @@
+{
+	"genericName": "Army Medics",
+	"specificName": {
+		"rome": "Medicii"
+	},
+	"cost": {
+		"food": 300,
+		"coin": 500
+	},
+	"requirements": {
+		"all": [{
+			"tech": "phase_nation"
+		}, {
+			"civ": "rome"
+		}]
+	},
+	"requirementsTooltip": "Unlocked in the Nation Phase.",
+	"icon": "hospital.png",
+	"researchTime": 30,
+	"tooltip": "Unlock the Medicus.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

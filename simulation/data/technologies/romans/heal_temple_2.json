@@ -1,0 +1,17 @@
+{
+	"genericName": "Libations",
+	"description": "Units garrisoned in a temple are healed faster.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "coin": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in the Town Phase.",
+	"supersedes": "heal_temple",
+	"replaces": ["heal_temple_2"],
+	"icon": "flood_control.png",
+	"researchTime": 40,
+	"tooltip": "Temples +100% garrisoned healing rate.",
+	"modifications": [
+		{"value": "GarrisonHolder/BuffHeal", "multiply": 2}
+	],
+	"affects": ["Temple"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

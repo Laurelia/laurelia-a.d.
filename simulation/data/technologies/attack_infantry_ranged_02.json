@@ -1,11 +1,17 @@
 {
-	"genericName": "Ranged Infantry Masterclass",
+	"genericName": "Ranged Infantry Skirmishers",
 	"specificName": {
-		"mace": "Átaktoi",
-		"spart": "Átaktoi",
-		"athen": "Átaktoi",
-		"sele": "Átaktoi",
-		"ptol": "Átaktoi"
+		"mace": "Psiloi",
+		"spart": "Psiloi",
+		"athen": "Psiloi",
+		"sele": "Psiloi",
+		"epir": "Psiloi",
+		"theb": "Psiloi",
+		"pont": "Psiloi",
+		"cor": "Psiloi",
+		"syra": "Psiloi",
+		"anti": "Psiloi",
+		"ptol": "Psiloi"
 	},
 	"description": "Training increases damage of ranged infantry units.",
 	"cost": {"food": 500, "wood": 500, "stone": 250, "metal": 250, "coin": 250},

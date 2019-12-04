@@ -1,0 +1,14 @@
+{
+	"genericName": "Iron Swords",
+	"description": "Using iron instead of bronze gave weapons additional power.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_village"},
+	"icon": "sword_cross.png",
+	"researchTime": 40,
+	"tooltip": "All Sword units +10% hack and pierce attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1}],
+	"affects": ["Sword"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

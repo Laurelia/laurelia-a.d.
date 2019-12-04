@@ -14,8 +14,8 @@
   </Heal>
   <Identity>
     <Civ>brit</Civ>
-    <GenericName>Druidic Warrior</GenericName>
-    <SpecificName>Gaeroa Druides</SpecificName>
+    <GenericName>Warrior-Druid</GenericName>
+    <SpecificName>Drwdae</SpecificName>
     <SelectionGroupName>units/brit_champion_infantry_druid</SelectionGroupName>
     <Icon>units/celt_hero_cunobelin.png</Icon>
     <VisibleClasses datatype="tokens">Healer</VisibleClasses>

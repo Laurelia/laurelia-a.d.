@@ -1,0 +1,12 @@
+{
+	"genericName": "Arson",
+	"cost": {"food": 300, "wood": 300},
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in the Town Phase.",
+	"icon": "signal_fires.png",
+	"researchTime": 60,
+	"tooltip": "Melee infantry units deal +50% damage to Structures.",
+	"modifications": [{"value": "Attack/Ranged/Bonuses/BonusStructureMelee/Multiplier", "multiply": 1.5}],
+	"affects": ["Melee Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

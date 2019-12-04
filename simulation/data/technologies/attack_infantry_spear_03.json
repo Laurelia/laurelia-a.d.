@@ -1,0 +1,28 @@
+{
+	"genericName": "Iron Butt-Spikes",
+	"specificName": {
+		"mace": "Sauroter",
+		"spart": "Sauroter",
+		"athen": "Sauroter",
+		"sele": "Sauroter",
+		"epir": "Sauroter",
+		"theb": "Sauroter",
+		"pont": "Sauroter",
+		"cor": "Sauroter",
+		"syra": "Sauroter",
+		"anti": "Sauroter",
+		"ptol": "Sauroter"
+	},
+	"description": "Adding an iron spike to the end of a spear can increase it's effectiveness.",
+	"cost": {"food": 750, "wood": 750, "stone": 0, "metal": 500, "coin": 500},
+	"supersedes": "attack_infantry_spear_02",
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Nation Phase.",
+	"icon": "spear.png",
+	"researchTime": 40,
+	"tooltip": "+10% spear infantry attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1}],
+	"affects": ["Infantry Spear"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,18 @@
+{
+	"genericName": "Gladiatorial Games",
+	"specificName": {
+		"rome": "Ludi Meridiani"
+	},
+	"description": "Organize gladiatorial games for your subjects.",
+	"cost": {"coin": 500},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Empire Phase.",
+	"icon": "pankration.png",
+	"researchTime": 60,
+	"tooltip": "More cultural happiness means capturable units and buildings +50% capture points.",
+	"modifications": [
+		{"value": "Capturable/CapturePoints", "multiply": 1.5}
+	],
+	"affects": ["Civic Structure", "Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

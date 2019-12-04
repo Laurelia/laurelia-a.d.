@@ -40,6 +40,10 @@
             <Classes>Structure</Classes>
             <Multiplier>0</Multiplier>
           </BonusStructureRanged>
+          <BonusMechanicalRanged>
+            <Classes>Mechanical</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusMechanicalRanged>
           <BonusOrganicRanged>
             <Classes>Organic</Classes>
             <Multiplier>0</Multiplier>

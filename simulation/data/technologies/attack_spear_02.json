@@ -1,0 +1,15 @@
+{
+	"genericName": "Spear Counter-Weights",
+	"description": "Adding counter-weights to the ends of your soldiers spears can improve their balance and effectiveness.",
+	"cost": {"food": 500, "wood": 500, "stone": 250, "metal": 250, "coin": 250},
+	"supersedes": "attack_spear_01",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "spear.png",
+	"researchTime": 40,
+	"tooltip": "+15% spear infantry attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.15}],
+	"affects": ["Infantry Spear"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

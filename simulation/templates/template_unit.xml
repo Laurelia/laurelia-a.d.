@@ -5,6 +5,76 @@
     <Pierce>1</Pierce>
     <Crush>15</Crush>
   </Armour>
+  <Attack>
+    <Melee>
+      <Bonuses>
+          <BonusStructureMelee>
+            <Classes>Structure</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusStructureMelee>
+          <BonusInfantryMelee>
+            <Classes>Infantry</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusInfantryMelee>
+          <BonusSupportMelee>
+            <Classes>Support</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusSupportMelee>
+          <BonusChampionMelee>
+            <Classes>Champion</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusChampionMelee>
+	  <BonusHeroMelee>
+            <Classes>Hero</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusHeroMelee>
+          <BonusHealerMelee>
+            <Classes>Healer</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusHealerMelee>
+      </Bonuses>
+    </Melee>
+    <Ranged>
+      <Bonuses>
+          <BonusStructureRanged>
+            <Classes>Structure</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusStructureRanged>
+          <BonusOrganicRanged>
+            <Classes>Organic</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusOrganicRanged>
+          <BonusShipRanged>
+            <Classes>Ship</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusShipRanged>
+          <BonusInfantryRanged>
+            <Classes>Infantry</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusInfantryRanged>
+          <BonusChampionRanged>
+            <Classes>Champion</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusChampionRanged>
+          <BonusSupportRanged>
+            <Classes>Support</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusSupportRanged>
+	  <BonusHeroRanged>
+            <Classes>Hero</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusHeroRanged>
+          <BonusElephantRanged>
+            <Classes>Elephant</Classes>
+            <Multiplier>0</Multiplier>
+          <BonusElephantRanged>
+          <BonusHealerRanged>
+            <Classes>Healer</Classes>
+            <Multiplier>0</Multiplier>
+          </BonusHealerRanged>
+      </Bonuses>
+    </Ranged>
+  </Attack>
   <Cost>
     <Population>1</Population>
     <PopulationBonus>0</PopulationBonus>

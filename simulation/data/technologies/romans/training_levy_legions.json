@@ -1,6 +1,6 @@
 {
 	"genericName": "Levy Legionnaires",
-	"description": "Calling up infantry levies in time of war helps bolster the ranks of an emperor's army.",
+	"description": "Calling up infantry levies in time of war helps bolster the ranks of a nation's army.",
 	"cost": {
 		"food": 200
 	},
@@ -8,10 +8,10 @@
 		"all": [{
 			"tech": "phase_town"
 		}, {
-			"civ": "imp"
+			"civ": "rome"
 		}]
 	},
-	"requirementsTooltip": "Unlocked in Town Phase.",
+	"requirementsTooltip": "Unlocked in the Town Phase.",
 	"icon": "clenched_fist.png",
 	"researchTime": 30,
 	"tooltip": "Legionary infantry -10% train time. Unlocks Mobilize Legions.",

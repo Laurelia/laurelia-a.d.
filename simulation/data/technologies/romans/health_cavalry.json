@@ -1,0 +1,16 @@
+{
+	"genericName": "Legion Veterinarians",
+	"specificName": {
+		"rome": "Veterinarii"
+	},
+	"description": "The Veterinarii were roman soldiers tasked with caring for the legion's animals.",
+	"cost": {"food": 200, "wood": 0, "stone":0, "coin": 200},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Republic Phase.",
+	"icon": "horse_trainer.png",
+	"researchTime": 60,
+	"tooltip": "+15% Health for cavalry units.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.15}],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

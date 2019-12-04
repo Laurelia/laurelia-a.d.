@@ -5,6 +5,6 @@
 	"requirements": { "tech": "phase_city" },
 	"icon": "shield_scutum.png",
 	"researchTime": 40,
-	"tooltip": "Unlock the ability to train marian legionaire from fortress.",
+	"tooltip": "Upgrade all of your citizen-soldier units into legionary units.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

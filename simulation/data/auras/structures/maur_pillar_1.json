@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 50,
+	"affects": ["Citizen", "Trader"],
+	"modifications": [
+	  {"value": "Builder/Rate", "multiply": 1.15},
+	  {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15},
+	  {"value": "Health/Max", "multiply": 1.1}
+	],
+	"auraName": "Edicts of Ashoka",
+	"auraDescription": "Nearby citizens +10% gather rate, build rate, and health. Nearby traders +20% movement speed.",
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png"
+}

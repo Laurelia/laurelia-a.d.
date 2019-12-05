@@ -1,0 +1,20 @@
+{
+	"genericName": "Heroic Cycles",
+	"cost": {"food": 500, "wood": 0, "stone": 250, "metal": 0, "coin": 500},
+	"requirements": {"tech": "phase_nation"},
+	"supersedes": "celts/research_speed_bardic_histories",
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "Champion units +15% attack.",
+	"modifications": [
+		{"value": "Attack/Melee/Hack", "multiply": 1.15},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.15},
+		{"value": "Attack/Melee/Crush", "multiply": 1.15},
+		{"value": "Attack/Ranged/Hack", "multiply": 1.15},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.15},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.15}
+	],
+	"affects": ["Champion"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

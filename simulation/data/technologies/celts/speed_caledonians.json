@@ -1,0 +1,16 @@
+{
+	"genericName": "Caledonian Highlanders",
+	"description": "Increases movement rate for your caledonian infantry.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "leather_boots.png",
+	"researchTime": 40,
+	"tooltip": "Caledonian Skirmishers +25% Walk Speed and +10% Run Speed.",
+	"modifications": [
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.25},
+		{"value": "UnitMotion/Run/Speed", "multiply": 1.1}
+	],
+	"affects": ["Caledonian Javelin Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

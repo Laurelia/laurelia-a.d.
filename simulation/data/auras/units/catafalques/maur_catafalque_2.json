@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Organic"],
+	"modifications": [
+		{ "value": "Health/RegenRate", "add": 1 }
+	],
+	"auraName": "Nirvana",
+	"auraDescription": "All Organic units heal +1 HP per second",
+	"overlayIcon": "art/textures/ui/session/auras/heal.png"
+}
+

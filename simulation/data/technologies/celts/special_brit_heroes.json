@@ -1,0 +1,20 @@
+{
+	"genericName": "Brythonic Heroes",
+	"description": "British leaders and their companions were known for their bravery and valor in battle.",
+	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 0, "coin": 1000},
+	"requirements": {"all": [{"tech": "phase_nation"}, {"civ": "brit"}]},
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "Heroes and Champions +20% attack.",
+	"modifications": [
+		{"value": "Attack/Melee/Hack", "multiply": 1.2},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.2},
+		{"value": "Attack/Melee/Crush", "multiply": 1.2},
+		{"value": "Attack/Ranged/Hack", "multiply": 1.2},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.2},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.2}
+	],
+	"affects": ["Hero", "Champion"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

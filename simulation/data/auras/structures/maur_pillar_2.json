@@ -1,0 +1,10 @@
+{
+	"type": "range",
+	"radius": 50,
+	"affects": ["Trader"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.20 },
+				  { "value": "UnitMotion/Run/Speed", "multiply": 1.20 }],
+	"auraName": " ",
+	"auraDescription": " "
+}

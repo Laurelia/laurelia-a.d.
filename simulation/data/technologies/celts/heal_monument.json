@@ -1,0 +1,12 @@
+{
+	"genericName": "Anchestor Worship",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0, "coin": 0},
+	"requirements": { "all": [{ "tech": "phase_village" }, { "any": [{ "civ": "brit" }, { "civ": "gaul" }, { "civ": "iber" }] }] },
+  "requirementsTooltip": "Unlocked in the Village Phase.",
+	"icon": "high_priest.png",
+	"researchTime": 40,
+	"tooltip": "Monuments will slowly heal nearby units.",
+	"modifications": [{"value": "GarrisonHolder/BuffHeal", "add": 1}],
+	"affects": ["Monument"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

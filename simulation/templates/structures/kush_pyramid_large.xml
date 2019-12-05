@@ -23,10 +23,6 @@
     <Square width="22.0" depth="26.0"/>
     <Height>20.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
-  </GarrisonHolder>
   <Health>
     <Max>3000</Max>
   </Health>

@@ -7,7 +7,7 @@
 	"supersedes": "kushites/heal_pyramids_2",
 	"icon": "pharoah_mask.png",
 	"researchTime": 40,
-	"tooltip": "Pyramids +25% garrisoned healing rate, .",
+	"tooltip": "Pyramids heal units +25% faster, and heal nearby units as well.",
 	"modifications": [
 		{"value": "GarrisonHolder/BuffHeal", "multiply": 1.25}
 	],

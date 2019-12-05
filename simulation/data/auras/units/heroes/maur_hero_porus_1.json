@@ -1,0 +1,16 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Soldier"],
+	"modifications": [
+		{"value": "Attack/Melee/Hack", "multiply": 1.15},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.15},
+		{"value": "Attack/Melee/Crush", "multiply": 1.15},
+		{"value": "Attack/Ranged/Hack", "multiply": 1.15},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.15},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.15},
+	     		  	  { "value": "Attack/Capture/Value", "add": 1 }],
+	"auraName": "Warrior King",
+	"auraDescription": "+15% attack and +1 capture attack for nearby soldiers.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

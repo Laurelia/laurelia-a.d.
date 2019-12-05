@@ -1,0 +1,13 @@
+{
+	"genericName": "Votive Offerings",
+	"cost": {"metal": 500, "coin": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "armor_corinthian.png",
+	"researchTime": 50,
+	"tooltip": "All soldiers +1 capture attack.",
+	"modifications": [
+		{"value": "Attack/Capture/Capture", "add": 1, "affects":"Soldier"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -23,6 +23,10 @@
     <Square width="22.0" depth="26.0"/>
     <Height>20.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
   <Health>
     <Max>3000</Max>
   </Health>
@@ -30,9 +34,9 @@
     <Civ>kush</Civ>
     <GenericName>Large Pyramid</GenericName>
     <SpecificName>mr ‘3</SpecificName>
-    <VisibleClasses datatype="tokens">Pyramid</VisibleClasses>
-    <Classes datatype="tokens">Pyramid -ConquestCritical PyramidLarge</Classes>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">-City Kingdom Pyramid Tomb</VisibleClasses>
+    <Classes datatype="tokens">Nation Pyramid -ConquestCritical PyramidLarge</Classes>
+    <RequiredTechnology>phase_nation</RequiredTechnology>
     <Icon>structures/kush_pyramid_big.png</Icon>
   </Identity>
   <Loot>
@@ -47,6 +51,8 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
       kushites/monumental_architecture
+      kushites/heal_pyramids
+      kushites/heal_pyramids_2
     </Technologies>
   </ProductionQueue>
   <Sound>

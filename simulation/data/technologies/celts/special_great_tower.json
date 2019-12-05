@@ -1,0 +1,24 @@
+{
+	"genericName": "Great Tower",
+	"specificName": {
+		"brit": "Turos Muros",
+		"belg": "Turos Muros",
+		"gaul": "Turos Muros",
+		"celt": "Turos Muros"
+	},
+	"description": "The great towers of Celtic legend may have had a basis in fact.",
+	"cost": {"food": 0, "metal": 0, "stone": 500, "wood": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"requirements":  { "any": [{ "civ": "belg" }, { "civ": "brit" }, { "civ": "gaul" }] }] },
+	"icon": "celtic_tower.png",
+	"researchTime": 40,
+	"tooltip": "Fortress +10 range, +10 vision, +2 default arrows.",
+	"modifications": [
+		{"value": "BuildingAI/DefaultArrowCount", "add": 2.0},
+		{"value": "Attack/Ranged/MaxRange", "add": 10.0},
+		{"value": "Vision/Range", "add": 10.0}
+	],
+	"affects": ["Fortress"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

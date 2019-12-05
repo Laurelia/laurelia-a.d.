@@ -5,7 +5,7 @@
 	"requirements": {"tech": "phase_nation"},
 	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
 	"supersedes": "kushites/heal_pyramids_2",
-	"icon": "enlightenment.png",
+	"icon": "pharoah_mask.png",
 	"researchTime": 40,
 	"tooltip": "Pyramids +25% garrisoned healing rate, .",
 	"modifications": [

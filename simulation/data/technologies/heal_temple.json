@@ -1,5 +1,5 @@
 {
-	"genericName": "Votive Offerings",
+	"genericName": "Divine Offerings",
 	"description": "Units garrisoned in a temple are healed faster.",
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0, "coin": 250},
 	"requirements": {"tech": "phase_city"},

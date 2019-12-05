@@ -1,0 +1,16 @@
+{
+	"genericName": "Mortuary Temples",
+	"description": "Units garrisoned in a pyramid are healed faster.",
+	"cost": {"food": 0, "wood": 250, "stone": 500, "metal": 0, "coin": 750},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in the Empire Phase.",
+	"supersedes": "kushites/heal_pyramids_3",
+	"icon": "architecture.png",
+	"researchTime": 40,
+	"tooltip": "Pyramids heal garrisoned units +50% faster, and unlock the ability to train healers.",
+	"modifications": [
+		{"value": "GarrisonHolder/BuffHeal", "multiply": 1.5}
+	],
+	"affects": ["Pyramid"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

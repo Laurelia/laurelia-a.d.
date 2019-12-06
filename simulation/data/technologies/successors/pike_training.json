@@ -1,8 +1,16 @@
 {
-	"genericName": "Macedonian Pike Drills",
-	"specificName": "Sarissatismos",
+	"genericName": "Pike Training",
+	"specificName": {
+		"mace": "Sarissatismós",
+		"sele": "Sarissatismós",
+		"ptol": "Sarissatismós",
+		"pont": "Sarissatismós",
+		"bact": "Sarissatismós",
+		"ital": "Sarissatismós",
+		"epir": "Sarissatismós"
+	},
 	"description": "Pike training decreases the experience required for the promotion of pike-wielding infantry units.",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300, "coin": 0},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "coin": 300, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "armor_plates_spear.png",

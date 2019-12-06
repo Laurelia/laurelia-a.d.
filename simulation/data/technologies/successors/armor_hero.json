@@ -1,0 +1,14 @@
+{
+	"genericName": "Somataphylakes",
+	"cost": {"food": 800, "wood": 0, "stone": 0, "coin": 800},
+	"requirements": { "all": [{ "tech": "phase_nation" }, { "civ": "mace" }]  },
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "shields_generic_silver.png",
+	"researchTime": 60,
+	"tooltip": "All heroes +2 hack armor and +2 pierce armor.",
+	"modifications": [
+	{"value": "Armour/Hack", "add": 2.0},
+	{"value": "Armour/Pierce", "add": 2.0}],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

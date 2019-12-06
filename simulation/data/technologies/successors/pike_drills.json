@@ -1,0 +1,24 @@
+{
+	"genericName": "Macedonian Pike Drills",
+	"specificName": {
+		"mace": "Sarissatismós",
+		"sele": "Sarissatismós",
+		"ptol": "Sarissatismós",
+		"pont": "Sarissatismós",
+		"bact": "Sarissatismós",
+		"ital": "Sarissatismós",
+		"epir": "Sarissatismós"
+	},
+	"description": "Pike drills increase the damage dealt by pike-wielding infantry units.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "coin": 300, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "mace"},{"civ": "sele"},{"civ": "ptol"},{"civ": "pont"},{"civ": "epir"},{"civ": "bact"},{"civ": "ital"}]}]},
+	
+	"icon": "spear.png",
+	"researchTime": 50,
+	"tooltip": "Pikemen deal +2 hack damage.",
+	"modifications": [{"value": "Attack/Melee/Hack", "add": 2.0}],
+	"affects": ["Infantry Pike"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

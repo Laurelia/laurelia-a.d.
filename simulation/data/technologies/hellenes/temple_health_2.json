@@ -4,6 +4,7 @@
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "masonry_marble.png",
+	"supersedes": "health_temple",
 	"researchTime": 60,
 	"tooltip": "Temples +75% health, but cost +25% stone.",
 	"modifications": [

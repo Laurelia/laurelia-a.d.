@@ -1,12 +1,12 @@
 {
 	"genericName": "Temple Precincts",
 	"description": ".",
-	"cost": {"stone": 1000, "coin": 500},
+	"cost": {"stone": 500, "coin": 250},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "monumental_architecture.png",
 	"researchTime": 40,
-	"tooltip": "Temples +10% health, and +5 capacity but +10% build time.",
+	"tooltip": "Temples +10% health and +5 capacity but +10% build time.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1},
     {"value": "GarrisonHolder/Max", "add": 5},

@@ -1,0 +1,15 @@
+{
+	"genericName": "Temenos Walls",
+	"cost": {"stone": 1000, "coin": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "masonry_marble.png",
+	"researchTime": 60,
+	"tooltip": "Temples +75% health, but cost +25% stone.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.75},
+		{"value": "Cost/Resources/stone", "multiply": 1.25}
+	],
+	"affects": ["Temple"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

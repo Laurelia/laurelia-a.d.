@@ -2,7 +2,7 @@
 <Entity parent="template_structure_civic_hellenic_royal_stoa">
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Stoá</SpecificName>
+    <SpecificName>Stoá Poikile</SpecificName>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

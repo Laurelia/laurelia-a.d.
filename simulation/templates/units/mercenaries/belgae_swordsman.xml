@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_mercenary_swordsman">
+  <Identity>
+    <SelectionGroupName>units/mercenaries/belgae_swordsman</SelectionGroupName>
+    <GenericName>Belgae Mercenary Swordsman</GenericName>
+    <SpecificName>Bolgoi Curoas</SpecificName>
+    <Classes datatype="tokens">Belgae</Classes>
+    <Icon>units/cart_infantry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/mercenaries/belgae_swordsman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_swordsman_a.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_mercenary_javelinist">
+  <Identity>
+    <SelectionGroupName>units/mercenaries/lusitanian_skirmisher</SelectionGroupName>
+    <GenericName>Lusitanian Skirmisher</GenericName>
+    <SpecificName>Iabarannta</SpecificName>
+    <Icon>units/cart_infantry_javelinist.png</Icon>
+    <VisibleClasses datatype="tokens">Iberian</VisibleClasses>
+  </Identity>
+  <Promotion>
+    <Entity>units/mercenaries/lusitanian_skirmisher_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/iberians/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

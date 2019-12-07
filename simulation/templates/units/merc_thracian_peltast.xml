@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_mercenary_javelinist">
+  <Identity>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/merc_thracian_peltast</SelectionGroupName>
+    <GenericName>Thracian Peltast</GenericName>
+    <SpecificName>Peltastḗs Thrâx</SpecificName>
+    <Icon>units/hele_infantry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/merc_thracian_peltast_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

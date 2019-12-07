@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_mercenary_swordsman">
+
+  <Identity>
+    <Classes datatype="tokens">Aquitanian</Classes>
+    <GenericName>Aquitanian Mercenary Cavalry</GenericName>
+    <Icon>units/cart_cavalry_swordsman.png</Icon>
+    <SelectionGroupName>units/mercenaries/aquitanian_cavalry</SelectionGroupName>
+  </Identity>
+  <Promotion>
+    <Entity>units/mercenaries/aquitanian_cavalry_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/cavalry_swordsman_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

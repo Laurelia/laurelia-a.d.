@@ -11,18 +11,18 @@
   </Attack>
   <Cost>
       <Resources>
-      <food>50</food>
+      <food>100</food>
       <wood>50</wood>
       <metal>30</metal>
     </Resources>
   </Cost>
   <Identity>
-    <GenericName>Athenian Light Hoplite</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <GenericName>Iphicratid Hoplite</GenericName>
+    <RequiredTechnology>special_iphicratid_reforms</RequiredTechnology>
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_infantry_hoplite_light_b</SelectionGroupName>
-    <SpecificName>Ekdromos Athēnaîos</SpecificName>
+    <SpecificName>Hoplítēs Iphikratēs</SpecificName>
     <Icon>units/hele_infantry_ekdromos.png</Icon>
   </Identity>
   <Promotion>

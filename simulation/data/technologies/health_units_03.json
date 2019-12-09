@@ -1,7 +1,17 @@
 {
 	"genericName": "Sewage System",
 	"specificName": {
-		"rome": "Cloaca Maxima"
+		"rome": "Cloaca Maxima",
+		"athen": "Ochetos Lithinos",
+		"spart": "Ochetos Lithinos",
+		"mace": "Ochetos Lithinos",
+		"sele": "Ochetos Lithinos",
+		"ptol": "Ochetos Lithinos",
+		"pont": "Ochetos Lithinos",
+		"theb": "Ochetos Lithinos",
+		"syra": "Ochetos Lithinos",
+		"ital": "Ochetos Lithinos",
+		"bact": "Ochetos Lithinos"
 	},
 	"description": "Channelling effluence and waste away from a human settlement helps prevent the outbreak and spread of disease.",
 	"cost": {"stone": 300, "metal": 100},

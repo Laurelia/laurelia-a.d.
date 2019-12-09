@@ -18,7 +18,7 @@
   <Identity>
     <Civ>athen</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/athen_infantry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>units/athen_infantry_javelinist_merc_b</SelectionGroupName>
     <GenericName>Thracian Peltast</GenericName>
     <SpecificName>Peltastḗs Thrâx</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
@@ -26,7 +26,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/athen_infantry_javelinist_a</Entity>
+    <Entity>units/mercenaries/thracian_peltast</Entity>
   </Promotion>
   <ResourceTrickle>
 	<Rates>

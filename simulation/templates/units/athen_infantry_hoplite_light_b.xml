@@ -17,12 +17,12 @@
     </Resources>
   </Cost>
   <Identity>
-    <GenericName>Iphicratid Hoplite</GenericName>
+    <GenericName>Athenian Light Hoplite</GenericName>
     <RequiredTechnology>special_iphicratid_reforms</RequiredTechnology>
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_infantry_hoplite_light_b</SelectionGroupName>
-    <SpecificName>Hoplítēs Iphikratēs</SpecificName>
+    <SpecificName>Ekdromos Athēnaîos</SpecificName>
     <Icon>units/hele_infantry_ekdromos.png</Icon>
   </Identity>
   <Promotion>

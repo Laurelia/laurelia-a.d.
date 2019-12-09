@@ -18,7 +18,6 @@
   </Cost>
   <Identity>
     <GenericName>Athenian Light Hoplite</GenericName>
-    <RequiredTechnology>special_iphicratid_reforms</RequiredTechnology>
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_infantry_hoplite_light_b</SelectionGroupName>

@@ -3,13 +3,13 @@
   <Identity>
     <Civ>athen</Civ>
 	<Lang>greek</Lang>
-    <SelectionGroupName>units/athen_infantry_javelinist_light_b</SelectionGroupName>
+    <SelectionGroupName>units/athen_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Hellenic Skirmisher</GenericName>
-    <SpecificName>Akontistḗs</SpecificName>
+    <SpecificName>Psilòs Akontistḗs</SpecificName>
     <Icon>units/theb_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/athen_infantry_javelinist_light_a</Entity>
+    <Entity>units/athen_infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thebans/infantry_javelinist_b.xml</Actor>

@@ -1,0 +1,15 @@
+{
+	"type": "range",
+	"radius": 30,
+	"affects": ["Cretan"],
+	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.10 },
+				  { "value": "Attack/Ranged/Pierce", "multiply": 1.10 },
+	     		  	  { "value": "Attack/Capture/Value", "add": 1 },
+		{"value": "Attack/Melee/Pierce", "multiply": 1.10},
+		{"value": "Attack/Melee/Crush", "multiply": 1.10},
+		{"value": "Attack/Ranged/Hack", "multiply": 1.10},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.10}],
+	"auraName": "Mercenary Captain",
+	"auraDescription": "+10% attack and +1 capture attack for nearby cretan archers.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

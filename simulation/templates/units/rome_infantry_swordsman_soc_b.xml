@@ -28,7 +28,7 @@
     <Icon>units/cart_infantry_swordsman_2.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome_infantry_swordsman_soc_b</SelectionGroupName>
-    <SpecificName>Ensiferius Socius</SpecificName>
+    <SpecificName>Pedites Socius</SpecificName>
     <VisibleClasses datatype="tokens">Socius</VisibleClasses>
   </Identity>
   <Promotion>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_monument">
+  <Auras datatype="tokens">
+    athena_statue
+  </Auras>
+  <Footprint replace="">
+    <Circle radius="5.0"/>
+    <Height>18.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Cult Statue of Athena</GenericName>
+    <SpecificName>Mnimeíon Athena</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="9.0" depth="9.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/athenians/cult_statue.xml</Actor>
+    <FoundationActor>structures/carthaginians/fndn_wooden_tower.xml</FoundationActor>
+  </VisualActor>
+</Entity>
+

@@ -1,0 +1,13 @@
+{
+	"genericName": "Amphorae",
+	"description": "Amphorae were fired clay jars in which perishable goods can be stored for long journeys.",
+	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in the Town Phase.",
+	"icon": "amphore.png",
+	"researchTime": 40,
+	"tooltip": "Merchant Ships +25% trade profit per trip.",
+	"modifications": [{"value": "Trader/GainMultiplier", "multiply": 1.25}],
+	"affects": ["MerchantShip"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

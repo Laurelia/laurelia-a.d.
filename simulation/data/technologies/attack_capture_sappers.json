@@ -1,0 +1,15 @@
+{
+	"genericName": "Sappers",
+	"description": "Sappers are a necessary component of any siege.",
+	"cost": {"food": 500, "coin": 250, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Nation Phase.",
+	"icon": "shovel.png",
+	"researchTime": 40,
+	"tooltip": "Infantry +10% capture attack.",
+	"affects": ["Unit Infantry"],
+	"modifications": [
+		{"value": "Attack/Capture/Value", "multiply": 1.10}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

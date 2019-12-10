@@ -4,7 +4,7 @@
     <Civ>athen</Civ>
 	<Lang>greek</Lang>
     <SelectionGroupName>units/athen_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Greek Skirmisher</GenericName>
+    <GenericName>Greek Javelinman</GenericName>
     <SpecificName>Psilòs Akontistḗs</SpecificName>
     <Icon>units/theb_infantry_javelinist.png</Icon>
   </Identity>

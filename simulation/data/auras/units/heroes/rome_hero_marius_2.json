@@ -1,0 +1,17 @@
+{
+	"type": "global",
+	"affects": ["Citizen-Soldier"],
+	"modifications": [
+		{ "value": "ResourceGatherer/Capacities/wood", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/food", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/coin", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/stone", "add": 5 },
+		{ "value": "ResourceGatherer/Capacities/metal", "add": 5 },
+    { "value": "Builder/Rate", "multiply": 1.15 },
+		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.15 }
+	
+	],
+	"auraName": "Marius's Mules",
+	"auraDescription": "Legionaries +15% gather and build rate, +5 Shuttling Capacity",
+	"overlayIcon": "art/textures/ui/session/auras/resource_bonus.png",
+}

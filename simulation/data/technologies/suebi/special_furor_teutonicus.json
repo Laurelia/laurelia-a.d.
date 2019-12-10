@@ -1,0 +1,16 @@
+{
+	"genericName": "Furor Teutonicus",
+	"description": "The Suebi, like other germanic peoples, were known for their bravery, ferocity, and brutality on the battlefield.",
+      "requirements": {"all": [{"tech": "phase_village"},{"any": [{"civ": "sueb"}]}]},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+     "icon": "fist_spear.png",
+	"researchTime": 40,
+	"tooltip": "+10% attack and movement speed for melee infantry.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
+	"modifications": [
+		{ "value": "Attack/Melee/RepeatTime", "multiply": 0.9 },
+				  { "value": "UnitMotion/WalkSpeed", "multiply": 1.10 },
+				  { "value": "UnitMotion/Run/Speed", "multiply": 1.10 }],
+	"affects": ["Melee Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+	}

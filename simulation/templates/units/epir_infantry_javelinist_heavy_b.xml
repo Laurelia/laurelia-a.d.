@@ -3,13 +3,13 @@
   <Identity>
     <Civ>epir</Civ>
 	<Lang>greek</Lang>
-	<SelectionGroupName>units/epir_infantry_javelinist_b</SelectionGroupName>
+	<SelectionGroupName>units/epir_infantry_javelinist_heavy_b</SelectionGroupName>
 	<GenericName>Thesprotian Heavy Skirmisher</GenericName>
     <SpecificName>Pheraspides Thesprōtikis</SpecificName>
     <Icon>units/epir_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/epir_infantry_javelinist_a</Entity>
+    <Entity>units/epir_infantry_javelinist_heavy_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/ptolemies/infantry_javelinist_b.xml</Actor>

@@ -1,0 +1,16 @@
+{
+	"genericName": "Tyrant of Syracuse",
+	"specificName":{
+		"syra": "Túrannos"
+	},
+	"description": ".",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0, "coin": 500},
+	"requirements": {"all": [{"tech": "phase_nation"}, {"civ": "syra"}]},
+	"requirementsTooltip": "Unlocked in the Tyranny Phase.",
+	"icon": "political_face.png",
+	"researchTime": 40,
+	"tooltip": "Syracusan heroes +25% health.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.25}],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

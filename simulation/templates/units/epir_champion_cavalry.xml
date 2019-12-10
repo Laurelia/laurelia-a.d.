@@ -9,8 +9,7 @@
     <Civ>epir</Civ>
 	<Lang>greek</Lang>
 	<GenericName>Royal Guard Cavalry</GenericName>
-    <SpecificName>.</SpecificName>
-    <History>.</History>
+    <SpecificName>Molossan Agema Hippeis</SpecificName>
     <Icon>units/epir_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/epir_champion_cavalry</SelectionGroupName>
   </Identity>

@@ -11,7 +11,7 @@
     <Entity>units/merc_cretan_archer_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_archer_b.xml</Actor>
+    <Actor>units/athenians/infantry_archer_a.xml</Actor>
   </VisualActor>
 </Entity>
 

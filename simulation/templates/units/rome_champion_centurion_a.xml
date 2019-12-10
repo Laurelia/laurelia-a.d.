@@ -10,6 +10,7 @@
     <SpecificName>Centurio Legionarius</SpecificName>
     <Icon>units/rome_champion_legion_centurio.png</Icon>
     <Rank>Advanced</Rank>
+    <RequiredTechnology>phase_nation</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/rome/champion_centurion_e</Entity>

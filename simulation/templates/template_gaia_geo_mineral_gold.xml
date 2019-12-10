@@ -13,7 +13,7 @@
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
     <Amount>1000</Amount>
-    <Type>coin.gold</Type>
+    <Type>coin.ore</Type>
 	<MaxGatherers>8</MaxGatherers>
   </ResourceSupply>
   <Sound>

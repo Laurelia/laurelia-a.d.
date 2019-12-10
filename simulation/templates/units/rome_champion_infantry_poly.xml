@@ -10,7 +10,7 @@
     <Civ>rome</Civ>
     <Lang>latin</Lang>
     <GenericName>Italic Heavy Infantry</GenericName>
-    <SpecificName>Extraordinarius</SpecificName>
+    <SpecificName>Pedites Extraordinarius</SpecificName>
     <SelectionGroupName>units/rome_champion_infantry</SelectionGroupName>
     <Icon>units/rome_champion_infantry.png</Icon>
   </Identity>
@@ -22,7 +22,6 @@
     <Extraordinarius>
       <Entity>units/rome_champion_infantry_javelinist</Entity>
       <Tooltip>Upgrade to extraordinarius skirmisher.</Tooltip>
-      <RequiredTechnology>romans/unlock_rome_pilum</RequiredTechnology>
       <Time>8</Time>
     </Extraordinarius>
   </Upgrade>

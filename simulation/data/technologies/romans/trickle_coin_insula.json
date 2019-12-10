@@ -1,0 +1,15 @@
+{
+	"genericName": "Tabernae",
+	"description": ".",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "coin": 200},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Republic Phase.",
+	"icon": "coins.png",
+	"researchTime": 40,
+	"tooltip": "Insulae Generate +1 Coin.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "add": 1}
+	],
+	"affects": ["Insula"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

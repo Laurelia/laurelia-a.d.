@@ -2,7 +2,6 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structures/rome/social_barracks
       structures/rome_army_camp
       structures/rome_wallset_siege
       structures/rome_temple_vesta
@@ -28,7 +27,7 @@
     <Icon>units/samnite_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome_infantry_spearman_soc_b</SelectionGroupName>
-    <SpecificName>Pedites Socius</SpecificName>
+    <SpecificName>Hastatus Socius</SpecificName>
     <VisibleClasses datatype="tokens">Socius</VisibleClasses>
   </Identity>
   <Promotion>

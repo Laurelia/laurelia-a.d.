@@ -21,7 +21,7 @@
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_infantry_hoplite_light_b</SelectionGroupName>
-    <SpecificName>Ekdromos Athēnaîos</SpecificName>
+    <SpecificName>Ékdromos Athēnaîos</SpecificName>
     <Icon>units/hele_infantry_ekdromos.png</Icon>
   </Identity>
   <Promotion>

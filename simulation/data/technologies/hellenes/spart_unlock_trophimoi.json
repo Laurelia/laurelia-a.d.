@@ -1,0 +1,11 @@
+{
+	"genericName": "Trophimoi",
+	"description": "Train the children of your Perioeci subjects in the spartan manner.",
+	"cost": {"food": 0, "wood": 250, "stone": 100, "metal": 500, "coin": 500},
+	"requirements": {"all": [{"tech": "phase_nation"}, {"civ": "spart"}]},
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "helmet_corinthian_crest.png",
+	"researchTime": 40,
+	"tooltip": "Unlock the Trophimoi Hoplite.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

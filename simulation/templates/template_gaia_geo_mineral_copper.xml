@@ -13,7 +13,7 @@
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
     <Amount>1000</Amount>
-    <Type>metal.copper</Type>
+    <Type>metal.ore</Type>
 	<MaxGatherers>12</MaxGatherers>
   </ResourceSupply>
   <Sound>

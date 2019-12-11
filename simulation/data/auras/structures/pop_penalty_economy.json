@@ -5,7 +5,7 @@
 	"modifications": [
 		{ "value": "ProductionQueue/TechCostMultiplier/time", "add": -0.1 }
 	],
-	"auraName": "Raw Resources Supply",
+	"auraName": "Resource Supply",
 	"auraDescription": "Nearby blacksmiths and workshops research +10% faster",
 	"overlayIcon": "art/textures/ui/session/auras/resource_bonus.png",
     "rangeOverlay" : {

@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Trader"],
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.05}
+	],
+	"auraName": "Hospitality",
+	"auraDescription": "All Traders +5% health as long as the Inn stands.",
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png",
+	"stackable": true
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_house">
+<Entity parent="template_structure_economic_warehouse">
   <Footprint>
     <Square width="26.0" depth="26.0"/>
     <Height>12.0</Height>
@@ -10,7 +10,7 @@
   <Identity>
     <Civ>pers</Civ>
     <SpecificName>Warehouse</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

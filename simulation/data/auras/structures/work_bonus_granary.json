@@ -1,0 +1,16 @@
+{
+	"type": "global",
+	"affects": ["Worker"],
+	"modifications": [
+		{ "value": "ResourceGatherer/Capacities/food", "add": 5 }
+	],
+	"auraName": "Grain Stores",
+	"auraDescription": "Workers carry +5 food as long as a Granary is standing",
+	"overlayIcon": "art/textures/ui/session/auras/resource_bonus.png",
+    "rangeOverlay" : {
+        "lineTexture": "overlay/dash.png",
+        "lineTextureMask": "overlay/dash_mask.png",
+        "lineThickness": 0.1
+    },
+	"stackable": "false"
+}

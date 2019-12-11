@@ -4,6 +4,6 @@
 	"affects": ["Worker"],
 	"modifications": [{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25 }],
 	"auraDescription" : "+25% grain gather rate for nearby workers.",
-	"auraName": "Farming",
+	"auraName": "Farmland",
     "overlayIcon": "art/textures/ui/session/auras/heal.png"
 }

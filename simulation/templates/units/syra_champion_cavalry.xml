@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Attack>
+    <Melee>
+      <MaxRange>6.0</MaxRange>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>syra</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Syracusan Guard Cavalry</GenericName>
+    <SpecificName>Hippeús Ágēmata</SpecificName>
+    <Icon>units/epir_champion_cavalry.png</Icon>
+	<SelectionGroupName>units/syra_champion_cavalry</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/champion_cavalry.xml</Actor>
+  </VisualActor>
+</Entity>

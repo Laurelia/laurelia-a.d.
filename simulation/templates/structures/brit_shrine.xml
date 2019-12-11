@@ -27,7 +27,7 @@
     <stone>25</stone>
   </Loot>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="22.0" depth="22.0"/>
     <Height>9.0</Height>
   </Obstruction>
   <Sound>

@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Mercenary"],
+	"modifications": [
+		{ "value": "Cost/Resources/coin", "multiply": 0.85 }
+	],
+	"auraName": "Mercenary Captain",
+	"auraDescription": "Mercenaries cost -15% coin."
+}

@@ -8,7 +8,6 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <SelectionGroupName>units/sele_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Thureos Heavy Skirmisher</GenericName>
     <SpecificName>Thureophóros Akrobolistḗs</SpecificName>

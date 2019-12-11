@@ -1,6 +1,6 @@
 {
-	"genericName": "Dionysus Celebration",
-	"description": "About 550 BC arose the celebrations held above all for the God Dionysus, divinity of feasts, fertility and wine.",
+	"genericName": "Dionysian Festivals",
+	"description": "About 550 BC arose the celebrations of Dionysus, god of feasts, fertility and wine.",
 	"requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "athen"},{"civ": "mace"},{"civ": "spart"}]}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "political_face.png",

@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special_monument">
+<Entity parent="template_structure_civic_shrine">
   <Auras datatype="tokens">
-    structures/celt_monument
+    structures/celt_shrine
   </Auras>
-  <BuildRestrictions>
-    <Category>Monument</Category>
-    <Distance>
-      <FromClass>Monument</FromClass>
-      <MinDistance>150</MinDistance>
-    </Distance>
-  </BuildRestrictions>
-  <Capturable disable=""/>
   <Cost>
     <Population>0</Population>
     <Resources>
@@ -29,7 +21,6 @@
     <GenericName>Druidic Circle</GenericName>
     <SpecificName>Aoiun</SpecificName>
     <Icon>structures/temple.png</Icon>
-    <Tooltip>.</Tooltip>
   </Identity>
   <Loot>
     <wood>0</wood>

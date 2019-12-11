@@ -3,8 +3,8 @@
   <Identity>
     <Civ>athen</Civ>
     <Lang>greek</Lang>
-    <GenericName>Athenian Elite Hoplite</GenericName>
-    <SpecificName>Logades</SpecificName>
+    <GenericName>Chosen Hoplite</GenericName>
+    <SpecificName>Epílektos</SpecificName>
     <Icon>units/athen_champion_infantry.png</Icon>
   </Identity>
   <VisualActor>

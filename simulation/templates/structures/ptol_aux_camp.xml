@@ -28,13 +28,15 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{native}_infantry_javelinist_aux_b
-      units/{native}_infantry_archer_aux_b
-      units/{native}_infantry_spearman_aux_b
-      units/{native}_cavalry_spearman_aux_b
-      units/{native}_cavalry_javelinist_aux_b
-      units/{native}_cavalry_archer_aux_b
-      units/{native}_infantry_slinger_aux_b
+      units/{civ}_infantry_spearman_native_b
+      units/{civ}_infantry_swordsman_native_b
+      units/{civ}_infantry_pikeman_native_b
+      units/{civ}_infantry_javelinist_native_b
+      units/{civ}_infantry_archer_native_b
+      units/{civ}_cavalry_spearman_native_b
+      units/{civ}_cavalry_javelinist_native_b
+      units/{civ}_camel_archer_native_b
+      units/{civ}_cavalry_archer_native_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

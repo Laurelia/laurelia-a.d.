@@ -1,0 +1,7 @@
+{
+	"type": "global",
+	"affects": ["Support Unit"],
+	"modifications": [{ "value": "Health/Max", "multiply": 1.05 }],
+	"auraName": "Democracy",
+	"auraDescription": "All support units +5% health."
+}

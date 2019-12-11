@@ -1,6 +1,6 @@
 {
 	"genericName": "Trophimoi",
-	"description": "Train the children of your Perioeci subjects in the spartan manner.",
+	"description": "Train the children of your Perioeci subjects in spartan way.",
 	"cost": {"food": 0, "wood": 250, "stone": 100, "metal": 500, "coin": 500},
 	"requirements": {"all": [{"tech": "phase_nation"}, {"civ": "spart"}]},
 	"requirementsTooltip": "Unlocked in the Kingdom Phase.",

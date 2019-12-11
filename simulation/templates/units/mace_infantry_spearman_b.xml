@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+  <Identity>
+    <Civ>mace</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/mace_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Thureos Spearman</GenericName>
+    <SpecificName>Thureophóros</SpecificName>
+    <Icon>units/sele_infantry_spearman_2.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/mace_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>
+

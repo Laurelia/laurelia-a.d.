@@ -29,6 +29,8 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_infantry_spearman_native_b
+      units/{civ}_infantry_swordsman_native_b
+      units/{civ}_infantry_pikeman_native_b
       units/{civ}_infantry_javelinist_native_b
       units/{civ}_infantry_archer_native_b
       units/{civ}_cavalry_spearman_native_b

@@ -1,5 +1,5 @@
 {
-	"genericName": "Walls of Syracuse",
+	"genericName": "Circuit Walls",
 	"description": ".",
 	"cost": {"food": 800, "wood": 250, "stone": 250, "coin": 200},
 	"requirements": {"all": [{"tech": "phase_nation"}, {"civ": "syra"}]},

@@ -3,29 +3,22 @@
   <Cost>
     <Resources>
       <food op="add">-25</food>
-      <metal op="add">25</metal>
       <coin op="add">50</coin>
     </Resources>
   </Cost>
   <Identity>
     <Civ>sele</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/sele_cavalry_spearman_merc_b</SelectionGroupName>
-    <GenericName>Companion Cavalry</GenericName>
-    <SpecificName>Hippos Hetairike</SpecificName>
-    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <SelectionGroupName>units/sele_cavalry_spearman_b</SelectionGroupName>
+    <GenericName>Macedonian Settler Cavalry</GenericName>
+    <SpecificName>Hippos Katoikos</SpecificName>
+    <VisibleClasses datatype="tokens">Settler</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>units/mace_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/sele_cavalry_spearman_merc_a</Entity>
+    <Entity>units/sele_cavalry_spearman_a</Entity>
   </Promotion>
-  <ResourceTrickle>
-	<Rates>
-      <coin>-5</coin>
-    </Rates>
-    <Interval>10000</Interval>
-  </ResourceTrickle>
   <VisualActor>
     <Actor>units/macedonians/cavalry_spearman_b_m.xml</Actor>
   </VisualActor>

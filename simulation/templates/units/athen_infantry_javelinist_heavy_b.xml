@@ -6,10 +6,9 @@
     <GenericName>Athenian Peltast</GenericName>
     <SpecificName>Peltastḗs Athēnaîos</SpecificName>
     <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
-    <RequiredTechnology>phase_city/RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/sele_infantry_javelinist_heavy_a</Entity>
+    <Entity>units/athen_infantry_javelinist_heavy_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/seleucids/armored_javelinist_b.xml</Actor>

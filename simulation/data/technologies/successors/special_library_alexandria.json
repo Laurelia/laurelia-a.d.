@@ -1,0 +1,15 @@
+{
+	"genericName": "Library of Alexandria",
+	"description": "The Library of Alexandria was the largest in the world.",
+	"cost": {"coin": 600},
+	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "ptol"}]},
+  "requirementsTooltip": "Unlocked in the Empire Phase.",
+	"icon": "political_face.png",
+	"researchTime": 45,
+	"tooltip": "All Technologies -20% research time.",
+	"modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.8 }
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

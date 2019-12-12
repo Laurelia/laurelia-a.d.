@@ -1,33 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
-
   <Armour>
-
     <Hack op="add">2</Hack>
-
     <Pierce op="add">2</Pierce>
-
   </Armour>
   <Cost>
-
     <Resources>
       <metal op="mul">1.5</metal>
-
     </Resources>
-
   </Cost>
-
   <Identity>
-
     <GenericName>Armored Spearman</GenericName>
-
     <RequiredTechnology>phase_city</RequiredTechnology>
-
+    <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations>
   </Identity>
-
-
   <UnitMotion>
   <WalkSpeed op="mul">0.9</WalkSpeed>
-
   </UnitMotion>
 </Entity>

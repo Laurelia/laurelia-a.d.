@@ -28,7 +28,7 @@
 
     <Civ>ptol</Civ>
 
-	<SelectionGroupName>units/ptol_infantry_javelinist_merc_b</SelectionGroupName>
+	<SelectionGroupName>units/ptol_infantry_javelinist_aux_b</SelectionGroupName>
 
 	<GenericName>Libyan Skirmisher</GenericName>
 
@@ -44,7 +44,7 @@
 
   <Promotion>
 
-    <Entity>units/ptol_infantry_javelinist_merc_a</Entity>
+    <Entity>units/ptol_infantry_javelinist_aux_a</Entity>
 
   </Promotion>
 

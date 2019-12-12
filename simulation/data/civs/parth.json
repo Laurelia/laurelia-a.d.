@@ -20,7 +20,7 @@
 				{
 					"Name": "Philhellenism",
 					"History": ".",
-					"Description": "Greek mercenaries are cheaper."
+					"Description": "Unlock the Parthian Theatron and Partho-Hellenic infantry."
 				},
 				{
 					"Name": "Persian Architecture",
@@ -55,8 +55,18 @@
 	"CivBonuses":
 	[
 			{
-			"Name": "Skilled Archers",
-			"History": "The Parthians were some of the most skilled archers in the world.",
+			"Name": "Parthian Shot",
+			"History": ".",
+			"Description": "Horse archer deal 1.5x damage to spear and pike units."
+			},
+			{
+			"Name": "Cavalry Traditions",
+			"History": ".",
+			"Description": "Mounted units are 10% cheaper and are created 20% faster."
+			},
+			{
+			"Name": "Persian Marksmanship",
+			"History": "The Persians were some of the most skilled archers in the world.",
 			"Description": "+20% accuracy for archers."
 			}
 	

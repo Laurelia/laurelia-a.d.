@@ -3,7 +3,7 @@
   <Identity>
     <SelectionGroupName>units/generic/lonchophoros_b</SelectionGroupName>
     <GenericName>Hellenistic Shield Cavalry</GenericName>
-    <SpecificName>Lonchophorós</SpecificName>
+    <SpecificName>Lonchophóros</SpecificName>
     <Icon>units/ptol_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

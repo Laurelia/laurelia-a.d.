@@ -19,11 +19,11 @@
           <BonusSupportMelee>
             <Classes>Support</Classes>
             <Multiplier>1</Multiplier>
-          <BonusSupportMelee>
+          </BonusSupportMelee>
           <BonusChampionMelee>
             <Classes>Champion</Classes>
             <Multiplier>1</Multiplier>
-          <BonusChampionMelee>
+          </BonusChampionMelee>
 	  <BonusHeroMelee>
             <Classes>Hero</Classes>
             <Multiplier>1</Multiplier>
@@ -55,15 +55,15 @@
           <BonusInfantryRanged>
             <Classes>Infantry</Classes>
             <Multiplier>1</Multiplier>
-          <BonusInfantryRanged>
+          </BonusInfantryRanged>
           <BonusChampionRanged>
             <Classes>Champion</Classes>
             <Multiplier>1</Multiplier>
-          <BonusChampionRanged>
+          </BonusChampionRanged>
           <BonusSupportRanged>
             <Classes>Support</Classes>
             <Multiplier>1</Multiplier>
-          <BonusSupportRanged>
+          </BonusSupportRanged>
 	  <BonusHeroRanged>
             <Classes>Hero</Classes>
             <Multiplier>1</Multiplier>
@@ -71,7 +71,7 @@
           <BonusElephantRanged>
             <Classes>Elephant</Classes>
             <Multiplier>1</Multiplier>
-          <BonusElephantRanged>
+          </BonusElephantRanged>
           <BonusHealerRanged>
             <Classes>Healer</Classes>
             <Multiplier>1</Multiplier>

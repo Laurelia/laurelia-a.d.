@@ -10,7 +10,7 @@
 	"cost": {"food": 0, "metal": 0, "stone": 500, "wood": 500},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in the City Phase.",
-	"requirements":  { "any": [{ "civ": "belg" }, { "civ": "brit" }, { "civ": "gaul" }] }] },
+	"requirements":  { "any": [{ "civ": "belg" }, { "civ": "brit" }, { "civ": "gaul" }] },
 	"icon": "celtic_tower.png",
 	"researchTime": 40,
 	"tooltip": "Fortress +10 range, +10 vision, +2 default arrows.",

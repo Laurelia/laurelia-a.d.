@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "pers_hundred_columns.png",
 	"researchTime": 60,
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
 	"tooltip": "Walls, gates, and wall towers have 2x the health of a standard wall, but also cost +50% as much and take +50% as long to build.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 2.0},

@@ -1,11 +1,11 @@
 {
 	"genericName": "Iphicratean Reforms",
-	"description": "Unlock the Iphicratid Hoplite, which faster and more maneuverable than classical hoplites.",
+	"description": "Unlock the Iphicratean Hoplite, which is faster and more maneuverable than the classical hoplite.",
 	"cost": { "food": 300, "wood": 0, "stone": 0, "metal": 0, "coin": 300 },
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": {"all": [{"tech": "phase_nation"}, {"civ": "athen"}]},
+	"requirementsTooltip": "Unlocked in the Republic Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Unlock Iphicratid Hoplites.",
+	"tooltip": "Unlock the Iphicratean Hoplite and Athenian Peltast.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

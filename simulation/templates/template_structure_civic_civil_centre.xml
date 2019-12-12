@@ -110,6 +110,8 @@
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
+      phase_nation_{civ}
+      phase_imperial_{civ}
       unlock_spies
       spy_counter
     </Technologies>

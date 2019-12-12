@@ -10,15 +10,14 @@
   <Identity>
     <Civ>gaia</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/athen_infantry_marine_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/athen_infantry_merc_archer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <GenericName>Cretan Mercenary Archer</GenericName>
     <SpecificName>Toxótēs Krētikós</SpecificName>
     <Icon>units/hele_infantry_archer.png</Icon>
-    <RequiredTechnology>hellenes/special_iphicratean_reforms</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/athen_infantry_marine_archer_a</Entity>
+    <Entity>units/athen_infantry_merc_archer_a</Entity>
   </Promotion>
   <ResourceTrickle>
 	<Rates>

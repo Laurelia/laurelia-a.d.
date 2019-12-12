@@ -41,7 +41,7 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/death_hoplite.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

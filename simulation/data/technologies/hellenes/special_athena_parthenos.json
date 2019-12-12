@@ -1,0 +1,13 @@
+{
+	"genericName": "Athena Parthenos",
+	"description": "Units garrisoned in the Parthenon are healed faster.",
+	"cost": {"food": 2500, "wood": 250, "stone": 1000, "metal": 500, "coin": 1000},
+  "requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "athen"}]},
+	"requirementsTooltip": "Unlocked in the Empire Phase.",
+	"icon": "enlightenment.png",
+	"researchTime": 40,
+	"tooltip": "Naós Parthenṓn +50% garrisoned healing rate.",
+	"modifications": [{"value": "GarrisonHolder/BuffHeal", "multiply": 1.5}],
+	"affects": ["Wonder"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

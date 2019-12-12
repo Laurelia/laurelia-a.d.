@@ -2,8 +2,8 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <SelectionGroupName>units/generic/lonchophoros_b</SelectionGroupName>
-    <GenericName>Hellenistic Spear Cavalry</GenericName>
-    <SpecificName>Lonkhophorós</SpecificName>
+    <GenericName>Hellenistic Shield Cavalry</GenericName>
+    <SpecificName>Lonchophorós</SpecificName>
     <Icon>units/ptol_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

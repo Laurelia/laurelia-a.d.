@@ -8,16 +8,16 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
-    <SelectionGroupName>units/sele_infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Thureos Heavy Skirmisher</GenericName>
+    <SelectionGroupName>units/sele_infantry_javelinist_heavy_b</SelectionGroupName>
+    <GenericName>Seleucid Heavy Skirmisher</GenericName>
     <SpecificName>Thureophóros Akrobolistḗs</SpecificName>
-    <Icon>units/ptol_infantry_javelinist.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
+    <RequiredTechnology>phase_city/RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/sele_infantry_javelinist_heavy_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_javelinist_b.xml</Actor>
+    <Actor>units/seleucids/armored_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

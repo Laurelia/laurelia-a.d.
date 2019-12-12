@@ -1,0 +1,13 @@
+{
+	"genericName": "Royal Mints",
+	"description": "Coin is gathered/generated faster.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 250, "coin": 500},
+	"requirements": {"tech": "phase_nation"},
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "coinage.png",
+	"researchTime": 40,
+	"tooltip": "Coin is gathered from mines and vineyard 25% faster. Taxes are increased by 15%.",
+	"modifications": [{"value": "ResourceGatherer/Rates/coin.fruit", "multiply": 1.25, "affects": "Worker"},
+			  {"value": "ResourceGatherer/Rates/coin.ore", "multiply": 1.25, "affects": "Worker"},
+			  { "value": "ResourceTrickle/Rates/coin", "multiply": 1.15, "affects": "Taxpayer"}],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

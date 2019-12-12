@@ -1,7 +1,7 @@
 {
 	"Code":"anti",
 	"Culture":"hele",
-	"Name":"Antigonids",
+	"Name":"Antigonid Macedonians",
 	"Emblem":"session/portraits/emblems/emblem_antigonids.png",
 	"History":"The rulers of macedon after alexander.",
 	"Music":[
@@ -21,7 +21,12 @@
 					"Name":"Hellenistic Metropolises",
 					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
 					"Description":"Civic Centers have double Health and double default arrows."
-				}
+				},
+			{
+			"Name": "Mercenary Garrisons",
+			"History": ".",
+			"Description": "Fortresses are 25% cheaper."
+			}
 			],
 			"Heroes":
 			[

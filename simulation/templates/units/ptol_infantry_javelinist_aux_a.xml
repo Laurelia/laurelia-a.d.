@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/ptol_infantry_javelinist_b">
+<Entity parent="units/ptol_infantry_javelinist_aux_b">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/ptol_infantry_javelinist_e</Entity>
+    <Entity>units/ptol_infantry_javelinist_aux_e</Entity>
   </Promotion>
 </Entity>

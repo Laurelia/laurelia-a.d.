@@ -5,7 +5,7 @@
 	},
 	"description": "Body armor fashioned from overlapping iron or bronze scales with ridges on them. This was a very impressive and expensive set of armor",
 	"cost": {"metal": 1000},
-	"requirements": { "all": [{ "tech": "phase_nation" }],
+	"requirements": { "all": [{ "tech": "phase_nation" }]},
 	"requirementsTooltip": "Unlocked in the Republic Phase.",
 	"icon": "armor_scale.png",
 	"researchTime": 60,

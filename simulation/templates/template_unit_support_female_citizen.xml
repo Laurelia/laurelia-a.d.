@@ -27,16 +27,17 @@
       structures/{civ}_house
       structures/{civ}_longhouse
       structures/{civ}_apartment
+      structures/{civ}_tenement
       structures/{civ}_storehouse
       structures/{civ}_granary
       structures/{civ}_farmstead
       structures/{civ}_field
+      structures/{civ}_orchard
+      structures/{civ}_vineyard
       structures/{civ}_corral
       structures/{civ}_dock
       structures/{civ}_temple
       structures/{civ}_market
-      structures/{civ}_wonder
-      structures/{civ}_vineyard
       structures/{civ}_tacara
       structures/{civ}_ice_house
       structures/{civ}_warehouse
@@ -46,9 +47,8 @@
       structures/{civ}_mausoleum
       structures/{civ}_palace
       structures/{civ}_propylaea
-      structures/{civ}_orchard
       structures/{civ}_shrine
-      structures/{civ}_tenement
+      structures/{civ}_wonder
       structures/{civ}_colosseum
       structures/{civ}/mace_house
       structures/{civ}/mace_storehouse

@@ -19,6 +19,7 @@
     <Tooltip>Harvest fruit for food.</Tooltip>
     <VisibleClasses datatype="tokens">Town Orchard</VisibleClasses>
     <Icon>gaia/flora_tree_apple.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <food>25</food>

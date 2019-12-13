@@ -13,5 +13,5 @@
 	],
 	"auraName": "Marius's Mules",
 	"auraDescription": "Legionaries +15% gather and build rate, +5 Shuttling Capacity",
-	"overlayIcon": "art/textures/ui/session/auras/resource_bonus.png",
+	"overlayIcon": "art/textures/ui/session/auras/resource_bonus.png"
 }

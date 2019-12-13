@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_temple">
+<Entity parent="template_structure_civic_temple_divination">
   <Footprint>
     <Square width="22.0" depth="32.0"/>
   </Footprint>
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Temple of Apollo</GenericName>
-    <SpecificName>Naos Apollones</SpecificName>
+    <SpecificName>Naṓs Apollones</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="21.0" depth="29.0"/>

@@ -44,6 +44,7 @@
     <Entities datatype="tokens">
 	    gaia/fauna_pig
 	    gaia/fauna_chicken
+	    gaia/fauna_sheep_trainable
     </Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding

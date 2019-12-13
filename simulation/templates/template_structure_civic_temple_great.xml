@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Auras datatype="tokens">
+    -structures/temple_heal
+    structures/epic_temple_heal
+  </Auras>
+  <BuildRestrictions>
+    <Category>TempleOfAmun</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <stone>500</stone>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <Max>30</Max>
+    <BuffHeal>5</BuffHeal>
+  </GarrisonHolder>
+  <Health>
+    <Max>3000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Great Temple</GenericName>
+    <Tooltip>Train Elite Healers. Garrison units to heal them at a quicker rate (5 HP per second). Research healing and religious improvements.</Tooltip>
+    <VisibleClasses datatype="tokens">City -Town</VisibleClasses>
+    <Classes datatype="tokens">TempleOfAmun</Classes>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>structures/temple_epic.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>200</stone>
+    <coin>500</coin>
+  </Loot>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_support_healer_b
+      units/{civ}_support_healer_e
+    </Entities>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Radius>60</Radius>
+    <Weight>65535</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+    <Actor>structures/hellenes/temple_epic.xml</Actor>
+  </VisualActor>
+</Entity>

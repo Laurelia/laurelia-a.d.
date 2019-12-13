@@ -32,6 +32,12 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       successors/special_hellenistic_metropolis
+      attack_accuracy_ballistics
+      buildtime_structures_cranes
+      buildtime_structures_projections
+      health_structures_masonry
+      research_speed_philosophy
+      hellenes/special_athens_school
     </Technologies>
   </ProductionQueue>
   <Sound>

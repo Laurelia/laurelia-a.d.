@@ -364,6 +364,9 @@
     <Technologies datatype="tokens">
       heal_barracks
       training_conscription
+      decay_logistics
+      speed_infantry_sandals
+      vision_infantry
     </Technologies>
   </ProductionQueue>
   <Sound>

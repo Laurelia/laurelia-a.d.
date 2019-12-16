@@ -3,13 +3,13 @@
   <Identity>
     <Civ>epir</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/mace_infantry_pikeman_b</SelectionGroupName>
+    <SelectionGroupName>units/epir_infantry_pikeman_b</SelectionGroupName>
     <GenericName>Epirote Foot Companion</GenericName>
     <SpecificName>Pezétairos Epeiros</SpecificName>
     <Icon>units/mace_infantry_pikeman.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/epir/mace_infantry_pikeman_a</Entity>
+    <Entity>units/epir_infantry_pikeman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_pikeman_b.xml</Actor>

@@ -40,6 +40,11 @@
       units/{civ}_champion_thorakites
       units/{civ}_champion_thureophoros
     </Entities>
+    <Technologies datatype="tokens">
+      hellenes/attack_inf_spearfighting
+      hellenes/speed_infantry_race
+      hellenes/training_wrestling_schools
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

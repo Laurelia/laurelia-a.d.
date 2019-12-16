@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>sele</Civ>
+    <SelectionGroupName>units/sele_cavalry_spearman_b</SelectionGroupName>
+    <GenericName>Hellenistic Shield Cavalry</GenericName>
+    <SpecificName>Lonkhophorós</SpecificName>
+    <Icon>units/ptol_cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/sele_cavalry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/ptolemies/cavalry_spearman_b_m.xml</Actor>
+  </VisualActor>
+</Entity>
+

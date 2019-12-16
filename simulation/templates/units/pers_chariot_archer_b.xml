@@ -7,7 +7,7 @@
   <Identity>
     <Civ>pers</Civ>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-    <SelectionGroupName>units/pers_cavalry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/pers_chariot_archer_b</SelectionGroupName>
     <GenericName>Babylonian Scythed Chariot</GenericName>
     <SpecificName>Babiruviya Ratha</SpecificName>
     <Icon>units/pers_chariot_archer.png</Icon>

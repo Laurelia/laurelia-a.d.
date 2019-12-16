@@ -5,9 +5,9 @@
   </Auras>
    <Cost>
     <Resources>
-      <coin op="add">+20.0</coin>
+      <coin op="add">20.0</coin>
     </Resources>
-    <BuildTime op="add">+15</BuildTime>
+    <BuildTime op="add">15</BuildTime>
   </Cost>
   <Identity>
     <GenericName>Hoplite Captain</GenericName>

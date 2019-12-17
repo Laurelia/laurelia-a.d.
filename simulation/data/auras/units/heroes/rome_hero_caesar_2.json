@@ -5,6 +5,6 @@
 	"modifications": [
 	  { "value": "Health/Max", "multiply": 1.05}
 	],
-	"auraName": "Plebeian Tribune",
+	"auraName": "Tribune of the Plebs",
 	"auraDescription": "All Citizens and Merchants +5% health while Caesar lives."
 }

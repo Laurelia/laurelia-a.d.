@@ -25,13 +25,11 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/ital_infantry_pikeman_b
-      units/{civ}/cart_infantry_swordsman_ital_b      units/{civ}/cart_infantry_spearman_ital_b
-      units/{civ}/cart_cavalry_spearman_ital_b
-
-      units/{civ}/ptol_cavalry_javelinist_merc_b
-
-
+      units/epir_infantry_pikeman_ital_b
+      units/cart_infantry_swordsman_ital_b
+      units/cart_infantry_spearman_ital_b
+      units/cart_cavalry_spearman_ital_b
+      units/ptol_cavalry_javelinist_merc_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

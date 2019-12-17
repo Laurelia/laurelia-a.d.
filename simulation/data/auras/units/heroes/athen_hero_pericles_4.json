@@ -3,6 +3,6 @@
 	"affects": ["StoneWall"],
 	"modifications": [{ "value": "Cost/BuildTime", "multiply": 0.50 },
 				  { "value": "Cost/Resources/stone", "multiply": 0.50 }],
-     "auraName": "Long Walls",
+     "auraName": "Periclean Walls",
 	"auraDescription": "-50% cost and build time for stone walls."
 }

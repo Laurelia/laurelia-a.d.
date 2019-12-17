@@ -1,7 +1,7 @@
 {
 	"genericName": "Peytral",
 	"description": "Metal armor for a horse's body.",
-	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 450},
+	"cost": {"food": 0, "coin": 700, "stone": 0, "metal": 750},
 	"supersedes": "armor_cav_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in the City Phase.",

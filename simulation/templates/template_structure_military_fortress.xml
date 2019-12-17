@@ -26,9 +26,14 @@
       </RangeOverlay>
     </Ranged>
   </Attack>
+  <Auras datatype="tokens">
+    structures/wall_battlements
+  </Auras>
   <BuildingAI>
     <DefaultArrowCount>3</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>5</MaxArrowCount>
+	<GarrisonArrowClasses>Soldier Ranged</GarrisonArrowClasses>
   </BuildingAI>
   <BuildRestrictions>
     <Category>Fortress</Category>
@@ -60,6 +65,80 @@
     <List datatype="tokens">Support Infantry Cavalry Siege</List>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>6</LoadingRange>
+    <VisibleGarrisonPoints>
+      <Archer1>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer1>
+      <Archer2>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer2>
+      <Archer3>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer3>
+      <Archer4>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer4>
+      <Archer5>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer5>
+      <Archer6>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer6>
+      <Archer7>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer7>
+      <Archer8>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer8>
+      <Archer9>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer9>
+      <Archer10>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer10>
+      <Archer11>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer11>
+      <Archer12>
+	    <VisibleGarrisonAllowedClasses datatype="tokens">
+		  Ranged+Infantry
+		  Siege+BoltShooter
+		</VisibleGarrisonAllowedClasses>
+      </Archer12>
+    </VisibleGarrisonPoints>
   </GarrisonHolder>
   <Health>
     <Max>4200</Max>
@@ -67,7 +146,7 @@
   </Health>
   <Identity>
     <GenericName>Fortress</GenericName>
-    <Tooltip>Train heroes, champions, and siege weapons. Research siege weapon improvements.</Tooltip>
+    <Tooltip>Train heroes, champions, and siege weapons.</Tooltip>
     <Classes datatype="tokens">Defensive Fortress GarrisonFortress</Classes>
     <VisibleClasses datatype="tokens">City</VisibleClasses>
     <Icon>structures/fortress.png</Icon>

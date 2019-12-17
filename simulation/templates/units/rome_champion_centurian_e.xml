@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/rome_champion_centurion_a">
+  <Identity>
+    <GenericName>Senior Centurion</GenericName>
+    <SpecificName>Primus Pilus</SpecificName>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+</Entity>

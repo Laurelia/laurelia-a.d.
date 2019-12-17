@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+<Armour>
+    <Hack op="add">2</Hack>
+    <Pierce op="add">2</Pierce>
+  </Armour>
+  <Cost>
+    <Resources>
+      <metal op="mul">1.5</metal>
+      <coin op="add">50</coin>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Syrian Archer</GenericName>
+    <SpecificName>Toxótēs Syrías</SpecificName>
+    <Icon>units/imp_merc_archer.png</Icon>
+  </Identity>
+  <Loot>
+    <metal>7</metal>
+  </Loot>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+    <Run>
+      <Speed op="mul">0.9</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/romans_imperial/infantry_archer.xml</Actor>
+  </VisualActor>
+</Entity>

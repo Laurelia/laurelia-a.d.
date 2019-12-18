@@ -6,6 +6,6 @@
 				  { "value": "Looter/Resource/wood", "multiply": 1.30 },
 				  { "value": "Looter/Resource/stone", "multiply": 1.30 },
 				  { "value": "Looter/Resource/metal", "multiply": 1.30 }],
-	"auraName": "Swag",
-	"auraDescription": "+30% loot for nearby enemy unit killed."
+	"auraName": "Raider",
+	"auraDescription": "Nearby enemy units provide +30% loot when killed."
 }

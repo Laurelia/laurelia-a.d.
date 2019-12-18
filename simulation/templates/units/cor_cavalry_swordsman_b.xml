@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_swordsman">
+  <Identity>
+    <Civ>cor</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/cor_cavalry_swordsman_b</SelectionGroupName>
+    <GenericName>Corinthian Cavalry</GenericName>
+    <SpecificName>Hippeús Korinthîos</SpecificName>
+    <Icon>units/hele_cavalry_swordsman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/cor_cavalry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/cavalry_swordsman_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

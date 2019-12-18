@@ -7,5 +7,5 @@
 				  {"value": "ResourceGatherer/Capacities/stone", "add": 5},
 				  {"value": "ResourceGatherer/Capacities/metal", "add": 5}],
      "auraName": "Preparation For War",
-	"auraDescription": "+10% gather rate and +5 shuttle capacity for units."
+	"auraDescription": "+10% gather rate and +5 shuttle capacity for all units."
 }

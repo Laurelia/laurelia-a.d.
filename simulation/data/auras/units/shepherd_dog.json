@@ -1,0 +1,9 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Domestic"],
+	"modifications": [{ "value": "Health/Max", "multiply": 1.05 }],
+	"auraName": "Shepherd Dog",
+	"auraDescription": "+5% health for nearby Domestic Animals.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

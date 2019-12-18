@@ -3,13 +3,13 @@
   <Identity>
     <Civ>syra</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/syra/syra_infantry_slinger_b</SelectionGroupName>
+    <SelectionGroupName>units/syra_infantry_slinger_b</SelectionGroupName>
     <GenericName>Sicilian Slinger</GenericName>
     <SpecificName>Psilòs Sicilîos</SpecificName>
     <Icon>units/athen_infantry_slinger.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/syra/syra_infantry_slinger_a</Entity>
+    <Entity>units/syra_infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/athenians/infantry_slinger_b.xml</Actor>

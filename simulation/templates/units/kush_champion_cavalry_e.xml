@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/kush_champion_cavalry">
+  <Armour>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+  </Armour>
+  <Health>
+    <Max op="mul">1.15</Max>
+  </Health>
+  <Identity>
+    <GenericName>Royal Cavalry</GenericName>
+  </Identity>
+  <Promotion disable=""/>
+</Entity>

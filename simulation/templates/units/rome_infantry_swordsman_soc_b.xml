@@ -2,7 +2,6 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      structures/rome/social_barracks
       structures/rome_army_camp
       structures/rome_wallset_siege
       structures/rome_temple_vesta
@@ -24,7 +23,7 @@
   <Identity>
     <Civ>rome</Civ>
     <Classes datatype="tokens">Mercenary</Classes>
-    <GenericName>Italic Swordsman</GenericName>
+    <GenericName>Allied Italic Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman_2.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome_infantry_swordsman_soc_b</SelectionGroupName>

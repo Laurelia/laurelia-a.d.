@@ -6,4 +6,7 @@
   <Promotion>
     <Entity>units/ptol_infantry_archer_e</Entity>
   </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/infantry_archer_a.xml</Actor>
+  </VisualActor
 </Entity>

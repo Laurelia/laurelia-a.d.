@@ -13,7 +13,11 @@
     <SpecificName>Pedites Extraordinarius</SpecificName>
     <SelectionGroupName>units/rome_champion_infantry</SelectionGroupName>
     <Icon>units/rome_champion_infantry.png</Icon>
+    <VisibleClasses datatype="tokens">Polybian</VisibleClasses>
   </Identity>
+  <Reform>
+    <Entity>units/rome_champion_infantry_imperial</Entity>
+  </Reform>
   <Loot>
     <food>6</food>
     <metal>6</metal>

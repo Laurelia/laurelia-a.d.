@@ -15,7 +15,6 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>bact</Civ>
     <Lang>greek</Lang>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <GenericName>Scythed Chariot</GenericName>

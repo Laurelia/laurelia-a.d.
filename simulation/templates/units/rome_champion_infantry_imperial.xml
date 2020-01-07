@@ -3,14 +3,14 @@
   <Identity>
     <Civ>rome</Civ>
 	<Lang>latin</Lang>
-	<GenericName>Praetorian Guard Infantry</GenericName>
-    <SpecificName>Pedites Praetorianus</SpecificName>
+    <GenericName>Veteran Legionary</GenericName>
+    <SpecificName>Evocatus</SpecificName>
 	<SelectionGroupName>units/rome_champion_infantry_imperial</SelectionGroupName>
     <VisibleClasses datatype="tokens">
 	  Legion
 	</VisibleClasses>
     <Icon>units/imp_champion_infantry.png</Icon>
-<RequiredTechnology>phase_imperial</RequiredTechnology>
+	  <RequiredTechnology>romans/unlock_evocati</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/romans_imperial/champion_infantry.xml</Actor>

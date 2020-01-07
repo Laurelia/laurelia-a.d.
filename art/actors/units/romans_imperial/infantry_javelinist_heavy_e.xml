@@ -15,6 +15,8 @@
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
         <prop actor="props/units/capes/javelinist.xml" attachpoint="root"/>
+        <prop actor="props/units/rome_legion_shoulderpad_L.xml" attachpoint="shoulderpad_L"/>
+        <prop actor="props/units/rome_legion_shoulderpad_R.xml" attachpoint="shoulderpad_R"/>
       </props>
     </variant>
   </group>

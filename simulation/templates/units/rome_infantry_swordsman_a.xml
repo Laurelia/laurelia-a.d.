@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/rome_infantry_swordsman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/rome_infantry_swordsman_e</Entity>
+  </Promotion>
+  <Reform>
+    <Entity>units/rome_infantry_swordsman_reformed_a</Entity>
+  </Reform>
+  <VisualActor>
+    <Actor>units/romans/infantry_swordsman_a.xml</Actor>
+  </VisualActor>
+</Entity>

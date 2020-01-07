@@ -106,6 +106,9 @@
   </RallyPointRenderer>
   <RangeOverlayManager/>
   <RangeOverlayRenderer/>
+  <Reform>
+    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+  </Reform>
   <Repairable>
     <RepairTimeRatio>2.0</RepairTimeRatio>
   </Repairable>

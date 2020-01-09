@@ -4,7 +4,7 @@
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <GenericName>Chosen Hoplite</GenericName>
-    <SpecificName>Epílektos</SpecificName>
+    <SpecificName>Logades</SpecificName>
     <Icon>units/athen_champion_infantry.png</Icon>
   </Identity>
   <VisualActor>

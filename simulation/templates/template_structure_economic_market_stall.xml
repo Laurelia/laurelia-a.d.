@@ -1,10 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
-  <Capturable>
-    <CapturePoints>100</CapturePoints> 
-    <RegenRate>0</RegenRate> 
-    <GarrisonRegenRate>0</GarrisonRegenRate> 
-  </Capturable>
   <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
@@ -23,7 +18,7 @@
   <Identity>
     <GenericName>Market Vendor</GenericName>
     <Tooltip>Economic activity brings a trickle of Coin resource through taxes.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Vendor TaxPayer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town Vendor</VisibleClasses>
     <Icon>gaia/special_treasure_coin.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
@@ -46,6 +41,10 @@
       trickle_coin_market
     </Technologies>
   </ProductionQueue>
+  <ResourceDropsite>
+    <Types>coin</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
   <ResourceTrickle>
     <Rates> 
       <food>0.0</food>
@@ -54,7 +53,7 @@
       <metal>0.0</metal>
       <coin>1.0</coin>
     </Rates> 
-    <Interval>5000</Interval> 
+    <Interval>10000</Interval> 
   </ResourceTrickle>
   <Sound>
     <SoundGroups>
@@ -66,9 +65,6 @@
   <StatusBars>
     <HeightOffset>9.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <DecayRate>300</DecayRate>
-  </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <Vision>
     <Range>12</Range>

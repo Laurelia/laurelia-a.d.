@@ -153,6 +153,9 @@
 		},
 		{
 			"Template": "units/pont_cavalry_javelinist_b"
+		},
+		{
+			"Template": "special/factiongroups/successors"
 		}
 	],
 	"Formations":

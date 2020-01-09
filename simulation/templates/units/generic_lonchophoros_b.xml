@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
-    <SelectionGroupName>units/generic/lonchophoros_b</SelectionGroupName>
+    <SelectionGroupName>units/generic_lonchophoros_b</SelectionGroupName>
     <GenericName>Hellenistic Shield Cavalry</GenericName>
     <SpecificName>Lonchophóros</SpecificName>
     <Icon>units/ptol_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/generic/lonchophoros_a</Entity>
+    <Entity>units/generic_lonchophoros_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/ptolemies/cavalry_spearman_b_m.xml</Actor>

@@ -111,6 +111,9 @@
 		},
 		{
 			"Template": "units/arm_cavalry_javelinist_b"
+		},
+		{
+			"Template": "special/factiongroups/persians"
 		}
 	],
 	"Formations":

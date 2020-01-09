@@ -126,6 +126,9 @@
 		},
 		{
 			"Template": "units/parth_cavalry_archer_b"
+		},
+		{
+			"Template": "special/factiongroups/persians"
 		}
 	],
 	"Formations":

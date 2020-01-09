@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+  <Auras datatype="tokens">
+    structures/cart_super_dock_repair
+  </Auras>
+  <Footprint>
+    <Square width="26.0" depth="30.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>2</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Ship</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>athen</Civ>
+    <GenericName>Naval Shipyard</GenericName>
+    <SpecificName>Nḗorion</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="22.0" depth="26.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_champion_marine
+      units/{civ}_infantry_marine_archer_b
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/athenians/dock.xml</Actor>
+    <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
+  </VisualActor>
+</Entity>

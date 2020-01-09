@@ -112,13 +112,6 @@
   <Repairable>
     <RepairTimeRatio>2.0</RepairTimeRatio>
   </Repairable>
-  <ResourceTrickle>
-    <Rates>
-      <wood>-1</wood>
-      <coin>-1</coin>
-    </Rates>
-    <Interval>10000</Interval>
-  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Outline>

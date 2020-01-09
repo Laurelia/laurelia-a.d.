@@ -5,8 +5,8 @@
     <Height>9.0</Height>
   </Footprint>
   <Identity>
-    <GenericName>Marker</GenericName>
-    <Classes datatype="tokens">Marker</Classes>
+    <GenericName>Faction Group</GenericName>
+    <Classes datatype="tokens">FactionGroup</Classes>
 	<Civ>gaia</Civ>
     <Undeletable>true</Undeletable>
   </Identity>

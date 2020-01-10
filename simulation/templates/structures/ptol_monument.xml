@@ -14,6 +14,14 @@
   <Obstruction>
     <Static width="4.0" depth="4.0"/>
   </Obstruction>
+  <ResourceDropsite disable=""/>
+  <ResourceSupply disable=""/>
+  <ResourceTrickle>
+    <Rates>
+      <faith>1.0</faith>
+    </Rates>
+    <Interval>5000</Interval>
+  </ResourceTrickle>
   <Vision>
     <Range>12</Range>
   </Vision>

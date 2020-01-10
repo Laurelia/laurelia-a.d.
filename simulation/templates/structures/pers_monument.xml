@@ -43,7 +43,7 @@
     <Rates>
       <faith>1.0</faith>
     </Rates>
-    <Interval>75000</Interval>
+    <Interval>7500</Interval>
   </ResourceTrickle>
   <Sound>
     <SoundGroups>

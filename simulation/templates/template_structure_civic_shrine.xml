@@ -28,6 +28,12 @@
       -health_regen_units
     </Technologies>
   </ProductionQueue>
+  <ResourceSupply>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Interval>4000</Interval>
+  </ResourceTrickle>
   <VisualActor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>

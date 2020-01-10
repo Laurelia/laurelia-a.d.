@@ -64,6 +64,23 @@
       research_speed_temple
     </Technologies>
   </ProductionQueue>
+  <ResourceDropsite>
+    <Types>faith</Types>
+	<Sharable>false</Sharable>
+  </ResourceDropsite>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Amount>Infinity</Amount>
+    <Type>faith.praise</Type>
+    <MaxGatherers>5</MaxGatherers>
+	<DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Rates>
+      <faith>1.0</faith>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_temple.xml</select>

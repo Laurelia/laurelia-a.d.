@@ -18,7 +18,7 @@
   <Identity>
     <GenericName>Market Vendor</GenericName>
     <Tooltip>Economic activity brings a trickle of Coin resource through taxes.</Tooltip>
-    <VisibleClasses datatype="tokens">Town Vendor</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town Vendor Taxpayer</VisibleClasses>
     <Icon>gaia/special_treasure_coin.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
@@ -38,7 +38,10 @@
     <Technologies datatype="tokens">
       trade_gain_01
       trade_gain_02
-      trickle_coin_market
+      trickle_coin_market_01
+      trickle_coin_market_02
+      trickle_coin_market_03
+      trickle_coin_market_04
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>

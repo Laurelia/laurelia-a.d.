@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
-  <Auras datatype="tokens">
-    structures/pop_bonus_civic
-  </Auras>
+<Entity parent="template_structure_special_council">
   <Cost>
     <BuildTime>200</BuildTime>
 	<Population>3</Population>
@@ -17,14 +14,11 @@
     <Circle radius="12.0"/>
     <Height>8.0</Height>
   </Footprint>
-  <Health>
-    <Max>2000</Max>
-  </Health>
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Spartan Senate</GenericName>
     <SpecificName>Gerontía</SpecificName>
-    <Tooltip>Train heroes.</Tooltip>
+    <Tooltip>Research administrative technologies.</Tooltip>
     <Icon>structures/tholos.png</Icon>
   </Identity>
   <Loot>
@@ -37,9 +31,9 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_hero_leonidas
-    </Entities>
+    <Technologies datatype="tokens">
+      hellenes/spart_social_reform
+    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

@@ -1,7 +1,7 @@
 {
 	"genericName": "State Religion",
 	"description": ".",
-	"cost": {"food": 0, "wood": 0, "coin": 400, "metal": 400},
+	"cost": {"food": 0, "wood": 0, "coin": 400, "faith": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in the Empire Phase.",
 	"icon": "ionic_column.png",

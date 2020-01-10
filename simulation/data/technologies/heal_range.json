@@ -1,12 +1,7 @@
 {
 	"genericName": "Healing Range",
-	"specificName": {
-		"mace": "Olympic Pantheon",
-		"spart": "Olympic Pantheon",
-		"athen": "Olympic Pantheon"
-	},
 	"description": "Increases the healing and vision range of all healers.",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 0, "coin": 200},
+	"cost": {"faith": 400, "wood": 0, "stone": 0, "metal": 0, "food": 200},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "healing_range.png",

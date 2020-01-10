@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_council">
+  <Auras datatype="tokens">
+  	structures/pop_bonus_civic
+  </Auras>
+  <BuildRestrictions>
+    <Category>Council</Category>
+  </BuildRestrictions>
+  <Cost>
+	<Population>3</Population>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Council Chamber</GenericName>
+    <Tooltip>Train heroes. Research administrative technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Civic Council</VisibleClasses>
+    <Icon>structures/tholos.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>25</stone>
+    <metal>50</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="24.0" depth="30.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      pop_civic_01
+      pop_civic_02
+      buildtime_structures_civil_engineering
+      research_speed_civil_service
+    </Technologies>
+  </ProductionQueue>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_tholos.xml</select>
+      <constructed>interface/complete/building/complete_tholos.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/athenians/prytaneion.xml</Actor>
+  </VisualActor>
+</Entity>

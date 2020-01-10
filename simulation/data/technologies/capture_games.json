@@ -9,7 +9,7 @@
 		"theb": "Delphic Games"
 	},
 	"description": "Cultural events utilizing religion were important to ancient societies.",
-	"cost": {"coin": 500},
+	"cost": {"faith": 1000 "coin": 500},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Empire Phase.",
 	"icon": "games.png",

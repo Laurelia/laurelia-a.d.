@@ -7,7 +7,7 @@
 		"belg": "Lughnasadh"
 	},
 	"description": "Cultural events utilizing religion were intertwined with the Autumn harvest season and were important to ancient societies.",
-	"cost": {"food": 1000, "coin": 500},
+	"cost": {"faith": 1000, "food": 500},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Empire Phase.",
 	"icon": "grain.png",

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman_thorakites">
   <Identity>
     <Civ>spart</Civ>
-    <GenericName>Spartan Thorax Swordsman</GenericName>
-    <SpecificName>Neohomolós Thōrakitēs</SpecificName>
+    <GenericName>Spartan Armored Swordsman</GenericName>
+    <SpecificName>Spartiátēs Thōrakitēs</SpecificName>
   </Identity>
 </Entity>

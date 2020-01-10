@@ -4,5 +4,6 @@
     <Civ>spart</Civ>
     <GenericName>Spartan Armored Swordsman</GenericName>
     <SpecificName>Spartiátēs Thōrakitēs</SpecificName>
+    <RequiredTechnology>hellenes/spart_reforms</RequiredTechnology>
   </Identity>
 </Entity>

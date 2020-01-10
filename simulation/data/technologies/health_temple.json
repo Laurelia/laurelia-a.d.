@@ -1,7 +1,6 @@
 {
 	"genericName": "Temple Precincts",
-	"description": ".",
-	"cost": {"stone": 500, "coin": 250},
+	"cost": {"stone": 500, "coin": 250, "faith": 100},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in the Town Phase.",
 	"icon": "monumental_architecture.png",

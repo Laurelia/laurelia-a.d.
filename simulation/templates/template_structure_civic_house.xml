@@ -41,7 +41,7 @@
   <Identity>
     <GenericName>House</GenericName>
     <Tooltip>Increase the population limit.</Tooltip>
-    <VisibleClasses datatype="tokens">Village House</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village House Taxpayer</VisibleClasses>
     <Icon>structures/house.png</Icon>
   </Identity>
   <Loot>
@@ -53,13 +53,13 @@
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_female_citizen_house
+      units/{civ}_support_female_citizen
     </Entities>
     <Technologies datatype="tokens">
       health_females_01
       pop_house_01
       pop_house_02
-      unlock_females_house
+      trickle_coin_house_1
       heal_house
     </Technologies>
   </ProductionQueue>

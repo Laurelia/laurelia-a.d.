@@ -28,7 +28,6 @@
     <Civ>pers</Civ>
     <GenericName>Tower of Silence</GenericName>
     <SpecificName>Dakhma</SpecificName>
-    <Tooltip>.</Tooltip>
   </Identity>
   <Loot>
     <wood>0</wood>
@@ -38,6 +37,14 @@
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>
+  <ResourceDropsite disable=""/>
+  <ResourceSupply disable=""/>
+  <ResourceTrickle>
+    <Rates>
+      <faith>1.0</faith>
+    </Rates>
+    <Interval>75000</Interval>
+  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_iber_monument.xml</select>

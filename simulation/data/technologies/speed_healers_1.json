@@ -1,6 +1,6 @@
 {
 	"genericName": "Temple Processions",
-	"cost": {"food": 100, "wood": 100},
+	"cost": {"faith": 100, "wood": 100},
 	"requirements": { "tech": "phase_town" },
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "caligae.png",

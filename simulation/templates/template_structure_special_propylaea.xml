@@ -44,6 +44,23 @@
       health_structures_architecture
     </Technologies>
   </ProductionQueue>
+  <ResourceDropsite>
+    <Types>faith</Types>
+	<Sharable>false</Sharable>
+  </ResourceDropsite>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Amount>Infinity</Amount>
+    <Type>faith.praise</Type>
+    <MaxGatherers>20</MaxGatherers>
+	<DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Rates>
+      <faith>2.0</faith>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>40</Radius>

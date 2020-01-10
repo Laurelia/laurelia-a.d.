@@ -72,7 +72,7 @@
     <KillBeforeGather>false</KillBeforeGather>
     <Amount>Infinity</Amount>
     <Type>faith.praise</Type>
-    <MaxGatherers>5</MaxGatherers>
+    <MaxGatherers>10</MaxGatherers>
 	<DiminishingReturns>0.90</DiminishingReturns>
   </ResourceSupply>
   <ResourceTrickle>

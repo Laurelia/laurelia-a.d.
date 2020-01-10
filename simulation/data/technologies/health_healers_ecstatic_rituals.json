@@ -1,6 +1,6 @@
 {
 	"genericName": "Ecstatic Rituals",
-	"cost": {"food": 250, "coin": 500, "wood": 100, "metal": 0},
+	"cost": {"food": 250, "faith": 500, "wood": 100, "metal": 0},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in the City Phase.",
 	"icon": "games.png",

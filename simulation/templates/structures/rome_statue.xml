@@ -24,6 +24,14 @@
 
   </Obstruction>
 
+  <ResourceDropsite disable=""/>
+  <ResourceSupply disable=""/>
+  <ResourceTrickle>
+    <Rates>
+      <faith>1.0</faith>
+    </Rates>
+    <Interval>7500</Interval>
+  </ResourceTrickle>
   <Sound>
 
     <SoundGroups>

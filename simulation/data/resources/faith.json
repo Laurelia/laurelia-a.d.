@@ -1,0 +1,11 @@
+{
+	"code": "faith",
+	"name": "Faith",
+	"description": "Gather by praying at temples, shrines, and certain monuments. Used for researching religious technologies, training healers and other religious units, and building special religious structures.",
+	"order": 6,
+	"subtypes": {
+		"praise": "Worship"
+	},
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "ignore"
+}

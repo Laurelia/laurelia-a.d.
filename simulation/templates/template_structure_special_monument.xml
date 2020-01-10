@@ -62,6 +62,23 @@
   <ProductionQueue disable=""/>
 
   <RallyPoint disable=""/>
+  <ResourceDropsite>
+    <Types>faith</Types>
+	<Sharable>false</Sharable>
+  </ResourceDropsite>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Amount>Infinity</Amount>
+    <Type>faith.praise</Type>
+    <MaxGatherers>5</MaxGatherers>
+	<DiminishingReturns>0.90</DiminishingReturns>
+  </ResourceSupply>
+  <ResourceTrickle>
+    <Rates>
+      <faith>1.0</faith>
+    </Rates>
+    <Interval>10000</Interval>
+  </ResourceTrickle>
 
   <Sound>
 

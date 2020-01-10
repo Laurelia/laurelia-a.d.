@@ -92,6 +92,8 @@
       <stone.rock>0.5</stone.rock>
       <stone.ruins>2</stone.ruins>
       <metal.ore>0.5</metal.ore>
+      <coin.ore>0.5</coin.ore>
+      <coin.fruit>0.25</coin.fruit>
     </Rates>
   </ResourceGatherer>
   <Selectable>

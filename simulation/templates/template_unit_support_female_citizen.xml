@@ -38,6 +38,7 @@
       structures/{civ}_dock
       structures/{civ}_temple
       structures/{civ}_market
+      structures/{civ}_market_stall
       structures/{civ}_tacara
       structures/{civ}_ice_house
       structures/{civ}_warehouse

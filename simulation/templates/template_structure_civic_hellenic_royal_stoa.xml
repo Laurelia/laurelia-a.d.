@@ -49,10 +49,6 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_black_cloak
-      units/{civ}_thureophoros
-      units/merc_thorakites
-      units/merc_thespian
-      units/merc_ekdromos
     </Entities>
   </ProductionQueue>
   <TerritoryInfluence>

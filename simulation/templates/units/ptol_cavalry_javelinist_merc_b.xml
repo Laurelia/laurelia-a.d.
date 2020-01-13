@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Armour>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+  </Armour>
   <Cost>
     <Resources>
       <food op="add">-25</food>
@@ -7,6 +11,9 @@
       <coin op="add">50</coin>
     </Resources>
   </Cost>
+  <Health>
+    <Max op="mul">1.1</Max>
+  </Health>
   <Identity>
     <Civ>gaia</Civ>
     <SelectionGroupName>units/ptol_cavalry_javelinist_merc_b</SelectionGroupName>
@@ -25,6 +32,9 @@
     </Rates>
     <Interval>10000</Interval>
   </ResourceTrickle>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
+  </UnitMotion>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>

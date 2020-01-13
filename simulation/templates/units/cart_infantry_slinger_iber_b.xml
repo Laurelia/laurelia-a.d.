@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
+<Attack>
+    <Ranged>
+      <MaxRange op="mul">1.5</MaxRange>
+      <ProjectileSpeed op="mul">1.25</ProjectileSpeed>
+      <Spread op="mul">0.5</Spread>
+    </Ranged>
+  </Attack>
   <Builder>
     <Entities datatype="tokens">
       structures/cart_super_dock

@@ -2,7 +2,6 @@
 <Entity parent="template_structure_special">
   <Auras datatype="tokens">
     structures/rotary_mill	
-	structures/pop_penalty_economy
   </Auras>
   <Cost>
     <BuildTime>100</BuildTime>

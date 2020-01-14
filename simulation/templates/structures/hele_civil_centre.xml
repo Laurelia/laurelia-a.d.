@@ -10,22 +10,18 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
+	  units/{civ}_infantry_hoplite_classic_b
+	  units/hele_infantry_slinger_b
+	  units/hele_cavalry_javelinist_b
     </Entities>
     <Technologies datatype="tokens">
 	  health_units_01
 	  health_units_02
 	  health_units_03
 	  health_units_04
-	  pair_structures_01
-	  pair_structures_02
-	  pair_structures_03
-	  pair_structures_04
-	  unlock_spies
-	  spy_counter
-	  successors/health_heroes
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/hellenes/civic_centre_new.xml</Actor>
+    <Actor>structures/athenians/civic_centre.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,19 +5,6 @@
     <SpecificName>Sidirourgeíon</SpecificName>
     <History>The earliest Greek smiths worked in copper, then bronze, and then finally iron.</History>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-	  hellenes/pair_01
-	  hellenes/pair_inf_02
-	  hellenes/pair_inf_armor_01
-	  hellenes/pair_inf_armor_02
-	  hellenes/pair_inf_armor_03
-	  hellenes/pair_inf_armor_04
-	  hellenes/pair_cav_01
-	  hellenes/attack_slingers_leadbullets
-	  armor_hero_01
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/hellenes/blacksmith.xml</Actor>
   </VisualActor>

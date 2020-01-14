@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks_range">
+  <Footprint>
+    <Square width="27.0" depth="25.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="24.0"/>
+  </Obstruction><ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens"> 
+	    units/hele_infantry_javelinist_light_b
+      units/hele_infantry_javelinist_b
+	    units/athen_infantry_javelinist_merc_b
+	    units/hele_infantry_javelinist_heavy_b
+	    units/hele_infantry_slinger_b
+	    units/mace_infantry_slinger_b
+	    units/hele_infantry_archer_b
+	    units/mace_infantry_archer_b
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/hellenes/range.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

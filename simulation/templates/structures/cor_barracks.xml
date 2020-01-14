@@ -9,36 +9,16 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>cor</Civ>
     <SpecificName>Stratēgeîon</SpecificName>
     <History>The Stratigeion was the main military headquarters, where important decisions were taken and plans for battles discussed by the Hellene Generals, or "Strategoi".</History>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue><ProductionQueue>
+  <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-	    -units/{civ}_infantry_spearman_militia_b
-      -units/{civ}_infantry_spearman_b
-      -units/{civ}_infantry_hoplite_b
-      -units/{civ}_infantry_ekdromos_b
-      -units/{civ}_infantry_pikeman_militia_b
-      -units/{civ}_infantry_pikeman_b
-      -units/{civ}_infantry_swordsman_militia_b
-      -units/{civ}_infantry_swordsman_b
-      -units/{civ}_infantry_swordsman_light_b
-      -units/{civ}_infantry_swordsman_heavy_b
-	    -units/{civ}_infantry_javelinist_militia_b
-	    -units/{civ}_infantry_javelinist_light_b
-	    -units/{civ}_infantry_javelinist_b
-	    -units/{civ}_infantry_javelinist_merc_b
-	    -units/{civ}_infantry_javelinist_heavy_b
-	    -units/{civ}_infantry_slinger_militia_b
-	    -units/{civ}_infantry_slinger_b
-	    -units/{civ}_infantry_slinger_merc_b
-	    -units/{civ}_infantry_archer_b
-	    -units/{civ}_infantry_archer_merc_b
       units/{civ}_infantry_hoplite_classic_b
       units/{civ}_infantry_hoplite_light_b
       units/{civ}_infantry_hoplite_reformed_b

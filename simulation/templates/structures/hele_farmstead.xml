@@ -13,14 +13,27 @@
   </Health>
   <Identity>
     <Civ>gaia</Civ>
-    <SpecificName>Sītobólion</SpecificName>
+    <SpecificName>Agridia</SpecificName>
     <History>Grain wasn't plentiful in Hellas, which is why it was carefully stored in granaries, some of it being reserved for times of siege.</History>
   </Identity>
   <Obstruction>
     <Static width="18.0" depth="16.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/hele_support_female_citizen
+      units/hele_infantry_spearman_militia_b
+      units/hele_infantry_javelinist_light_b
+      units/hele_infantry_slinger_b
+      units/hele_infantry_archer_b
+    </Entities>
+    <Technologies datatype="tokens">
+	  hellenes/attack_inf_spearfighting
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
-    <Actor>structures/hellenes/farmstead_new.xml</Actor>
+    <Actor>structures/hellenes/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

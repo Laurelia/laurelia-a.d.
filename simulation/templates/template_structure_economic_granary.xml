@@ -25,7 +25,7 @@
     <GenericName>Granary</GenericName>
 	<VisibleClasses datatype="tokens">Village Granary</VisibleClasses>
     <RequiredTechnology>unlock_granary</RequiredTechnology>
-    <Tooltip>Increase the health of all units and gain a trickle of Food for each granary built.</Tooltip>
+    <Tooltip>Increase the farming rate of all units and gain a trickle of Food for each granary built.</Tooltip>
     <Icon>technologies/cornucopia.png</Icon>
   </Identity>
   <Obstruction>
@@ -58,7 +58,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/persians/ice_house.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

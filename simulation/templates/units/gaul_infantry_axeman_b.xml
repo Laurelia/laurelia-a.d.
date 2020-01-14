@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
+<Entity parent="template_unit_infantry_melee_axeman">
   <Builder>
     <Entities datatype="tokens">
       structures/gaul_tavern
@@ -9,7 +9,7 @@
   </Builder>
   <Identity>
     <Civ>gaul</Civ>
-    <SelectionGroupName>units/gaul_infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/gaul_infantry_axeman_b</SelectionGroupName>
     <SpecificName>Teceitos</SpecificName>
     <GenericName>Celtic Axeman</GenericName>
     <Icon>units/celt_infantry_swordsman.png</Icon>

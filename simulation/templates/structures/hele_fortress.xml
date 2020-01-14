@@ -55,12 +55,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_oxybeles_packed
-      units/{civ}_mechanical_siege_lithobolos_packed
-      units/{civ}_mechanical_siege_tower
+      units/hele_mechanical_siege_oxybeles_packed
+      units/hele_mechanical_siege_lithobolos_packed
+      units/hele_mechanical_siege_tower
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/hellenes/fortress_up.xml</Actor>
+    <Actor>structures/athenians/fortress.xml</Actor>
   </VisualActor>
 </Entity>

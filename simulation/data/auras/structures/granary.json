@@ -1,0 +1,8 @@
+{
+	"type": "global",
+	"affects": ["Worker"],
+	"modifications": [{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.05 }],
+	"auraDescription" : "+5% grain gather rate for all workers.",
+	"auraName": "Grain Stores",
+	"overlayIcon": "art/textures/ui/session/auras/farming.png"
+}

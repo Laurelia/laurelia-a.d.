@@ -1,6 +1,6 @@
 {
 	"type": "range",
-	"radius": 60,
+	"radius": 120,
 	"affects": ["Worker"],
 	"modifications": [{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25 }],
 	"auraDescription" : "+25% grain gather rate for nearby workers.",

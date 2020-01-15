@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
+  <Armour>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Spread>2.0</Spread>  
+      <Pierce op="mul">1.5</Pierce>
+      <MaxRange op="mul">1.2</MaxRange>
+      <ProjectileSpeed>70.0</ProjectileSpeed>
+    </Ranged>
   <Cost>
+    <BuildTime>7</BuildTime>
     <Resources>
       <food op="add">-25</food>
-      <coin op="add">50</coin>
+      <wood>0</wood>
+      <coin>120</coin>
     </Resources>
   </Cost>
   <Identity>
     <Lang>greek</Lang>
-    <Rank>Elite</Rank>
-    <SelectionGroupName>units/athen_infantry_archer_merc</SelectionGroupName>
+    <SelectionGroupName>units/merc_cretan_archer</SelectionGroupName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <GenericName>Cretan Mercenary Archer</GenericName>
     <SpecificName>Toxótēs Krētikós</SpecificName>
     <Icon>units/hele_infantry_archer.png</Icon>
   </Identity>
-  <Promotion disable""/>
   <ResourceTrickle>
 	<Rates>
       <coin>-2</coin>
@@ -23,6 +34,6 @@
     <Interval>10000</Interval>
   </ResourceTrickle>
   <VisualActor>
-    <Actor>units/macedonians/infantry_archer_e.xml</Actor>
+    <Actor>units/macedonians/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>

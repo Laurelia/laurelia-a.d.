@@ -1,0 +1,12 @@
+{
+	"genericName": "Naval Design",
+	"cost": { "food": 200, "wood": 200, "stone": 0, "metal": 0 , "coin": 200},
+	"requirements": { "all": [{ "tech": "phase_city" }, { "notciv": "brit" }, { "notciv": "gaul" }, { "notciv": "iber" }] },
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "calipers.png",
+	"researchTime": 40,
+	"tooltip": "Warships +10% health. Unlock Heavy Warships",
+	"modifications": [{ "value": "ProductionQueue/BatchTimeModifier", "add": -0.1 }],
+	"affects": ["Warship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

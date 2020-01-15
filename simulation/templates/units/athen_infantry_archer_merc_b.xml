@@ -8,16 +8,16 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>athen</Civ>
     <Lang>greek</Lang>
-    <SelectionGroupName>units/athen_infantry_merc_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/athen_infantry_archer_merc_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <GenericName>Cretan Mercenary Archer</GenericName>
     <SpecificName>Toxótēs Krētikós</SpecificName>
     <Icon>units/hele_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/athen_infantry_merc_archer_a</Entity>
+    <Entity>units/athen_infantry_archer_merc_a</Entity>
   </Promotion>
   <ResourceTrickle>
 	<Rates>
@@ -26,6 +26,6 @@
     <Interval>10000</Interval>
   </ResourceTrickle>
   <VisualActor>
-    <Actor>units/athenians/infantry_archer_b.xml</Actor>
+    <Actor>units/macedonians/infantry_archer_e.xml</Actor>
   </VisualActor>
 </Entity>

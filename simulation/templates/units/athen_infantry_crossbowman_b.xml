@@ -15,6 +15,6 @@
     <RequiredXp>80</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/hellenes/infantry_crossbowman_b.xml</Actor>
+    <Actor>units/athenians/infantry_crossbowman_b.xml</Actor>
   </VisualActor>
 </Entity>

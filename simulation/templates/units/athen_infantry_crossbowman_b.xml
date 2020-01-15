@@ -1,0 +1,20 @@
+  
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_crossbowman">
+  <Identity>
+    <Civ>athen</Civ>
+	<Lang>greek</Lang>
+	<SelectionGroupName>units/athen_infantry_crossbowman_b</SelectionGroupName>
+    <GenericName>Greek Crossbowman</GenericName>
+    <SpecificName>Gastraphetēs</SpecificName>
+    <History>The Gastraphetes (lit. "Belly-Releaser") was an ancient greek crossbow invented sometime before 399 BCE</History>
+    <Icon>units/hele_champion_infantry_ranged_gastraphetes.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/athen_infantry_crossbowman_a</Entity>
+    <RequiredXp>80</RequiredXp>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/hellenes/infantry_crossbowman_b.xml</Actor>
+  </VisualActor>
+</Entity>

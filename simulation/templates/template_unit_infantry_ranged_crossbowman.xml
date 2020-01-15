@@ -28,9 +28,13 @@
   <Identity>
     <VisibleClasses datatype="tokens">Archer Crossbow</VisibleClasses>
     <GenericName>Crossbow Infantry</GenericName>
-    <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, firing bronze arrows.</History>
+    <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, firing wooden darts or bronze arrows.</History>
+    <RequiredTechnology></RequiredTechnology>
   </Identity>
   <Loot>
     <wood>7</wood>
   </Loot>
+  <VisualActor>
+    <Actor>units/athenians/infantry_crossbowman_c.xml</Actor>
+  </VisualActor>
 </Entity>

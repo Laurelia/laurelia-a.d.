@@ -7,39 +7,11 @@
       <props>
         <prop actor="props/units/helmets/hele_su2.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/hele_round_su2.xml" attachpoint="shield_arm"/>
-        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/hele_round_e.xml"  attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="skeletal/hele_iar_e.png" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant name="psiloi-original">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
-      <textures>
-        <texture file="skeletal/hele_iar_e.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="psiloi-padded-1a">
-      <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_a.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="psiloi-padded-1b">
-      <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="psiloi-padded-1c">
-      <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_c.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="psiloi-padded-1d">
-      <textures>
-        <texture file="skeletal/hele_psiloi_padded_1_d.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

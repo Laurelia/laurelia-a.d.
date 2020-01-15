@@ -22,6 +22,7 @@
     <Resources>
       <food>50</food>
       <wood>75</wood>
+      <metal op="add">10</metal>
     </Resources>
   </Cost>
   <Identity>

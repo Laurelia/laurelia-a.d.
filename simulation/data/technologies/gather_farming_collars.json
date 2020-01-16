@@ -1,7 +1,8 @@
 {
 	"genericName": "Horse Collars",
 	"description": "A leather collar used to help horses pull plows.",
-	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 0},
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 100},
+	"supersedes": "gather_farming_sickles",
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "horse_collar.png",

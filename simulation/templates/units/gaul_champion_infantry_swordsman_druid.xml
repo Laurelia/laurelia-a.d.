@@ -14,11 +14,11 @@
   </Heal>
   <Identity>
     <Civ>gaul</Civ>
-    <GenericName>Druidic Warrior</GenericName>
-    <SpecificName>Gaeroa Druides</SpecificName>
+    <GenericName>Carnute Druid</GenericName>
+    <SpecificName>Carnute Cingetos</SpecificName>
     <SelectionGroupName>units/gaul_champion_infantry_druid</SelectionGroupName>
     <Icon>units/celt_hero_cunobelin.png</Icon>
-    <VisibleClasses datatype="tokens">Healer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Healer Druid</VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>units/britons/hero_infantry_swordsman_cunobelin.xml</Actor>

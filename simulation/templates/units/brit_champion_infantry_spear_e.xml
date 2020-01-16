@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit_champion_infantry_spear_a">
+  <Armour>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack op="add">2</Hack>
+      <Pierce op="add">2.5</Pierce>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Champion</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Bonus1>
+        <Bonus2>
+          <Classes>Hero</Classes>
+          <Multiplier>1.5</Multiplier>
+        </Bonus2>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
+  <Identity>
+    <GenericName>Brythonic Heroic Spearman</GenericName>
+    <Icon>units/gaul_hero_viridomarus.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
+    <Run>
+      <Speed op="mul">1.1</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/gauls/hero_infantry_spearman_viridomarus.xml</Actor>
+  </VisualActor>
+</Entity>

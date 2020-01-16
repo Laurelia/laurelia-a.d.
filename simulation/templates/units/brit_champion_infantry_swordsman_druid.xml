@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Heal>
     <Range>30</Range>
@@ -14,8 +14,8 @@
   </Heal>
   <Identity>
     <Civ>brit</Civ>
-    <GenericName>Warrior-Druid</GenericName>
-    <SpecificName>Drwdae</SpecificName>
+    <GenericName>Druidic Noble</GenericName>
+    <SpecificName>Adgenios Druidos</SpecificName>
     <SelectionGroupName>units/brit_champion_infantry_druid</SelectionGroupName>
     <Icon>units/celt_hero_cunobelin.png</Icon>
     <VisibleClasses datatype="tokens">Healer</VisibleClasses>

@@ -17,7 +17,7 @@
   </Health>
   <Identity>
     <GenericName>Market Vendor</GenericName>
-    <Tooltip>Economic activity brings a trickle of Coin resource through taxes.</Tooltip>
+    <Tooltip>Economic activity generates Coin through taxes.</Tooltip>
     <VisibleClasses datatype="tokens">Town Vendor Taxpayer</VisibleClasses>
     <Icon>gaia/special_treasure_coin.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
@@ -54,9 +54,9 @@
       <wood>0.0</wood>
       <stone>0.0</stone>
       <metal>0.0</metal>
-      <coin>1.0</coin>
+      <coin>0.5</coin>
     </Rates> 
-    <Interval>10000</Interval> 
+    <Interval>1000</Interval> 
   </ResourceTrickle>
   <Sound>
     <SoundGroups>

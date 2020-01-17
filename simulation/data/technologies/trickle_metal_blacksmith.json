@@ -7,7 +7,7 @@
 	"researchTime": 40,
 	"tooltip": "Blacksmiths passively generate metal.",
 	"modifications": [
-		{"value": "ResourceTrickle/Rates/metal", "add": 1}
+		{"value": "ResourceTrickle/Rates/metal", "add": 0.25}
 	],
 	"affects": ["Blacksmith"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

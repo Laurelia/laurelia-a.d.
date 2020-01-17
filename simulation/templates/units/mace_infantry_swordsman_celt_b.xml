@@ -8,6 +8,7 @@
     </Resources>
   </Cost>
   <Identity>
+    <Civ>mace</Civ>
     <SelectionGroupName>units/mace_infantry_swordsman_celt_b</SelectionGroupName>
     <GenericName>Allied Scordisci Swordsman</GenericName>
     <SpecificName>Scordiskós Symmakhikós</SpecificName>

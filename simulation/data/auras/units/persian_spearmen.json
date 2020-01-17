@@ -3,6 +3,6 @@
      "radius": 6,
 	"affects": ["Archer"],
 	"modifications": [{ "value": "Armour/Pierce", "add": 1 }],
-	"auraName": "Large Sparas ",
+	"auraName": "Tower Shield",
 	"auraDescription": "+1 pierce armour for nearby archers."
 }

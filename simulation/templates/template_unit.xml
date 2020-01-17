@@ -97,10 +97,10 @@
   </ResourceGatherer>
   <ResourceTrickle>
 	<Rates>
-      <food>-1</food>
+      <food>-0.1</food>
       <coin>0</coin>
     </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <Selectable>
     <Overlay>

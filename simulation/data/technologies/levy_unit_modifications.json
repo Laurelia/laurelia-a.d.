@@ -1,5 +1,5 @@
 {
-	"autoResearch": true,
+	"autoResearch": false,
 	"icon": "upgrade_advanced.png",
 	"tooltip": "Levy Units are generally poor fighters, can be massed easily and cost few resources.",
 	"modifications": [

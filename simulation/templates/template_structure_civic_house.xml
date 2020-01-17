@@ -19,7 +19,6 @@
     <BuildTime>60</BuildTime>
     <Resources>
       <wood>75</wood>
-      <coin>25</coin>
     </Resources>
   </Cost>
   <Footprint>
@@ -65,9 +64,9 @@
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
-      <coin>2.0</coin>
+      <coin>0.25</coin>
     </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <Sound>
     <SoundGroups>

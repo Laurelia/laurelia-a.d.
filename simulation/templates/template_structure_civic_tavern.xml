@@ -56,7 +56,7 @@
   <RallyPoint/>
   <ResourceTrickle>
     <Rates>
-      <coin>3.0</coin>
+      <coin>0.3</coin>
     </Rates>
     <Interval>10000</Interval>
   </ResourceTrickle>

@@ -45,7 +45,7 @@
       <metal>0.0</metal>
       <coin>0.0</coin>
       </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <ResourceDropsite>
     <Types>food</Types>

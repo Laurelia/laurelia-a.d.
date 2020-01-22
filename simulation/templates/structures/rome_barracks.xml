@@ -22,11 +22,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_infantry_barracks
-      units/{civ}_champion_cavalry_barracks
+      units/{civ}_infantry_swordsman_soc_b
     </Entities>
     <Technologies datatype="tokens">
-      unlock_champion_units
+      special_marian_reforms
     </Technologies>
   </ProductionQueue>
   <Reform>

@@ -5,7 +5,7 @@
 	"requirements": {"tech": "phase_village"},
 	"icon": "mining_pickax.png",
 	"researchTime": 40,
-	"tooltip": "Gatherers +25% mining rate.",
+	"tooltip": "Gatherers +25% stone, metal, and coin mining rate.",
 	"modifications": 
 	[{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.25},
 	{"value": "ResourceGatherer/Rates/coin.ore", "multiply": 1.25},

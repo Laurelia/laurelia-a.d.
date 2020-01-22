@@ -64,9 +64,9 @@
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
-      <coin>5.0</coin>
+      <coin>0.5</coin>
     </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <Sound>
     <SoundGroups>

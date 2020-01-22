@@ -4,6 +4,10 @@
     <Rank>Elite</Rank>
   </Identity>
   <Promotion disable=""/>
+  <Reform>
+    <Entity>units/rome_infantry_swordsman_reformed_e</Entity>
+    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+  </Reform>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_2_e.xml</Actor>
   </VisualActor>

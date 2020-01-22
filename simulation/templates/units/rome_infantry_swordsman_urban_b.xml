@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/rome_infantry_swordsman_reformed_b">
   <Identity>
+    <GenericName>Urban Cohort Legionary</GenericName>
+    <SpecificName>Legionarius Cohors Urbanus</SpecificName>
+    <VisibleClasses datatype="tokens">
+	    Urbanus
+	  </VisibleClasses>
     <RequiredTechnology>romans/unlock_urban_cohort</RequiredTechnology>
   </Identity>
   <Promotion>

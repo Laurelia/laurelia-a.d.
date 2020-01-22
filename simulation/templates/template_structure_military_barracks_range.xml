@@ -46,7 +46,7 @@
     <wood>100</wood>
     <stone>0</stone>
     <metal>0</metal>
-    <glory>300</glory>
+    <coin>300</coin>
   </Loot>
   <Obstruction>
     <Static width="20.0" depth="15.0"/>

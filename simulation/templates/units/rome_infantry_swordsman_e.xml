@@ -6,6 +6,7 @@
   <Promotion disable=""/>
   <Reform>
     <Entity>units/rome_infantry_swordsman_reformed_e</Entity>
+    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
   </Reform>
   <VisualActor>
     <Actor>units/romans/infantry_swordsman_e.xml</Actor>

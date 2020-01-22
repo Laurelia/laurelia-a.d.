@@ -10,6 +10,7 @@
 	<GenericName>Julius Caesar</GenericName>
     <SpecificName>Gaius Julius Caesar</SpecificName>
     <Icon>units/rome_hero_scipio.png</Icon>
+    <RequiredTechnology>phase_nation</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/romans/hero_cavalry_swordsman_scipio_m.xml</Actor>

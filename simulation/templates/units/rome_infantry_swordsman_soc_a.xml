@@ -6,6 +6,10 @@
   <Promotion>
     <Entity>units/rome_infantry_swordsman_soc_e</Entity>
   </Promotion>
+  <Reform>
+    <Entity>units/rome_infantry_swordsman_reformed_a</Entity>
+    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+  </Reform>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_2_a.xml</Actor>
   </VisualActor>

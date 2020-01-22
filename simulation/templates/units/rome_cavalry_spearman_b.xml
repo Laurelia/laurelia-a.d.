@@ -4,7 +4,7 @@
     <Civ>rome</Civ>
     <Lang>latin</Lang>
     <SelectionGroupName>units/rome_cavalry_spearman_b</SelectionGroupName>
-    <GenericName>Roman Cavalry</GenericName>
+    <GenericName>Roman Citizen Cavalry</GenericName>
     <SpecificName>Eques Romanus</SpecificName>
     <Icon>units/rome_cavalry_spearman.png</Icon>
     <VisibleClasses datatype="tokens">Polybian</VisibleClasses>
@@ -14,6 +14,7 @@
   </Promotion>
   <Reform>
     <Entity>units/rome_cavalry_swordsman_b</Entity>
+    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
   </Reform>
   <VisualActor>
     <Actor>units/romans/cavalry_spearman_b_m.xml</Actor>

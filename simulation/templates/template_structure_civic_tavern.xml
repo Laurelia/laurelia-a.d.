@@ -58,7 +58,7 @@
     <Rates>
       <coin>0.3</coin>
     </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>

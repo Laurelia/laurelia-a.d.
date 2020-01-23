@@ -51,6 +51,7 @@
       gather_vineyard_press
       cost_farms_irrigation
       health_farms_waterscrew
+      unlock_granary
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

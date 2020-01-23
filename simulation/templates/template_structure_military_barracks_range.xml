@@ -67,8 +67,8 @@
 	    units/{civ}_infantry_archer_merc_b
     </Entities>
     <Technologies datatype="tokens">
-	    training_levy_infantry_ranged
-	    special_archery_tradition
+	    
+	    
       ranged_infantry_irregulars
     </Technologies>
   </ProductionQueue>

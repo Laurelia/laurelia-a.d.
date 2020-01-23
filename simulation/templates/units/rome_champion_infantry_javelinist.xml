@@ -14,7 +14,7 @@
   </Loot>
   <Reform>
     <Entity>units/rome_champion_infantry_imperial</Entity>
-    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+    <RequiredXp>99999</RequiredXp>
   </Reform>
   <Upgrade>
     <Extraordinarius>

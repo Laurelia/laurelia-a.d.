@@ -52,11 +52,11 @@
     </Entities>
     <Technologies datatype="tokens">
       persians/immortals
-	    persians/armor_champion_infantry
+	    
 	    persians/special_palace
       persians/special_cyrus_cylinder
-      persians/speed_royal_road
-      persians/training_kings_levy
+      
+      
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

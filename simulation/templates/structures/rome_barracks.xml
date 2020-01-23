@@ -25,12 +25,12 @@
       units/{civ}_infantry_swordsman_soc_b
     </Entities>
     <Technologies datatype="tokens">
-      special_marian_reforms
+      romans/special_marian_reforms
     </Technologies>
   </ProductionQueue>
   <Reform>
     <Entity>structures/rome_barracks_legion</Entity>
-    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+    <RequiredXp>99999</RequiredXp>
   </Reform>
   <VisualActor>
     <Actor>structures/romans/barracks.xml</Actor>

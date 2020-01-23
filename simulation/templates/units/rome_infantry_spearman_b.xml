@@ -24,7 +24,7 @@
   </Promotion>
   <Reform>
     <Entity>units/rome_infantry_swordsman_reformed_a</Entity>
-    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+    <RequiredXp>99999</RequiredXp>
   </Reform>
   <VisualActor>
     <Actor>units/romans/infantry_spearman_a.xml</Actor>

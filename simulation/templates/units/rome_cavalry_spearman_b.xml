@@ -14,7 +14,7 @@
   </Promotion>
   <Reform>
     <Entity>units/rome_cavalry_swordsman_b</Entity>
-    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+    <RequiredXp>99999</RequiredXp>
   </Reform>
   <VisualActor>
     <Actor>units/romans/cavalry_spearman_b_m.xml</Actor>

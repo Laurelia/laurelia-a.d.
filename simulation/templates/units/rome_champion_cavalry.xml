@@ -11,7 +11,7 @@
   </Identity>
   <Reform>
     <Entity>units/rome_champion_cavalry_imperial</Entity>
-    <RequiredXp>99999999999999999999999999999999999999999</RequiredXp>
+    <RequiredXp>99999</RequiredXp>
   </Reform>
   <VisualActor>
     <Actor>units/romans/cavalry_swordsman_c_m.xml</Actor>

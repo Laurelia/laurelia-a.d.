@@ -20,7 +20,7 @@
     <SpecificName>Legionarius Cohors Primus</SpecificName>
     <Rank>Elite</Rank>
     <Icon>units/rome_champion_legion_imperial.png</Icon>
-    <RequiredTechnology>romans/unlock_evocati</RequiredTechnology>
+    
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

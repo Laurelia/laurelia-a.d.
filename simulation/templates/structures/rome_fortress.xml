@@ -48,8 +48,8 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_infantry
-      units/{civ}_champion_centourian_a
       units/{civ}_champion_cavalry
+      units/{civ}_champion_centurion_a
       units/{civ}_hero_marcellus
       units/{civ}_hero_maximus
       units/{civ}_hero_scipio
@@ -57,7 +57,6 @@
       units/{civ}_hero_sulla
       units/{civ}_hero_crassus
       units/{civ}_hero_pompey
-      units/{civ}_hero_caesar
 	    units/{civ}_hero_augustus
       units/{civ}_hero_claudius
       units/{civ}_hero_trajan

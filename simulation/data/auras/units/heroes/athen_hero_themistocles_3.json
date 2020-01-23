@@ -1,6 +1,7 @@
 {
 	"type": "range",
      "radius": 40,
+     "affects": ["Champion Sword"],
 	"modifications": [{ "value": "Attack/Melee/Hack", "multiply": 1.10 }],
 	"auraName": "Marine Commander",
 	"auraDescription": "+10% attack for nearby marines.", 

@@ -65,11 +65,13 @@
 	    units/{civ}_infantry_archer_militia_b
 	    units/{civ}_infantry_archer_b
 	    units/{civ}_infantry_archer_merc_b
+	    units/{civ}_infantry_crossbowman_b
     </Entities>
-    <Technologies datatype="tokens">
-	    
-	    
-      ranged_infantry_irregulars
+    <Technologies datatype="tokens">	
+      heal_barracks    
+      attack_infantry_ranged_01	    
+      attack_infantry_ranged_02
+      attack_accuracy_marksmanship
     </Technologies>
   </ProductionQueue>
   <Sound>

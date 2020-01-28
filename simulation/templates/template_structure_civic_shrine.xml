@@ -25,7 +25,6 @@
       -heal_rate
       -heal_rate_2
       -heal_temple
-      -health_regen_units
     </Technologies>
   </ProductionQueue>
   <VisualActor>

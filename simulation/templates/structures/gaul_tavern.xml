@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_house">
+<Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Category>Tavern</Category>
+  </BuildRestrictions>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>200</BuildTime>
@@ -25,7 +28,7 @@
     <Tooltip>Recruit Naked Fanatics.</Tooltip>
     <Icon>structures/celtic_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
@@ -34,13 +37,19 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_champion_fanatic
+      units/{civ}_infantry_swordsman_merc_b
+      units/{civ}_cavalry_swordsman_merc_b
+      units/{civ}_infantry_axeman_merc_b
     </Entities>
+    <Technologies datatype="tokens">
+      celts/health_units_03
+    </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
-      <coin>2.0</coin>
+      <coin>0.3</coin>
     </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <Sound>
     <SoundGroups>
@@ -50,6 +59,7 @@
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
+    <Root>false</Root>
     <Radius>32</Radius>
     <Weight>65535</Weight>
   </TerritoryInfluence>

@@ -22,6 +22,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/romans_imperial/outpost_frontier.xml</Actor>
+    <Actor>structures/romans/outpost_frontier.xml</Actor>
   </VisualActor>
 </Entity>

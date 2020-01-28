@@ -58,6 +58,7 @@
       units/{civ}_hero_brennus
       units/{civ}_hero_ambiorix
       units/{civ}_hero_vercingetorix
+      units/{civ}_champion_infantry_spearman
       units/{civ}_champion_infantry
       units/{civ}_champion_cavalry
     </Entities>

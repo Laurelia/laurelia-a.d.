@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="phalanx_run">
+  <animations>
+    <animation file="biped/new/hoplite_run_ready.dae" name="phalanx_run" id="phalrun1" speed="15"/>
+    <animation file="biped/new/hoplite_run_ready.dae" name="phalanx_run" id="phalrun2" speed="16"/>
+  </animations>
+<props>
+    <prop attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+  </props>
+</variant>

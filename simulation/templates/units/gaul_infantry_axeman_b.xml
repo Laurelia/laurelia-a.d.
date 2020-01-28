@@ -4,7 +4,6 @@
     <Entities datatype="tokens">
       structures/gaul_tavern
       structures/gaul_rotarymill
-      structures/gaul_theatron
     </Entities>
   </Builder>
   <Identity>

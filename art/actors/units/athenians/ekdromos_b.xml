@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_ready_fast.xml">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/helmets/hele_su2.xml" attachpoint="helmet"/>
@@ -15,11 +15,16 @@
       </textures>
     </variant>
   </group>
+<group>
+    <variant file="biped/base_spearman_ready_fast.xml"/>
+    <variant file="biped/phalanx_idle.xml"/>
+    <variant file="biped/phalanx_back_idle.xml"/>
+</group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/formations/phalanx_front.xml"/>
-    <variant file="biped/formations/phalanx_mid.xml"/>
-    <variant file="biped/formations/phalanx_back.xml"/>
+    <variant file="biped/phalanx_walk.xml"/>
+    <variant file="biped/phalanx_run.xml"/>
+    <variant file="biped/phalanx_attack.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
@@ -32,12 +37,12 @@
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
-    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

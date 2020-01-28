@@ -10,9 +10,6 @@
       <Crush>2</Crush>
     </Foundation>
   </Armour>
-  <Auras datatype="tokens">
-    -structures/pop_penalty_military
-  </Auras>
   <BuildRestrictions>
     <Category>Kennel</Category>
   </BuildRestrictions>

@@ -22,10 +22,9 @@
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
-      structures/{civ}_tent
+      structures/{civ}_house
       structures/{civ}_storehouse
       structures/{civ}_farmstead
-      structures/{civ}_field
       structures/{civ}_corral
       structures/{civ}_outpost
       other/wallset_palisade
@@ -34,11 +33,10 @@
       structures/{civ}_shipyard
       structures/{civ}_barracks
       structures/{civ}_range
-      structures/{civ}_stables
+      structures/{civ}_stable
       structures/{civ}_workshop
       structures/{civ}_blacksmith
       structures/{civ}_temple
-      structures/{civ}_market
       structures/{civ}_defense_tower
       structures/{civ}_wallset_stone
       structures/{civ}_civil_centre

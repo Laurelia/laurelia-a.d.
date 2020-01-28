@@ -23,13 +23,7 @@
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="14.0"/>
-  </Obstruction><Entities datatype="tokens">
-      units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_axeman_b
-	    units/{civ}_infantry_javelinist_b
-	    units/{civ}_infantry_slinger_b
-	    units/{civ}_infantry_archer_b
-    </Entities>
+  </Obstruction>
   <VisualActor>
     <Actor>structures/celts/longhouse.xml</Actor>
   </VisualActor>

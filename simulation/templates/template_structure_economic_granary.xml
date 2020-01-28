@@ -14,6 +14,7 @@
     </Resources>
   </Cost>
   <Footprint>
+    <Square width="15.0" depth="15.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -28,7 +29,7 @@
     <Icon>technologies/cornucopia.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="16.0" depth="16.0"/>
+    <Static width="13.0" depth="13.0"/>
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
@@ -58,7 +59,6 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/persians/ice_house.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

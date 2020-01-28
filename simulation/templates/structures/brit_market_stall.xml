@@ -2,6 +2,6 @@
 <Entity parent="template_structure_economic_market_stall">
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Magos</SpecificName>
+    <SpecificName>Alganna</SpecificName>
   </Identity>
 </Entity>

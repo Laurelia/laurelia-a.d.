@@ -65,6 +65,7 @@
 	    units/{civ}_infantry_archer_militia_b
 	    units/{civ}_infantry_archer_b
 	    units/{civ}_infantry_archer_merc_b
+	    units/{civ}_infantry_crossbowman_b
     </Entities>
     <Technologies datatype="tokens">
 	    

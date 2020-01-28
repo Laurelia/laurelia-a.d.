@@ -14,7 +14,7 @@
     <Static width="16.0" depth="11.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/spartans/farmstead.xml</Actor>
+    <Actor>structures/hellenes/granary.xml</Actor>
     <FoundationActor>structures/fndn_4x2.xml</FoundationActor>
   </VisualActor>
 </Entity>

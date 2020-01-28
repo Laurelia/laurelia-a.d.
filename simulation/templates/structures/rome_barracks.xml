@@ -16,6 +16,7 @@
   <Identity>
     <Civ>rome</Civ>
     <SpecificName>Castrum</SpecificName>
+    <Classes datatype="tokens">Polybian</Classes>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>

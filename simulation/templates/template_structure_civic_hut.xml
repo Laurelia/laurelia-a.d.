@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Category>Hut</Category>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>300</CapturePoints>
     <GarrisonRegenRate>4.0</GarrisonRegenRate>

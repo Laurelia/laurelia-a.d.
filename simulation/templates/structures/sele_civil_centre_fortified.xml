@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="structures/sele_civil_centre">
   <Capturable>
     <CapturePoints op="mul">1.5</CapturePoints>
@@ -19,9 +19,11 @@
 	</Classes>
     <History></History>
   </Identity>
-
+  <TerritoryInfluence>
+    <Radius op="mul">1.5</Radius>
+  </TerritoryInfluence>
   <Upgrade disable=""/>
   <VisualActor>
-    <Actor>structures/seleucids/civil_center_metropolitan.xml</Actor>
+    <Actor>structures/seleucids/civic_center_metropolitan.xml</Actor>
   </VisualActor>
 </Entity>

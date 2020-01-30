@@ -11,8 +11,7 @@
 	"researchTime": 60,
 	"tooltip": "Train elite rank healers.",
 	"modifications": [
-		{ "value": "Promotion/RequiredXp", "replace": 0, "affects": "Basic" },
-		{ "value": "Promotion/RequiredXp", "replace": 0, "affects": "Advanced" }
+		{ "value": "Reform/RequiredXp", "replace": 0}
 	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml",
 	"affects": ["Healer"]

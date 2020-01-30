@@ -21,6 +21,7 @@
       units/{civ}_infantry_swordsman_reformed_b
     </Entities>
   </ProductionQueue>
+  <Reform disable=""/>
   <VisualActor>
     <Actor>structures/romans/outpost_frontier.xml</Actor>
   </VisualActor>

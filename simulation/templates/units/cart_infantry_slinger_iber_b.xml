@@ -35,6 +35,10 @@
   <Promotion>
     <Entity>units/cart_infantry_slinger_iber_a</Entity>
   </Promotion>
+  <Reform>
+    <Entity>units/cart_infantry_slinger_iber_a</Entity>
+    <RequiredXp>99999</RequiredXp>
+  </Reform>
   <ResourceTrickle>
 	<Rates>
       <coin>-2</coin>

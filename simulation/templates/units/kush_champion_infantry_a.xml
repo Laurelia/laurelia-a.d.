@@ -11,6 +11,10 @@
     <Entity>units/kush_champion_infantry_e</Entity>
     <RequiredXp>200</RequiredXp>
   </Promotion>
+  <Reform>
+    <Entity>units/kush_champion_infantry_e</Entity>
+    <RequiredXp>99999</RequiredXp>
+  </Reform>
   <VisualActor>
     <Actor>units/kushites/infantry_archer_c.xml</Actor>
   </VisualActor>

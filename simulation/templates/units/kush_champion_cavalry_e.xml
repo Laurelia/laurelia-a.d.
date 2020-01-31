@@ -11,4 +11,5 @@
     <GenericName>Royal Cavalry</GenericName>
   </Identity>
   <Promotion disable=""/>
+    <Reform disable=""/>
 </Entity>

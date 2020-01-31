@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/kush_champion_infantry_a">
   <Armour>
     <Hack op="add">1</Hack>
@@ -15,6 +15,7 @@
     <SelectionGroupName>units/kush_champion_infantry_e</SelectionGroupName>
   </Identity>
   <Promotion disable=""/>
+    <Reform disable=""/>
   <VisualActor>
     <Actor>units/kushites/infantry_archer_c.xml</Actor>
   </VisualActor>

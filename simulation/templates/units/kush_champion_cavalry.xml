@@ -3,6 +3,7 @@
   <Identity>
     <Civ>kush</Civ>
 	<GenericName>Noble Cavalry</GenericName>
+	      <Classes datatype="tokens">Noble</Classes>
     <SpecificName>Htr Ms’ n mh-ib</SpecificName>
     <Icon>units/kush_champion_cavalry.png</Icon>
   </Identity>
@@ -10,6 +11,10 @@
     <Entity>units/kush_champion_cavalry_e</Entity>
     <RequiredXp>200</RequiredXp>
   </Promotion>
+  <Reform>
+    <Entity>units/kush_champion_cavalry_e</Entity>
+    <RequiredXp>99999</RequiredXp>
+  </Reform>
   <VisualActor>
     <Actor>units/kushites/champion_cavalry.xml</Actor>
   </VisualActor>

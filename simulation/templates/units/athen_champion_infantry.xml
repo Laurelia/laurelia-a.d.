@@ -4,10 +4,10 @@
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <GenericName>Chosen Hoplite</GenericName>
-    <SpecificName>Epílektos</SpecificName>
-    <Icon>units/athen_champion_infantry.png</Icon>
+    <SpecificName>Logas</SpecificName>
+    <Icon>units/hele_champion_infantry_polis.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/infantry_spearman_c.xml</Actor>
+    <Actor>units/spartans/infantry_spearman_c.xml</Actor>
   </VisualActor>
 </Entity>

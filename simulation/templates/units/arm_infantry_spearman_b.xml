@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/arm_stables
+      structures/arm_apadana
+      structures/arm_ishtar_gate
+      structures/arm_hall
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>arm</Civ>
+    <SelectionGroupName>units/arm_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Armenian Spearman</GenericName>
+    <SpecificName>Hai Nizagamartik</SpecificName>
+    <Icon>units/pers_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/arm_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/armenians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

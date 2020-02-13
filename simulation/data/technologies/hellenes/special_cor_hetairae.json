@@ -1,0 +1,17 @@
+{
+	"genericName": "Temple Prostitutes",
+	"specificName": {
+		"cor": "Hetairae"
+	},
+	"cost": {"food": 0, "wood": 200, "stone": 0, "coin": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "cor"}]},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "population.png",
+	"researchTime": 40,
+	"tooltip": "Temples of Aphrodite passively generate Coin.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "add": 1}
+	],
+	"affects": ["Aphrodite"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -22,19 +22,24 @@
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
+      structures/{civ}_civil_centre
+      structures/{civ}_hut
       structures/{civ}_house
+      structures/{civ}_longhouse
+      structures/{civ}_apartment
+      structures/{civ}_tenement
       structures/{civ}_storehouse
+      structures/{civ}_granary
       structures/{civ}_farmstead
       structures/{civ}_field
+      structures/{civ}_orchard
+      structures/{civ}_vineyard
       structures/{civ}_corral
       structures/{civ}_dock
       structures/{civ}_temple
       structures/{civ}_market
-      structures/{civ}_civil_centre
-      structures/{civ}_wonder
-      structures/{civ}_vineyard
+      structures/{civ}_market_stall
       structures/{civ}_tacara
-      structures/{civ}_apartment
       structures/{civ}_ice_house
       structures/{civ}_warehouse
       structures/{civ}_library
@@ -42,14 +47,9 @@
       structures/{civ}_monument
       structures/{civ}_mausoleum
       structures/{civ}_palace
-      structures/{civ}_hut
-      structures/{civ}_longhouse
-      structures/{civ}_granary
       structures/{civ}_propylaea
-      structures/{civ}_temple_large
-      structures/{civ}_orchard
       structures/{civ}_shrine
-      structures/{civ}_tenement
+      structures/{civ}_wonder
       structures/{civ}_colosseum
       structures/{civ}/mace_house
       structures/{civ}/mace_storehouse
@@ -100,6 +100,8 @@
       <stone.rock>0.35</stone.rock>
       <stone.ruins>2</stone.ruins>
       <metal.ore>0.35</metal.ore>
+      <coin.ore>0.5</coin.ore>
+      <coin.fruit>0.25</coin.fruit>
     </Rates>
   </ResourceGatherer>
   <Sound>

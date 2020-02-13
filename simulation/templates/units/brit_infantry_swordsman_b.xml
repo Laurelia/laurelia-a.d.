@@ -10,8 +10,8 @@
   <Identity>
     <Civ>brit</Civ>
     <SelectionGroupName>units/brit_infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Gaeroa</SpecificName>
-    <GenericName>Celtic swordsman</GenericName>
+    <SpecificName>Botroas</SpecificName>
+    <GenericName>Celtic Swordsman</GenericName>
     <Icon>units/cart_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>

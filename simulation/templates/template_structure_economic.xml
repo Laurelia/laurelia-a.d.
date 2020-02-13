@@ -18,4 +18,14 @@
   <Loot>
     <coin>100</coin>
   </Loot>
+  <ResourceTrickle>
+    <Rates> 
+      <food>0.0</food>
+      <wood>0.0</wood>
+      <stone>0.0</stone>
+      <metal>0.0</metal>
+      <coin>0.0</coin>
+    </Rates> 
+    <Interval>1000</Interval> 
+  </ResourceTrickle>
 </Entity>

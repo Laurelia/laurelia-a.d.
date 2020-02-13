@@ -1,14 +1,13 @@
 {
-	"genericName": "Handicrafting",
-	"description": ".",
+	"genericName": "Artisans",
 	"cost": {"food": 0, "wood": 200, "stone": 0, "coin": 200},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "figurine.png",
 	"researchTime": 40,
-	"tooltip": "Houses slowly generate coin.",
+	"tooltip": "Houses generate +50% coin.",
 	"modifications": [
-		{"value": "ResourceTrickle/Rates/coin", "add": 1}
+		{"value": "ResourceTrickle/Rates/Coin", "mul": 1.5}
 	],
 	"affects": ["House"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -3,13 +3,6 @@
   <Auras datatype="tokens">
     structures/kush_pyramids_economic
   </Auras>
-  <BuildRestrictions>
-    <Category>Monument</Category>
-    <Distance>
-      <FromClass>Monument</FromClass>
-      <MinDistance>150</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Capturable disable=""/>
   <Cost>
     <Population>0</Population>

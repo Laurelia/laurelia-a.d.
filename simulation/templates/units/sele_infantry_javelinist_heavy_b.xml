@@ -6,7 +6,7 @@
     <GenericName>Seleucid Peltast</GenericName>
     <SpecificName>Peltastḗs Seleukidón</SpecificName>
     <Icon>units/ptol_infantry_javelinist_merc.png</Icon>
-    <RequiredTechnology>phase_city/RequiredTechnology>
+    
   </Identity>
   <Promotion>
     <Entity>units/sele_infantry_javelinist_heavy_a</Entity>

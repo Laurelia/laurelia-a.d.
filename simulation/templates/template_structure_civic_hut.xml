@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
+  <BuildRestrictions>
+    <Category>Hut</Category>
+  </BuildRestrictions>
   <Capturable>
     <CapturePoints>300</CapturePoints>
     <GarrisonRegenRate>4.0</GarrisonRegenRate>
@@ -42,10 +45,13 @@
   </Obstruction>
   <ProductionQueue disable=""/>
   <ResourceTrickle>
-    <Rates>
-      <coin>1.0</coin>
-    </Rates>
-    <Interval>20000</Interval>
+    <Rates> 
+      <food>0.0</food>
+      <wood>0.0</wood>
+      <stone>0.0</stone>
+      <metal>0.0</metal>
+      <coin>0.1</coin>
+    </Rates> 
   </ResourceTrickle>
   <Sound>
     <SoundGroups>

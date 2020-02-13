@@ -12,6 +12,10 @@
     <food>6</food>
     <metal>6</metal>
   </Loot>
+  <Reform>
+    <Entity>units/rome_champion_infantry_imperial</Entity>
+    <RequiredXp>99999</RequiredXp>
+  </Reform>
   <Upgrade>
     <Extraordinarius>
       <Entity>units/rome_champion_infantry</Entity>

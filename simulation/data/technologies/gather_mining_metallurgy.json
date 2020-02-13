@@ -6,9 +6,8 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "metals_casting.png",
 	"researchTime": 40,
-	"tooltip": "Workers gather metal and coin from mines +15% faster.",
-	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.15},
-			  {"value": "ResourceGatherer/Rates/coin.ore", "multiply": 1.15}],
+	"tooltip": "Workers gather metal from mines +15% faster.",
+	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.15}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

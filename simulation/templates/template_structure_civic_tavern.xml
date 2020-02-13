@@ -4,11 +4,11 @@
     <Category>Tavern</Category>
   </BuildRestrictions>
   <Capturable>
-    <CapturePoints>1000</CapturePoints>
-    <RegenRate>0</RegenRate>
-    <GarrisonRegenRate>3</GarrisonRegenRate>
+    <CapturePoints>300</CapturePoints>
+    <GarrisonRegenRate>4.0</GarrisonRegenRate>
   </Capturable>
   <Cost>
+    <Population>2</Population>
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>100</BuildTime>
     <Resources>
@@ -19,13 +19,9 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="18.0" depth="18.0"/>
+    <Square width="20.0" depth="20.0"/>
     <Height>5.0</Height>
   </Footprint>
-  <Health>
-    <Max>1000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
-  </Health>
   <GarrisonHolder>
     <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
@@ -34,13 +30,15 @@
     <BuffHeal>1</BuffHeal>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
   <Identity>
+    <Civ>gaia</Civ>
     <GenericName>Tavern</GenericName>
     <SpecificName>Taberna</SpecificName>
-    <VisibleClasses datatype="tokens">
-	  Town
-	  Tavern
-	</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town Tavern</VisibleClasses>
     <History>Taverns are where Celtic warriors go for a tall glass of mead after a hard-won battle. Some might even find rest in one of the back rooms for rent in this seedy establishment.</History>
     <Tooltip>Train Special Units.</Tooltip>
     <Icon>structures/celtic_embassy.png</Icon>
@@ -51,21 +49,22 @@
     <metal>15</metal>
   </Loot>
   <Obstruction>
-    <Static width="17.0" depth="17.0"/>
+    <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <RallyPoint/>
   <ResourceTrickle>
     <Rates>
-      <coin>3.0</coin>
+      <coin>0.3</coin>
     </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_fanatic
+      units/{civ}_infantry_swordsman_merc_b
+      units/{civ}_cavalry_swordsman_merc_b
     </Entities>
     <Technologies datatype="tokens">
+      celts/health_units_03
     </Technologies>
   </ProductionQueue>
   <Sound>

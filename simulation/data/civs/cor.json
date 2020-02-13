@@ -170,6 +170,9 @@
 		},
 		{
 			"Template": "units/cor_cavalry_javelinist_b"
+		},
+		{
+			"Template": "special/factiongroups/greekcities"
 		}
 	],
 	"Formations":

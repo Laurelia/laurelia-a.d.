@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense_wall">
+  <Armour>
+    <Hack>5.0</Hack>
+    <Pierce>25.0</Pierce>
+    <Crush>2.0</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+    <food>0</food>
+    <wood>15</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="10.0" depth="3.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+  </BuildRestrictions>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Wooden Barricade</GenericName>
+    <Classes datatype="tokens">-StoneWall Palisade</Classes>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Build to protect and better position your units.</Tooltip>
+    <Icon>gaia/special_palisade.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>10</wood>
+    <stone>0</stone>
+    <xp>50</xp>
+  </Loot> 
+  <Obstruction>
+    <Static width="8.5" depth="3.0"/>
+  </Obstruction>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+   <Actor>props/special/barricade_long.xml</Actor>
+   <FoundationActor>structures/fndn_3x1pal.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>8.5</Length>
+    <Orientation>0.5</Orientation>
+  </WallPiece>
+</Entity>

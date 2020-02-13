@@ -2,11 +2,11 @@
 	"type": "range",
 	"radius": 50,
 	"modifications": [
-	  {"value": "Builder/Rate", "multiply": 1.15 "affects":"Citizen"},
-	  {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15 "affects":"Citizen"},
-	  {"value": "Health/Max", "multiply": 1.1 "affects":"Citizen"},
-		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.20 "affects":"Trader"},
-				  { "value": "UnitMotion/Run/Speed", "multiply": 1.20 "affects":"Trader"}
+	  {"value": "Builder/Rate", "multiply": 1.15, "affects":"Citizen"},
+	  {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15, "affects":"Citizen"},
+	  {"value": "Health/Max", "multiply": 1.1, "affects":"Citizen"},
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.20, "affects":"Trader"},
+				  { "value": "UnitMotion/Run/Speed", "multiply": 1.20, "affects":"Trader"}
 	],
 	"auraName": "Edicts of Ashoka",
 	"auraDescription": "Nearby citizens +10% gather rate, build rate, and health. Nearby traders +20% movement speed.",

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+  <Identity>
+    <Civ>spart</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/spart_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Allied Thureos Spearman</GenericName>
+    <SpecificName>Thureophóros Symmakhikós</SpecificName>
+    <Icon>units/sele_infantry_spearman_2.png</Icon>
+    <RequiredTechnology>hellenes/spart_reforms</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/spart_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/thureos_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

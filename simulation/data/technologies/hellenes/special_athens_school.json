@@ -6,10 +6,6 @@
   "requirementsTooltip": "Unlocked in the Empire Phase.",
 	"icon": "political_face.png",
 	"researchTime": 45,
-	"tooltip": "All Technologies -20% research time.",
-	"modifications": [
-		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.8 }
-	],
-	"affects": ["Structure"],
+	"tooltip": "Unlock the ability to upgrade one of your libraries into an academy, which research faster.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

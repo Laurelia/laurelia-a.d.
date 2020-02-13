@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Cost>
+    <Resources>
+      <food op="add">-25</food>
+      <metal op="add">25</metal>
+      <coin op="add">50</coin>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>athen</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/athen_infantry_archer_merc_b</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
+    <GenericName>Cretan Mercenary Archer</GenericName>
+    <SpecificName>Toxótēs Krētikós</SpecificName>
+    <Icon>units/hele_infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/athen_infantry_archer_merc_a</Entity>
+  </Promotion>
+  <ResourceTrickle>
+	<Rates>
+      <coin>-2</coin>
+    </Rates>
+    <Interval>10000</Interval>
+  </ResourceTrickle>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_archer_e.xml</Actor>
+  </VisualActor>
+</Entity>

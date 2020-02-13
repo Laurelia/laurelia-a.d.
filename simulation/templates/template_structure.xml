@@ -10,52 +10,6 @@
       <Crush>1</Crush>
     </Foundation>
   </Armour>
-  <Attack>
-    <Ranged>
-      <Bonuses>
-          <BonusStructureRanged>
-            <Classes>Structure</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusStructureRanged>
-          <BonusOrganicRanged>
-            <Classes>Organic</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusOrganicRanged>
-          <BonusMechanicalRanged>
-            <Classes>Mechanical</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusMechanicalRanged>
-          <BonusInfantryRanged>
-            <Classes>Infantry</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusInfantryRanged>
-          <BonusChampionRanged>
-            <Classes>Champion</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusChampionRanged>
-          <BonusShipRanged>
-            <Classes>Ship</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusShipRanged>
-          <BonusSupportRanged>
-            <Classes>Support</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusSupportRanged>
-	  <BonusHeroRanged>
-            <Classes>Hero</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusHeroRanged>
-          <BonusElephantRanged>
-            <Classes>Elephant</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusElephantRanged>
-          <BonusHealerRanged>
-            <Classes>Healer</Classes>
-            <Multiplier>1</Multiplier>
-          </BonusHealerRanged>
-      </Bonuses>
-    </Ranged>
-  </Attack>
   <BuildingAI>
     <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowMultiplier>0</GarrisonArrowMultiplier>
@@ -155,13 +109,6 @@
   <Repairable>
     <RepairTimeRatio>2.0</RepairTimeRatio>
   </Repairable>
-  <ResourceTrickle>
-    <Rates>
-      <wood>-1</wood>
-      <coin>-1</coin>
-    </Rates>
-    <Interval>10000</Interval>
-  </ResourceTrickle>
   <Selectable>
     <Overlay>
       <Outline>

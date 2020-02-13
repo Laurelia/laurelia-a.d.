@@ -9,12 +9,13 @@
 	},
 	"description": "A large screw fashioned from metal or wood used to elevate water from irrigation ditches into a farmer's field.",
 	"cost": {"metal": 400},
+	"supersedes": "cost_farms_irrigation",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "flood_control.png",
 	"researchTime": 20,
-	"tooltip": "Farm Fields +500% Health.",
+	"tooltip": "Farm Fields and Vineyards +500% Health.",
 	"modifications": [{"value": "Health/Max", "multiply": 6}],
-	"affects": ["Field"],
+	"affects": ["Field", "Vineyard"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

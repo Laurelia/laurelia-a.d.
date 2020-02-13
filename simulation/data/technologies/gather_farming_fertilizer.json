@@ -2,7 +2,7 @@
 	"genericName": "Fertilizer",
 	"description": "Extra nutrients for farms.",
 	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 0, "coin": 250},
-	"supersedes": "gather_farming_training",
+	"supersedes": "gather_farming_collars",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "olives.png",

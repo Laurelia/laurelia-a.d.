@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Player"],
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "add": 1}
+	],
+	"auraName": "Splendor",
+	"auraDescription": "Gain a slow trickle of coin."
+}

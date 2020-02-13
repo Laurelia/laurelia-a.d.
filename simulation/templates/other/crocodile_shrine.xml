@@ -11,13 +11,15 @@
     <Civ>gaia</Civ>
     <GenericName>Crocodile Shrine</GenericName>
     <SpecificName>ḥwt-nṯr</SpecificName>
+    <Tooltip>The Shrine of Sobek at Fayyum</Tooltip>
+    <Undeletable>true</Undeletable>
   </Identity>
   <Obstruction>
     <Static width="20" depth="21"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/gaia/egyptian_magician
+      units/ptol_support_healer_e
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman_thorakites">
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Spartan Armored Swordsman</GenericName>
+    <SpecificName>Spartiátēs Thōrakitēs</SpecificName>
+    <RequiredTechnology>hellenes/spart_reforms</RequiredTechnology>
+  </Identity>
+</Entity>

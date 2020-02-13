@@ -42,7 +42,7 @@ The traditional elite and the very wealthy lived in a domus, a large single-fami
     <Radius>30</Radius>
   </TerritoryInfluence>
   <VisualActor>
-    <Actor>structures/romans_imperial/insula.xml</Actor>
+    <Actor>structures/romans/insula.xml</Actor>
 	<FoundationActor>structures/fndn_6x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

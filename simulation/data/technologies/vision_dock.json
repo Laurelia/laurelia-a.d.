@@ -1,0 +1,12 @@
+{
+	"genericName": "Coastal Patrols",
+	"description": "Docks gain longer vision.",
+	"cost": {"food": 100, "wood": 100, "coin": 100, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"icon": "lookouts.png",
+	"researchTime": 40,
+	"tooltip": "Docks +50% Vision Range.",
+	"modifications": [{"value": "Vision/Range", "multiply": 1.5}],
+	"affects": ["Dock"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

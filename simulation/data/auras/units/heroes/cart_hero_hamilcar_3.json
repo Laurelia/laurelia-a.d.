@@ -1,0 +1,10 @@
+
+{
+	"type": "global",
+     "affects": ["Mercenary"],
+	"modifications": [{"value": "Loot/coin", "multiply": 0.90},
+				  { "value": "Cost/Resources/coin", "multiply": 0.90 }],
+	"auraName": "Recruitment",
+	"auraDescription": "-10% cost for mercenaries."
+}
+

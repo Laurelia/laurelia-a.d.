@@ -28,11 +28,14 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <SelectionGroupName>units/rome_infantry_spearman_soc_b</SelectionGroupName>
     <SpecificName>Hastatus Socius</SpecificName>
-    <VisibleClasses datatype="tokens">Socius</VisibleClasses>
+    <VisibleClasses datatype="tokens">Polybian Socius</VisibleClasses>
   </Identity>
   <Promotion>
     <Entity>units/rome/rome_infantry_spearman_soc_a</Entity>
   </Promotion>
+  <Reform>
+    <Entity>units/rome_infantry_swordsman_reformed_b</Entity>
+  </Reform>
   <ResourceTrickle>
 	<Rates>
       <coin>-2</coin>

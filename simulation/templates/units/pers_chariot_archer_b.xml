@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Armour>
+    <Hack op="add">2</Hack>
+    <Pierce op="add">2</Pierce>
+    <Crush op="add">4</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Pierce>9.0</Pierce>
+      <MaxRange op="mul">1.2</MaxRange>
+      <PrepareTime op="mul">0.9</PrepareTime>
+      <RepeatTime op="mul">0.9</RepeatTime>
+      <Spread op="mul">0.9</Spread>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Population op="mul">2</Population>
+    <Resources>
+      <food>100</food>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Footprint replace="">
+    <Square width="5.5" depth="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>pers</Civ>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <SelectionGroupName>units/pers_chariot_archer_b</SelectionGroupName>
+    <GenericName>Babylonian Scythed Chariot</GenericName>
+    <SpecificName>Babiruviya Ratha</SpecificName>
+    <Icon>units/pers_chariot_archer.png</Icon>
+    <History>Chariots were obsolete by the 5th and 4th centuries BC, but they were viewed as symbols of rank and class, hence their continued deployment on the battlefield in extremely limited roles well after their obsolescence. The crew was made up of an archer and a driver who rode in an armored car equipped with scythe-like blades underneath the chassis and the axels themselves sported a pair of the deadly knives.</History>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/pers_chariot_archer_a</Entity>
+  </Promotion>
+  <ResourceGatherer>
+    <MaxDistance>5.0</MaxDistance>
+    <Capacities>
+      <food>50</food>
+    </Capacities>
+  </ResourceGatherer>
+  <UnitMotion>
+	<PassabilityClass>large</PassabilityClass> 
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/persians/chariot_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

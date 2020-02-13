@@ -7,6 +7,6 @@
     <Entity>units/athen_infantry_hoplite_reformed_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/seleucids/armored_spearman_a.xml</Actor>
+    <Actor>units/athenians/infantry_hoplite_reformed_a.xml</Actor>
   </VisualActor>
 </Entity>

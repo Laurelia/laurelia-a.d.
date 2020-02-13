@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="special/factiongroups/factiongroup">
+  <Identity>
+    <GenericName>Successor States</GenericName>
+  </Identity>
+<ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+       autoresearch/factiongroup_successors
+    </Technologies>
+  </ProductionQueue>
+</Entity>

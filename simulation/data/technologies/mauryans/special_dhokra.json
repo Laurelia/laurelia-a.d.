@@ -1,14 +1,15 @@
 {
 	"genericName": "Dhokra",
 	"cost": {"food": 50, "wood": 50, "metal": 200, "coin": 200},
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
+	"requirements": {"tech": "phase_nation"},
+	"supersedes": "attack_steel_working",
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
 	"icon": "figurine.png",
 	"researchTime": 40,
-	"tooltip": "Houses slowly generate metal.",
+	"tooltip": "Blacksmiths generate Coin.",
 	"modifications": [
-		{"value": "ResourceTrickle/Rates/metal", "add": 1}
+		{"value": "ResourceTrickle/Rates/Coin", "add": 2}
 	],
-	"affects": ["House"],
+	"affects": ["Blacksmith"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

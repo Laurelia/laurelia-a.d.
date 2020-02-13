@@ -3,6 +3,6 @@
 	"affects": ["Structure"],
 	"modifications": [{ "value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 2.00 },
 				  { "value": "BuildingAI/MaxArrowCount", "multiply": 2.00 }],
-	"auraDescription": "+100% arrows per soldier garrison in buildings.",
+	"auraDescription": "Structures fire double arrows per garrisoned soldier.",
 	"auraName": "Valiant Defender"
 }

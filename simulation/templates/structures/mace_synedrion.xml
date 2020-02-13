@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_council">
+  <Identity>
+    <Civ>mace</Civ>
+    <GenericName>Royal Assembly</GenericName>
+    <SpecificName>Synedrîon</SpecificName>
+    <Tooltip>Research administrative technologies.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      successors/special_hellenistic_metropolis
+      successors/special_royal_mint
+    </Technologies>
+  </ProductionQueue>
+</Entity>

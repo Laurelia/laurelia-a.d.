@@ -8,7 +8,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>mace</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/mace_infantry_slinger_b</SelectionGroupName>
     <GenericName>Rhodian Slinger</GenericName>

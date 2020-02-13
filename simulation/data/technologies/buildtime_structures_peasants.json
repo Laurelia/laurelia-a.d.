@@ -1,5 +1,4 @@
 {
-	"pair": "pair_structures_01",	
 	"genericName": "Peasant Laborers",
 	"description": "Cheap, plentiful labor makes the construction of buildings faster, but the workmanship many times may be suspect.",
 	"cost": {"food": 100},

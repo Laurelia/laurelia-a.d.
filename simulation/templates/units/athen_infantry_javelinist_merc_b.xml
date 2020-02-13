@@ -9,7 +9,7 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>{civ}</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_infantry_javelinist_merc_b</SelectionGroupName>
     <GenericName>Thracian Peltast</GenericName>
@@ -18,7 +18,7 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/athen_infantry_javelinist_merc_e.xml</Entity>
+    <Entity>units/{civ}_infantry_javelinist_merc_e.xml</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/athenians/infantry_javelinist_a.xml</Actor>

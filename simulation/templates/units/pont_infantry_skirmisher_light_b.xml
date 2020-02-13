@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelinist">
+  <Identity>
+    <Civ>pont</Civ>
+	<Lang>persian</Lang>
+    <SelectionGroupName>units/pont_infantry_javelinist_light_b</SelectionGroupName>
+    <GenericName>Phrygian Skirmisher</GenericName>
+    <SpecificName>Phrygiòs Akontistḗs</SpecificName>
+    <Icon>units/pers_infantry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/pont_infantry_javelinist_light_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/persians/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

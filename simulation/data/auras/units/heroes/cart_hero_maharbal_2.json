@@ -4,7 +4,7 @@
 	"affects": ["Melee Cavalry"],
      "affectedPlayers": ["Enemy"],
 	"modifications": [{ "value": "Health/Max", "multiply": 0.90 }],
-	"auraName": "Cavalry Union",
+	"auraName": "Cavalry Commander",
 	"auraDescription": "-10% health for nearby enemy melee cavalry.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }

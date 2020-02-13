@@ -4,7 +4,7 @@
     <Civ>athen</Civ>
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_cavalry_swordsman_b</SelectionGroupName>
-    <GenericName>Athenian Citizen Cavalry</GenericName>
+    <GenericName>Athenian Cavalry</GenericName>
     <SpecificName>Hippeús Athēnaîos</SpecificName>
     <Icon>units/hele_cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

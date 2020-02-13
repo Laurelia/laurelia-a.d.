@@ -35,8 +35,8 @@
     <SpecificName>Hellenic Royal Stoa</SpecificName>
     <Tooltip>Recruit special units.</Tooltip>
     <Icon>gaia/special_stoa.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">Town</VisibleClasses>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
   <Loot>
     <stone>10</stone>
@@ -49,10 +49,6 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_black_cloak
-      units/{civ}_thureophoros
-      units/merc_thorakites
-      units/merc_thespian
-      units/merc_ekdromos
     </Entities>
   </ProductionQueue>
   <TerritoryInfluence>

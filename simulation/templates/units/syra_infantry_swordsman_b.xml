@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Entity parent="template_unit_infantry_melee_swordsman">
-
  
   <Identity>
 
     <Civ>syra</Civ>
 
-    <GenericName>Sicilian Footman</GenericName>
+    <GenericName>Native Sicilian Footman</GenericName>
 
     <SpecificName>Sikelios Makhairaphoros</SpecificName>
     
@@ -15,7 +14,7 @@
     
     <RequiredTechnology>phase_town</RequiredTechnology>
 
-    <SelectionGroupName>units/samn_infantry_swordsman_b</SelectionGroupName>
+    <SelectionGroupName>units/syra_infantry_swordsman_b</SelectionGroupName>
 
   </Identity>
 

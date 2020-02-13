@@ -16,7 +16,7 @@
     <Static width="45.0" depth="55.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/romans_imperial/wonder.xml</Actor>
+    <Actor>structures/romans/colosseum.xml</Actor>
     <FoundationActor>structures/fndn_theatron.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Footprint>
+    <Square width="4" depth="4"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Faction Group</GenericName>
+    <Classes datatype="tokens">FactionGroup</Classes>
+	<Civ>gaia</Civ>
+    <Undeletable>true</Undeletable>
+  </Identity>
+  <Ownership/>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+	<FloatDepth>0.0</FloatDepth>
+    <TurnRate>6.0</TurnRate>
+  </Position>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+	<TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <coin>1.0</coin>
+      <time>1.0</time>
+    </TechCostMultiplier>
+  </ProductionQueue>
+  <Selectable>
+    <EditorOnly/>
+	<Overlay>
+	  <Texture>
+        <MainTexture>auras/test/1024x1024_aura.png</MainTexture>
+        <MainTextureMask>auras/test/1024x1024_aura_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Visibility>
+	<RetainInFog>false</RetainInFog>
+	<AlwaysVisible>false</AlwaysVisible>
+	<Corpse>false</Corpse>
+	<Preview>false</Preview>
+  </Visibility>
+  <VisualActor>
+    <SilhouetteDisplay>false</SilhouetteDisplay>
+    <SilhouetteOccluder>true</SilhouetteOccluder>
+    <Actor>props/special/common/aura_farmland_20.xml</Actor>
+    <VisibleInAtlasOnly>true</VisibleInAtlasOnly>
+  </VisualActor>
+</Entity>

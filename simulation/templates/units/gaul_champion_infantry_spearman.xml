@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman_hoplite">
+  <Identity>
+    <Civ>gaul</Civ>
+    <GenericName>Gallic Noble Spearman</GenericName>
+    <SpecificName>Arjos</SpecificName>
+    <Icon>units/gaul_hero_viridomarus.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/gauls/hero_infantry_spearman_viridomarus.xml</Actor>
+  </VisualActor>
+</Entity>

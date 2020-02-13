@@ -1,0 +1,11 @@
+{
+	"genericName": "Grain Storage",
+	"description": "A prudent citizenry would store away a portion of the year's harvest as a hedge against siege or possible famine.",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0, "coin": 100},
+  "requirements": {"entity": {"class": "Field", "number": 5 }},
+	"requirementsTooltip": "Requires 5 Fields.",
+	"icon": "cornucopia.png",
+	"researchTime": 40,
+	"tooltip": "Unlock the Granary.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

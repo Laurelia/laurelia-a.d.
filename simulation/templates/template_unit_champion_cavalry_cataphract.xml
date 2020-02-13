@@ -21,14 +21,6 @@
       <PrepareTime>500</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <Splash>
-        <Shape>Circle</Shape>
-        <Range>5</Range>
-        <FriendlyFire>false</FriendlyFire>
-        <Hack>9.0</Hack>
-        <Pierce>6.0</Pierce>
-        <Crush>0.0</Crush>
-      </Splash>
     </Melee>
   </Attack>
   <Cost>

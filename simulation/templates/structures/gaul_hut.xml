@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Entity parent="other/celt_hut">
+<Entity parent="template_structure_civic_hut">
 
   <Identity>
 

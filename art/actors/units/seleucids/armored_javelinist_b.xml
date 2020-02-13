@@ -19,7 +19,7 @@
         <texture file="skeletal/mace_bronzeshield_2.png" name="baseTex"/>
       </textures>
     </variant>
-  </group
+  </group>
   <group>
     <variant file="biped/base_skirmisher.xml"/>
     <variant file="biped/carry_food.xml"/>

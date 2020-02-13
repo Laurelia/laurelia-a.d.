@@ -1,0 +1,19 @@
+{
+	"genericName": "Social Reform",
+	"specificName": {
+		"spart": "Neohomolói"
+	},
+	"description": "Several notable Spartans attempted to increase the Spartan manpower pool by freeing helots or increasing the social status of Perioikoi.",
+	"cost": { "food": 500, "wood": 0, "stone": 0, "coin": 500 },
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in the Empire Phase.",
+	"icon": "population.png",
+	"researchTime": 180,
+	"tooltip": "Spartan Hoplites -20% train time, cost -1 population.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.8},
+    {"value": "Cost/Population", "add": -1}    
+	],
+	"affects": ["Spartiates"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

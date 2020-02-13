@@ -6,10 +6,8 @@
   </Armour>
   <Attack>
     <Melee>
-      <Damage>
         <Hack>1</Hack>
         <Pierce>3</Pierce>
-      </Damage>
       <MaxRange>7</MaxRange>
       <RepeatTime>2000</RepeatTime>
       <Bonuses>

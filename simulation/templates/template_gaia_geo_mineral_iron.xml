@@ -12,7 +12,7 @@
   </Minimap>
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
-    <Amount>1000</Amount>
+    <Amount>2000</Amount>
     <Type>metal.ore</Type>
 	<MaxGatherers>12</MaxGatherers>
   </ResourceSupply>

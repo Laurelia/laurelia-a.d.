@@ -142,6 +142,9 @@
 		},
 		{
 			"Template": "units/{civ}_cavalry_scout"
+		},
+		{
+			"Template": "special/factiongroups/greekcities"
 		}
 	],
 	"Formations":

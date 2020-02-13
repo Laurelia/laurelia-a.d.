@@ -1,0 +1,16 @@
+  
+{
+	"genericName": "Centralized Administration",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "coin": 200},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "architecture.png",
+	"researchTime": 40,
+	"tooltip": "Civic structures generate +1 coin and increase their capture points by 25%.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/coin", "add": 1},
+		{"value": "Capturable/CapturePoints", "multiply": 1.25}
+	],
+	"affects": ["Civic Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

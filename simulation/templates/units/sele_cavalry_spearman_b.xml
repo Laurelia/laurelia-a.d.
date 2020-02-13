@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_spearman">
-  <Cost>
-    <Resources>
-      <food op="add">-25</food>
-      <coin op="add">50</coin>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>sele</Civ>
-    <Lang>greek</Lang>
     <SelectionGroupName>units/sele_cavalry_spearman_b</SelectionGroupName>
-    <GenericName>Macedonian Settler Cavalry</GenericName>
-    <SpecificName>Hippos Katoikos</SpecificName>
-    <VisibleClasses datatype="tokens">Settler</VisibleClasses>
+    <GenericName>Hellenistic Shield Cavalry</GenericName>
+    <SpecificName>Aspidophorós</SpecificName>
+    <Icon>units/ptol_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Icon>units/mace_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_spearman_b_m.xml</Actor>
+    <Actor>units/ptolemies/cavalry_spearman_b_m.xml</Actor>
   </VisualActor>
 </Entity>
+

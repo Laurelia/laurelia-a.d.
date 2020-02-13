@@ -15,11 +15,10 @@
   </Capturable>
   <Cost>
     <Population>0</Population>
-    <PopulationBonus>2</PopulationBonus>
+    <PopulationBonus>5</PopulationBonus>
     <BuildTime>60</BuildTime>
     <Resources>
       <wood>75</wood>
-      <coin>25</coin>
     </Resources>
   </Cost>
   <Footprint>
@@ -41,7 +40,7 @@
   <Identity>
     <GenericName>House</GenericName>
     <Tooltip>Increase the population limit.</Tooltip>
-    <VisibleClasses datatype="tokens">Village House</VisibleClasses>
+    <VisibleClasses datatype="tokens">Village House Taxpayer</VisibleClasses>
     <Icon>structures/house.png</Icon>
   </Identity>
   <Loot>
@@ -53,21 +52,21 @@
   <ProductionQueue>
     <BatchTimeModifier>1.0</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_support_female_citizen_house
+      units/{civ}_support_female_citizen
     </Entities>
     <Technologies datatype="tokens">
       health_females_01
       pop_house_01
       pop_house_02
-      unlock_females_house
+      trickle_coin_house_1
       heal_house
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
-      <coin>2.0</coin>
+      <coin>0.25</coin>
     </Rates>
-    <Interval>10000</Interval>
+    <Interval>1000</Interval>
   </ResourceTrickle>
   <Sound>
     <SoundGroups>

@@ -1,9 +1,10 @@
 {
 	"type": "global",
 	"affects": ["Temple"],
-  {"value": "GarrisonHolder/Max", "add": 5},
-		{ "value": "GarrisonHolder/BuffHeal", "add": 1 }
+		"modifications": [{"value": "Health/Max", "multiply": 1.25},
+
+  {"value": "GarrisonHolder/Max", "add": 5}
 	],
 	"auraName": "Renovator of the Grand Temple",
-	"auraDescription": "Piye is credited with expanding the Grand Temple of Amun at Jebel Barkal.\nTemples +1 garrisoned heal rate, +5 garrison capacity."
+	"auraDescription": "Piye is credited with expanding the Grand Temple of Amun at Jebel Barkal.\nTemples +25% health, +5 garrison capacity."
 }

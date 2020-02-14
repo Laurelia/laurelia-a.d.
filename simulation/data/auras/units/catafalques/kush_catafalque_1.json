@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Attack/Capture/Value", "multiply": 1.15 }
+	],
+	"auraName": "Conquest of Egypt",
+	"auraDescription": "Piye is primarily known for his conquest of Egypt and subsequent founding of it's twenty-fifth dynasty.\n +15% unit capture rate."
+}

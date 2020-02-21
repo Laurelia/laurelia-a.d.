@@ -3,13 +3,15 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
         <prop actor="props/units/shields/pers_taka_b.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/axe_sagaris.xml" attachpoint="weapon_R"/>
       </props>
-      <textures><texture file="skeletal/pers_ijv_a_1.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="skeletal/pers_csw_b_1.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>

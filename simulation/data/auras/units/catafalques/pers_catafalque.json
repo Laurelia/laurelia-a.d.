@@ -1,0 +1,11 @@
+{
+	"type": "global",
+ 	"auraDescription": "Nebuchadrezzar fortified the double walls of babylon, and added a third wall outside them\nAll walls, gates, and wall towers have 3x the health of a standard wall, but also cost twice as much and take twice as long to build.",
+	"auraName": "Walls of Babylon",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 3.0},
+		{"value": "Cost/BuildTime", "multiply": 2.0},
+		{"value": "Cost/Resources/stone", "multiply": 2.0}
+	],
+ 	"affects": ["StoneWall"]
+}

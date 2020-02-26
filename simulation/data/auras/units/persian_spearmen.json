@@ -1,8 +1,8 @@
 {
 	"type": "range",
-     "radius": 6,
+        "radius": 6,
 	"affects": ["Archer"],
 	"modifications": [{ "value": "Armour/Pierce", "add": 1 }],
-	"auraName": "Tower Shield",
+	"auraName": "Shield Wall",
 	"auraDescription": "+1 pierce armour for nearby archers."
 }

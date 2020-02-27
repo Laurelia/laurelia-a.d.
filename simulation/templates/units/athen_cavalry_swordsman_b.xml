@@ -5,13 +5,17 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/athen_cavalry_swordsman_b</SelectionGroupName>
     <GenericName>Athenian Cavalry</GenericName>
-    <SpecificName>Hippeús Athēnaîos</SpecificName>
+    <SpecificName>Hippeús</SpecificName>
     <Icon>units/hele_cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/athen_cavalry_swordsman_a</Entity>
   </Promotion>
+  <Reform>
+    <Entity>units/athen_cavalry_swordsman_reformed_b</Entity>
+    <RequiredXp>99999</RequiredXp>
+  </Reform>
   <VisualActor>
     <Actor>units/athenians/cavalry_swordsman_b_m.xml</Actor>
   </VisualActor>

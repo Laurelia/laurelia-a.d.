@@ -8,10 +8,10 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>gaia</Civ>
+    <Civ>{civ}</Civ>
     <SelectionGroupName>units/ptol_infantry_swordsman_merc_b</SelectionGroupName>
-    <GenericName>Gallic Mercenary Swordsman</GenericName>
-    <SpecificName>Gallikós Mistophorós</SpecificName>
+    <GenericName>Galatian Mercenary Swordsman</GenericName>
+    <SpecificName>Galatikós Mistophorós</SpecificName>
     <Classes datatype="tokens">Celt</Classes>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/cart_infantry_swordsman.png</Icon>
@@ -27,6 +27,6 @@
     <Interval>10000</Interval>
   </ResourceTrickle>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_swordsman_b.xml</Actor>
+    <Actor>units/ptolemies/infantry_swordsman_merc_b.xml</Actor>
   </VisualActor>
 </Entity>

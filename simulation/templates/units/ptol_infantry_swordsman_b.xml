@@ -10,13 +10,18 @@
   <Identity>
     <Civ>ptol</Civ>
     <SelectionGroupName>units/ptol_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Greek Swordsman</GenericName>
     <SpecificName>Mákhairaphoros</SpecificName>
     <Icon>units/mace_thorakites.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/ptol_infantry_swordsman_a</Entity>
   </Promotion>
+  <Reform>
+    <Entity>units/ptol_infantry_swordsman_thureos_b</Entity>
+    <RequiredXp>99999</RequiredXp>
+  </Reform>
   <VisualActor>
-    <Actor>units/seleucids/armored_swordsman_b.xml</Actor>
+    <Actor>units/ptolemies/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -9,7 +9,7 @@
   </Cost>
   <Identity>
     <Lang>persian</Lang>
-    <GenericName>Akkadian Citizen Militia</GenericName>
+    <GenericName>Akkadian City Guard</GenericName>
     <SpecificName>Erin-Mesh Uriki</SpecificName>
     <Rank>Elite</Rank>
     <Icon>units/pers_kardakes.png</Icon>
@@ -19,6 +19,6 @@
   <Promotion disable=""/>
   </Identity>
   <VisualActor>
-    <Actor>units/persians/infantry_spearman_c3.xml</Actor>
+    <Actor>units/persians/akkadian_spearman.xml</Actor>
   </VisualActor>
 </Entity>

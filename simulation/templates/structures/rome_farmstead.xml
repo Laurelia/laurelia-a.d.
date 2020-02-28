@@ -10,6 +10,15 @@
   <Obstruction>
     <Static width="20.0" depth="16.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+	  units/{civ}_infantry_swordsman_slave
+    </Entities>
+    <Technologies datatype="tokens">
+      -health_siege_rations
+	  romans_imperial/health_public_rations
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/romans/farmstead.xml</Actor>
   </VisualActor>

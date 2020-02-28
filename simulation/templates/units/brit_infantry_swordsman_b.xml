@@ -8,16 +8,15 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>brit</Civ>
     <SelectionGroupName>units/brit_infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Botroas</SpecificName>
-    <GenericName>Celtic Swordsman</GenericName>
+    <SpecificName>Kluddobro</SpecificName>
+    <GenericName>British Shortswordsman</GenericName>
     <Icon>units/cart_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/brit_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/gauls/infantry_swordsman_b.xml</Actor>
+    <Actor>units/britons/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

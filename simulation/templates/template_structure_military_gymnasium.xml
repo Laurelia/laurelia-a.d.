@@ -42,6 +42,7 @@
     </Entities>
     <Technologies datatype="tokens">
       hellenes/attack_inf_spearfighting
+      hellenes/spear_training
       hellenes/speed_infantry_race
       hellenes/training_wrestling_schools
     </Technologies>

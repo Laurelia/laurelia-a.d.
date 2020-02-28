@@ -1,0 +1,16 @@
+{
+	"genericName": "Hero Cult",
+	"description": "",
+	"cost": {"food": 500, "metal": 250, "coin": 250},
+  "supersedes": "attack_military_cult",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "Soldiers +15% health.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.15}
+	],
+	"affects": ["Unit Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

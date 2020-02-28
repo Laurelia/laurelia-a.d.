@@ -1,16 +1,16 @@
 {
-	"genericName": "Greek Spear Training",
+	"genericName": "Weapon Drills",
 	"specificName": {
-		"mace": "Doratismós",
-		"spart": "Doratismós",
-		"theb": "Doratismós",
-		"cor": "Doratismós",
-		"syra": "Doratismós",
-		"ital": "Doratismós",
-		"athen": "Doratismós"
+		"mace": "Hoplomachia",
+		"spart": "Hoplomachia",
+		"theb": "Hoplomachia",
+		"cor": "Hoplomachia",
+		"syra": "Hoplomachia",
+		"ital": "Hoplomachia",
+		"athen": "Hoplomachia"
 	},
-	"description": "Spear fighting training decreases the experience required for the promotion of spear-wielding infantry units.",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300, "coin": 0},
+	"description": "Training decreases the experience required for the promotion of spear-wielding infantry units.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300, "coin": 300},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in the Town Phase.",
 	"icon": "armor_plates_spear.png",

@@ -1,0 +1,24 @@
+{
+	"genericName": "Hero-Worship",
+	"specificName": {
+		"celt": "Catunaros",
+		"brit": "Catunaros",
+		"gaul": "Catunaros",
+		"belg": "Catunaros",
+		"gala": "Catunaros"
+	},
+	"description": "",
+	"cost": {"food": 500, "metal": 250, "coin": 250},
+  "supersedes": "celts/heal_monument",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in the City Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "Soldiers +15% health, +1 Capture Attack.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.15},
+	"modifications": [{"value": "Attack/Capture/Value", "add": 1}
+	],
+	"affects": ["Unit Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

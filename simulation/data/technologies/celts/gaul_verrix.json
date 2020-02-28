@@ -1,0 +1,18 @@
+{
+	"genericName": "Elected King",
+	"specificName":{
+		"gaul": "Verrix"
+	},
+	"cost": {"food": 300, "coin": 300},
+	"requirements": {"all": [{"tech": "phase_nation"}, {"civ": "gaul"}]},
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "laurel_wreath.png",
+	"researchTime": 40,
+	"tooltip": "All Gallic Heroes +25% health and -25% training time.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.25},
+		{"value": "Cost/BuildTime", "multiply": 0.75}
+	],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

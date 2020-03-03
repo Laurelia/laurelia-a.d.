@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Support"],
+	"modifications": [
+	  { "value": "Health/Max", "multiply": 1.05}
+	],
+	"auraName": "Popularis",
+	"auraDescription": "All Citizens and Merchants +5% health while Marius lives."
+}

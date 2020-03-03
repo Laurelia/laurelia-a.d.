@@ -1,9 +1,9 @@
 {
-  "type": "global",
+        "type": "global",
 	"affects": ["Legion"],
 	"modifications": [
-		{ "value": "Attack/Capture/Value", "multiply": 1.15 }
+		{ "value": "Attack/Capture/Value", "add": 1 }
 	],
 	"auraName": "Divide et Impera",
-	"auraDescription": "Legionaries +15% capture attack."
+	"auraDescription": "Legionaries +1 capture attack."
 }

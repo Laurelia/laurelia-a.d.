@@ -10,6 +10,10 @@
   <Promotion>
     <Entity>units/athen_cavalry_javelinist_a</Entity>
   </Promotion>
+  <Reform>
+    <Entity>units/athen_cavalry_javelinist_reformed_b</Entity>
+    <RequiredXp>99999</RequiredXp>
+  </Reform>
   <VisualActor>
     <Actor>units/athenians/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>

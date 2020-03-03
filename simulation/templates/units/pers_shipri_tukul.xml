@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman_armored">
+  <Cost>
+    <Resources>
+      <food op="add">-10.0</food>
+      <metal op="add">+20.0</metal>
+    </Resources>
+    <BuildTime op="add">+5</BuildTime>
+  </Cost>
+  <Identity>
+    <Lang>persian</Lang>
+    <GenericName>Babylonian Heavy Spearman</GenericName>
+    <SpecificName>Shipri Tukul</SpecificName>
+    <Rank>Elite</Rank>
+    <Icon>units/pers_kardakes.png</Icon>
+    <VisibleClasses datatype="tokens">Mesopotamian</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion disable=""/>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/babylonian_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

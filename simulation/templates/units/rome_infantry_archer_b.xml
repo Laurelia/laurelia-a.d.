@@ -25,8 +25,8 @@
   <Identity>
     <Civ>rome</Civ>
     <SelectionGroupName>units/rome_infantry_archer_b</SelectionGroupName>
-    <GenericName>Cretan Archer (Auxiliary Troops)</GenericName>
-    <SpecificName>Toxótēs Krētikóss</SpecificName>
+    <GenericName>Cretan Auxiliary Archer</GenericName>
+    <SpecificName>Sagittarius Creticus</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/hele_infantry_archer.png</Icon>
   </Identity>

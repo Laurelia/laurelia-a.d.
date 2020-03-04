@@ -1,8 +1,7 @@
 {
-	"pair": "romans_imperial/pair_city_cohorts",
 	"genericName": "City Watch Corps",
 	"specificName": {
-		"imp": "Cohortes Vigilum"
+		"rome": "Cohortes Vigilum"
 	},
 	"description": "The Cohortes Vigilum were the night watchmen, fire fighters, and police force in ancient Rome and in other large Roman cities.",
 	"cost": {
@@ -11,12 +10,12 @@
 	},
 	"requirements": {
 		"all": [{
-			"tech": "phase_city"
+			"tech": "phase_imperial"
 		}, {
-			"civ": "imp"
+			"civ": "rome"
 		}]
 	},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirementsTooltip": "Unlocked in the Empire Phase.",
 	"icon": "sentries.png",
 	"researchTime": 40,
 	"tooltip": "Structures +1 health regeneration per second when damaged.",

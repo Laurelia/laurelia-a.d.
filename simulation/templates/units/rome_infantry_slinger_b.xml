@@ -17,10 +17,10 @@
   </Builder>
   <Identity>
     <Civ>rome</Civ>
-    <GenericName>Balearic Slinger (Auxiliary Troops)</GenericName>
+    <GenericName>Balearic Slinger</GenericName>
     <Icon>units/cart_infantry_slinger.png</Icon>
     <SelectionGroupName>units/rome_infantry_slinger_b</SelectionGroupName>
-    <SpecificName>Qallāʿ Ibušimi</SpecificName>
+    <SpecificName>Funditores Baleares</SpecificName>
     <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
   </Identity>
   <Cost>

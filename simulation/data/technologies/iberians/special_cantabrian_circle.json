@@ -1,0 +1,15 @@
+{
+	"genericName": "Cantabrian Circle",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 60,
+	"tooltip": "Javelin Cavalry +1 all armor types.",
+	"modifications": [
+	    {"value": "Armour/Hack", "add": 1.0},
+	    {"value": "Armour/Crush", "add": 1.0},		
+		{"value": "Armour/Pierce", "add": 1.0}],
+	"affects": ["Cavalry Javelin"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

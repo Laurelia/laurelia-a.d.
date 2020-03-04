@@ -1,0 +1,17 @@
+{
+	"genericName": "Soliferrum",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 400, "coin": 250},
+	"requirements": {"tech": "phase_nation"},
+	"supersedes": "attack_javelin_02",
+	"requirementsTooltip": "Unlocked in the Kingdom Phase.",
+	"icon": "accuracy_bolt.png",
+	"researchTime": 50,
+	"tooltip": "Javelin armed units +20% attack, -25 wood cost, +25 metal cost.",	
+	"modifications": [
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.2},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.2},
+		{"value": "Cost/Resources/wood", "add": -25},
+		{"value": "Cost/Resources/metal", "add": 25},	
+	],
+	"affects": ["Javelin"]
+}

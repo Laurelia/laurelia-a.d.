@@ -17,6 +17,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+	  units/{civ}_infantry_vigiles
 	  units/{civ}_infantry_swordsman_urban
     </Entities>
     <Technologies datatype="tokens">

@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Structures"],
+	"modifications": [
+	  { "value": "Health/Max", "multiply": 1.25},
+		{"value": "Capturable/CapturePoints", "multiply": 1.5}
+	],
+	"auraName": "Building Programs",
+	"auraDescription": "All Structures +50% health and capture points",
+	"overlayIcon": "art/textures/ui/session/auras/build_bonus.png"
+}

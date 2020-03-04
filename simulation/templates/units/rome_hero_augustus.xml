@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/rome_hero_augustus_1
+    units/heroes/rome_hero_augustus_2
+  </Auras>
+  <Identity>
+    <Civ>rome</Civ>
+	<Lang>latin</Lang>
+	<GenericName>Emperor Augustus</GenericName>
+    <SpecificName>Imperator Caesar Augustus</SpecificName>
+    <Icon>units/rome_hero_maximus.png</Icon>
+    <History>The first Roman emperor, though he always pretended to 'restore the Republic' even unto his death. Octavian, or 'Augustus', put an end to 50 years of civil war and ushered in an era today we call 'Pax Romana,' or 'The Roman Peace', which lasted for over a century.</History>
+    <RequiredTechnology>phase_imperial</RequiredTechnology>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      romans/health_regen_structures
+      romans/unlock_urban_cohort
+    </Technologies>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <coin>1.0</coin>
+      <time>0.5</time>
+    </TechCostMultiplier>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>units/romans/hero_cavalry_swordsman_maximus_m.xml</Actor>
+  </VisualActor>
+</Entity>

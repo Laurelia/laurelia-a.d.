@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras datatype="tokens">
-    units/heroes/rome_hero_caesar_1
-    units/heroes/rome_hero_caesar_2
+    rome_hero_caesar_1
+    rome_hero_caesar_2
   </Auras>
   <Identity>
     <Civ>rome</Civ>

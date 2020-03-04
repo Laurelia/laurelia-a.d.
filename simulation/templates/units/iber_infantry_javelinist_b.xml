@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelinist">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/iber_monument
+    </Entities>
+  </Builder>
+  <Identity>
+    
+    <SelectionGroupName>units/iber_infantry_javelinist_b</SelectionGroupName>
+    <SpecificName>Iabarannta</SpecificName>
+    <GenericName>Lusitanian Ambusher</GenericName>
+    <Icon>units/iber_infantry_javelinist.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/iber_infantry_javelinist_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/iberians/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>
